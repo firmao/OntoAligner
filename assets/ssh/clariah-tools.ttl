@@ -1,0 +1,887 @@
+@prefix schema: <http://schema.org/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix skos: <http://www.w3.org/2004/02/skos/core#>.
+@prefix owl: <http://www.w3.org/2002/07/owl#>.
+@prefix doi: <https://doi.org/>.
+@prefix codemeta: <https://codemeta.github.io/terms/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+
+<http://csvw-converter.readthedocs.io/en/latest/> schema:name "CoW: Converter for CSV on the Web — CSVW Converters 1.0.0 documentation";
+    schema:url "http://csvw-converter.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<http://dx.doi.org/10.5334/bbi.18> schema:author <https://tools.clariah.nl/stub/H221d4311ba67fa04>;
+    schema:isPartOf <https://tools.clariah.nl/stub/H5359de58fe0d4d85>;
+    schema:name " The Hebrew Bible as Data: Laboratory – Sharing – Experiences";
+    schema:pageEnd 224;
+    schema:pageStart 211;
+    schema:url "https://arxiv.org/abs/1501.01866";
+    a schema:ScholarlyArticle.
+<http://flat.readthedocs.io/en/latest/?badge=latest> schema:name "FLAT - FoLiA Linguistic Annotation Tool - Documentation — FLAT v0.5.2 documentation";
+    schema:url "http://flat.readthedocs.io/en/latest/?badge=latest";
+    a schema:WebSite.
+<http://flat.readthedocs.io/en/latest/administration_guide.html> schema:name "FLAT Administration Guide — FLAT v0.5.2 documentation";
+    schema:url "http://flat.readthedocs.io/en/latest/administration_guide.html";
+    a schema:WebSite.
+<http://flat.readthedocs.io/en/latest/installation_guide.html> schema:name "FLAT Installation Guide — FLAT v0.5.2 documentation";
+    schema:url "http://flat.readthedocs.io/en/latest/installation_guide.html";
+    a schema:WebSite.
+<http://flat.readthedocs.io/en/latest/user_guide.html> schema:name "FLAT User Guide — FLAT v0.5.2 documentation";
+    schema:url "http://flat.readthedocs.io/en/latest/user_guide.html";
+    a schema:WebSite.
+<http://folia.readthedocs.io/> schema:name "FoLiA: Format for Linguistic Annotation - Documentation and Reference Guide — FoLiA: Format for Linguistic Annotation v2.0 (rev 9.0) documentation";
+    schema:url "http://folia.readthedocs.io/";
+    a schema:WebSite.
+<http://foliapy.readthedocs.io/en/latest/?badge=latest> schema:name "FoLiA Python Library — FoLiA Python Library v2.5.11, FoLiA v2.5.3 documentation";
+    schema:url "http://foliapy.readthedocs.io/en/latest/?badge=latest";
+    a schema:WebSite.
+<http://hdl.handle.net/2066/131547> schema:author <https://tools.clariah.nl/stub/H207e42d0df3ee228>;
+    schema:isPartOf <https://tools.clariah.nl/stub/H5c7b86393ee85ff7>;
+    schema:name "CLAM: Quickly deploy NLP command-line tools on the web";
+    schema:pageEnd 75;
+    schema:pageStart "71";
+    schema:url "http://anthology.aclweb.org/C/C14/C14-2016.pdf";
+    a schema:ScholarlyArticle.
+<http://hdl.handle.net/2066/134833> schema:author <https://tools.clariah.nl/stub/H-271cac6e87540556>;
+    schema:isPartOf <https://tools.clariah.nl/stub/H49467a2e1ca187c1>;
+    schema:name "T-Scan: a new tool for analyzing Dutch text";
+    schema:pageEnd 74;
+    schema:pageStart "53";
+    schema:url "http://www.clinjournal.org/sites/default/files/05-PanderMaat-etal-CLIN2014.pdf";
+    a schema:ScholarlyArticle.
+<http://orcid.org/0009-0006-9941-9582> schema:email "vincent.prins@ivdnt.org";
+    schema:familyName "Prins";
+    schema:givenName "Vincent";
+    a schema:Person.
+schema:WebAPI rdfs:label "Web API".
+schema:WebApplication rdfs:comment "A software application served as a service over the web with an interface for human end-users";
+    rdfs:label "Web Application".
+schema:WebSite rdfs:comment "A set of related web pages";
+    rdfs:label "Website".
+<http://spdx.org/licenses/AGPL-3.0-only> schema:name "GNU Affero General Public License v3".
+<http://spdx.org/licenses/Apache-2.0> schema:name "Apache License 2".
+<http://spdx.org/licenses/BSD-2-Clause> schema:name "BSD-2-Clause".
+<http://spdx.org/licenses/BSD-3-Clause> schema:name "BSD-3-Clause".
+<http://spdx.org/licenses/CC-BY-SA-4.0> schema:name "Creative Commons Attribution Share Alike 4.0 International".
+<http://spdx.org/licenses/EUPL-1.2> schema:name "European Union Public License".
+<http://spdx.org/licenses/GPL-2.0-only> schema:name "GNU General Public License v2".
+<http://spdx.org/licenses/GPL-3.0-only> schema:name "GNU General Public License v3".
+<http://spdx.org/licenses/GPL-3.0-or-later> schema:name "GNU General Public License v3.0 or later".
+<http://spdx.org/licenses/MIT> schema:name "MIT".
+<http://textrepo.readthedocs.io/en/latest/> schema:name "Text Repository — Text Repository  documentation";
+    schema:url "http://textrepo.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<http://www.etcbc.nl> schema:email "office@wi.th.vu.nl";
+    schema:name "Eep Talstra Centre for Bible and Computer";
+    schema:url "https://tools.clariah.nl/w.t..van.peursen@vu.nl".
+<http://www.sketchengine.co.uk/documentation/wiki/SkE/CorpusQuerying> schema:name "Page not found – Sketch Engine";
+    schema:url "http://www.sketchengine.co.uk/documentation/wiki/SkE/CorpusQuerying";
+    a schema:WebSite.
+skos:Concept a owl:Class.
+skos:ConceptScheme a owl:Class.
+<https://annorepo-python-client.readthedocs.io/en/latest/> schema:name "annorepo-client — annorepo-client 0.1.4 documentation";
+    schema:url "https://annorepo-python-client.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<https://annorepo-python-client.readthedocs.io/en/latest/?badge=latest> schema:name "annorepo-client — annorepo-client 0.1.4 documentation";
+    schema:url "https://annorepo-python-client.readthedocs.io/en/latest/?badge=latest";
+    a schema:WebSite.
+<https://annotation.github.io/text-fabric/tf/index.html> schema:name "Home — Text-Fabric documentation";
+    schema:url "https://annotation.github.io/text-fabric/tf/index.html";
+    a schema:WebSite.
+<https://clam.readthedocs.io> schema:name "CLAM Documentation";
+    schema:url "https://clam.readthedocs.io";
+    a schema:WebSite.
+<https://dane.readthedocs.io/en/latest/examples.html> schema:name "Examples — DANE  documentation";
+    schema:url "https://dane.readthedocs.io/en/latest/examples.html";
+    a schema:WebSite.
+<https://dane.readthedocs.io/en/latest/intro.html#configuration> schema:name "Introduction — DANE  documentation";
+    schema:url "https://dane.readthedocs.io/en/latest/intro.html#configuration";
+    a schema:WebSite.
+<https://datasetregister.netwerkdigitaalerfgoed.nl/?lang=en> schema:url "https://datasetregister.netwerkdigitaalerfgoed.nl/?lang=en";
+    a schema:WebSite.
+<https://datasetregister.netwerkdigitaalerfgoed.nl/api> schema:name "Dataset Register OpenAPI";
+    schema:url "https://datasetregister.netwerkdigitaalerfgoed.nl/api";
+    a schema:WebApplication.
+<https://dig.hum.uu.nl> schema:name "Digital Humanities Lab";
+    schema:parentOrganization <https://www.uu.nl>;
+    schema:url "https://dig.hum.uu.nl";
+    a schema:Organization.
+<https://docs.rs/stam> schema:name "stam - Rust";
+    schema:url "https://docs.rs/stam";
+    a schema:WebSite.
+doi:10.1163\/24523666-01000011 schema:author <https://tools.clariah.nl/stub/H221d4311ba67fa04>;
+    schema:isPartOf <https://tools.clariah.nl/stub/H-743ab2e4236ffd8c>;
+    schema:name "Coding the Hebrew Bible";
+    schema:pageEnd 41;
+    schema:pageStart 27;
+    schema:url "https://brill.com/view/journals/rdj/3/1/article-p27_27.xml";
+    a schema:ScholarlyArticle.
+doi:10.5281\/zenodo.1007624 schema:author <https://tools.clariah.nl/stub/H-23379d240d381da>, <https://tools.clariah.nl/stub/H2df669f1d1a9c977>;
+    schema:datePublished "2019-01-31"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "BHSA";
+    schema:spatial "Israel";
+    schema:temporal "1500-500 BCE";
+    schema:text "Hebrew Bible + Linguistic annotations by the Eep Talstra Center for Bible and Computer. Based on the Codex Leningradensis. Multiple versions and transliterations.";
+    schema:url "https://github.com/ETCBC/bhsa";
+    a schema:Dataset.
+doi:10.5281\/zenodo.1482791 schema:author <https://tools.clariah.nl/stub/H-7ea000525e77d2ca>;
+    schema:datePublished "2018-03-07"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Uruk";
+    schema:spatial "Uruk";
+    schema:temporal "4000-3100 BCE";
+    schema:text "Transliterations of proto-cuneiform tablets from the Uruk IV-III periods";
+    schema:url "https://github.com/Nino-cunei/uruk";
+    a schema:Dataset.
+doi:10.5281\/zenodo.2532177 schema:author <https://tools.clariah.nl/stub/H751d01845fadf1b0>;
+    schema:datePublished "2019-01-15"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Quran";
+    schema:spatial "Arabia";
+    schema:temporal "700-800";
+    schema:text "The text of the Quranwith morphological annotations";
+    schema:url "https://github.com/q-ran/quran";
+    a schema:Dataset.
+doi:10.5281\/zenodo.3250720 schema:author <https://tools.clariah.nl/stub/H0cb97f98194a2952>;
+    schema:datePublished "2020-04-03"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Northeastern Neo-Aramaic Text-Fabric Corpus";
+    schema:spatial "Europe";
+    schema:temporal "2019-2020";
+    schema:text "Transcribed and recorded texts gathered by Prof. Geoffrey Khan and his team";
+    schema:url "https://github.com/CambridgeSemiticsLab/nena_tf";
+    a schema:Dataset.
+doi:10.5281\/zenodo.3909507 schema:author <https://tools.clariah.nl/stub/H-4812df39416f4210>;
+    schema:datePublished "2020-06-26"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "OldBabylonian";
+    schema:spatial "Babylon";
+    schema:temporal "1900-1600 BCE";
+    schema:text "Transliterations of Old Babylonian cuneiform tablets";
+    schema:url "https://github.com/Nino-cunei/oldbabylonian";
+    a schema:Dataset.
+doi:10.5281\/zenodo.3909515 schema:author <https://tools.clariah.nl/stub/H-7e3cd543cefcbf6a>;
+    schema:datePublished "2020-06-26"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "OldAssyrian";
+    schema:spatial "Assur";
+    schema:temporal "2000-1900 BCE";
+    schema:text "Transliterations of Old Assyrian cuneiform tablets";
+    schema:url "https://github.com/Nino-cunei/oldassyrian";
+    a schema:Dataset.
+doi:10.5281\/zenodo.3944788 schema:author <https://tools.clariah.nl/stub/H5f413680662be2d3>;
+    schema:datePublished "2020-12-01"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Dead Sea Scrolls";
+    schema:spatial "Qumran";
+    schema:temporal "300 BCE-100 CE";
+    schema:text "Transcriptions with morphological tags of biblical and non-biblical Dead Sea scrolls based on the data files of Martin Abegg";
+    schema:url "https://github.com/ETCBC/dss";
+    a schema:Dataset.
+doi:10.5281\/zenodo.4011801 schema:author <https://tools.clariah.nl/stub/H-7c396dbc7455a870>, <https://tools.clariah.nl/stub/H-e4a07200a283979>;
+    schema:datePublished "2020-12-07"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Missieven";
+    schema:spatial "Indonesia";
+    schema:temporal "1600-1800";
+    schema:text "Collection of letters from governors of the VOC (Dutch East Indian Company) to the Heren 17, the council of the governors of the 17 provinces of the Netherland";
+    schema:url "https://github.com/CLARIAH/wp6-missieven";
+    a schema:Dataset.
+doi:10.5281\/zenodo.5803464 schema:author <https://tools.clariah.nl/stub/H-1031e42eb88f27db>;
+    schema:datePublished "2021-12-24"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "Dhammapada-Latine";
+    schema:spatial "India";
+    schema:temporal "300 BCE";
+    schema:text "Buddhist verses from 300 bCE with Latin translation in Text-Fabric";
+    schema:url "https://github.com/ETCBC/dhammapada";
+    a schema:Dataset.
+doi:10.5281\/zenodo.5984171 schema:author <https://tools.clariah.nl/stub/H4f96b1e14aff2624>;
+    schema:datePublished "2022-02-02"^^schema:Date;
+    schema:encodingFormat "https://dans.knaw.nl/en/file-formats/programming-languages/text-fabric/";
+    schema:name "NinMed";
+    schema:spatial "Nineveh";
+    schema:temporal "ca. 800 BCE";
+    schema:text "Transliterations of texts of the Nineveh Medical Encyclopedia";
+    schema:url "https://github.com/Nino-cunei/ninmed";
+    a schema:Dataset.
+<https://dx.doi.org/10.5334/jors.105> schema:author <https://tools.clariah.nl/stub/H228b51a0d56c59b9>;
+    schema:isPartOf <https://tools.clariah.nl/stub/H-29ee389251769fde>;
+    schema:name "Efficient n-gram, Skipgram and Flexgram Modelling with Colibri Core";
+    schema:url "https://dx.doi.org/10.5334/jors.105";
+    a schema:TechArticle.
+<https://folia.readthedocs.io/en/latest/> schema:name "FoLiA: Format for Linguistic Annotation - Documentation and Reference Guide — FoLiA: Format for Linguistic Annotation v2.0 (rev 9.0) documentation";
+    schema:url "https://folia.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<https://folia.readthedocs.io/en/latest/form.html> schema:name "Form — FoLiA: Format for Linguistic Annotation v2.0 (rev 9.0) documentation";
+    schema:url "https://folia.readthedocs.io/en/latest/form.html";
+    a schema:WebSite.
+<https://foliapy.readthedocs.io/en/latest/> schema:name "FoLiA Python Library — FoLiA Python Library v2.5.11, FoLiA v2.5.3 documentation";
+    schema:url "https://foliapy.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<https://frognlp.readthedocs.io> schema:name "Introduction — frog  documentation";
+    schema:url "https://frognlp.readthedocs.io";
+    a schema:WebSite.
+<https://github.com/CLARIAH/grlc/wiki> schema:name "grlc Wiki";
+    schema:url "https://github.com/CLARIAH/grlc/wiki";
+    a schema:WebSite.
+<https://github.com/CLARIAH/wp6-missieven/blob/master/docs/about.md> schema:name "About the Generale Missieven Corpus";
+    schema:url "https://github.com/CLARIAH/wp6-missieven/blob/master/docs/about.md";
+    a schema:WebSite.
+<https://github.com/ETCBC/shebanq/wiki> schema:name "Home — SHEBANQ documentation";
+    schema:url "https://github.com/ETCBC/shebanq/wiki";
+    a schema:WebSite.
+<https://github.com/MartenPostma/OpenDutchWordnet/raw/master/odwn_documentation.pdf> schema:url "https://github.com/MartenPostma/OpenDutchWordnet/raw/master/odwn_documentation.pdf";
+    a schema:WebSite.
+<https://github.com/MartijnBNG> schema:affiliation <https://tools.clariah.nl/stub/H4d12d4a0defdab49>;
+    schema:familyName "van de Donk";
+    schema:givenName "Martijn";
+    a schema:Person.
+<https://github.com/UtrechtUniversity/ricgraph/blob/main/README.md> schema:name "Ricgraph - Research in context graph documentation";
+    schema:url "https://github.com/UtrechtUniversity/ricgraph/blob/main/README.md";
+    a schema:CreativeWork.
+<https://github.com/jblom> schema:affiliation <https://tools.clariah.nl/stub/H4d12d4a0defdab49>, <https://www.beeldengeluid.nl/>;
+    schema:familyName "Blom";
+    schema:givenName "Jaap";
+    a schema:Person.
+<https://github.com/mwigham> schema:affiliation <https://tools.clariah.nl/stub/H4d12d4a0defdab49>;
+    a schema:Person.
+<https://huc.knaw.nl> schema:name "Humanities Cluster", "KNAW Humanities Cluster";
+    schema:parentOrganization <https://knaw.nl>;
+    schema:url "https://huc.knaw.nl";
+    a schema:Organization.
+<https://identifier.overheid.nl/tooi/id/ministerie/mnre1109> schema:name "Ministerie van Onderwijs, Cultuur en Wetenschap";
+    schema:url "https://www.rijksoverheid.nl/ministeries/ministerie-van-onderwijs-cultuur-en-wetenschap";
+    a schema:Organization.
+<https://iso639-3.sil.org/code/deu> schema:identifier "deu";
+    schema:name "German";
+    a schema:Language.
+<https://iso639-3.sil.org/code/eng> schema:identifier "eng";
+    schema:name "English";
+    a schema:Language.
+<https://iso639-3.sil.org/code/fra> schema:identifier "fra";
+    schema:name "French";
+    a schema:Language.
+<https://iso639-3.sil.org/code/fry> schema:identifier "fry";
+    schema:name "Frisian";
+    a schema:Language.
+<https://iso639-3.sil.org/code/ita> schema:identifier "ita";
+    schema:name "Italian";
+    a schema:Language.
+<https://iso639-3.sil.org/code/nld> schema:identifier "nld";
+    schema:name "Dutch";
+    a schema:Language.
+<https://iso639-3.sil.org/code/por> schema:identifier "por";
+    schema:name "Portuguese";
+    a schema:Language.
+<https://iso639-3.sil.org/code/rus> schema:identifier "rus";
+    schema:name "Russian";
+    a schema:Language.
+<https://iso639-3.sil.org/code/spa> schema:identifier "spa";
+    schema:name "Spanish";
+    a schema:Language.
+<https://iso639-3.sil.org/code/swe> schema:identifier "swe";
+    schema:name "Swedish";
+    a schema:Language.
+<https://iso639-3.sil.org/code/tur> schema:identifier "tur";
+    schema:name "Turkish";
+    a schema:Language.
+<https://kg.odissei.nl/.well-known/genid/8d54600876e2d1be3c00fac3f132d769> schema:url "https://github.com/HuygensING/timbuctoo/blob/master/documentation/timbuctoo-graphql-api-guide.adoc[this";
+    a schema:WebSite.
+<https://knaw-huc.github.io/annorepo/docs/api-usage.html> schema:name "AnnoRepo API Usage";
+    schema:url "https://knaw-huc.github.io/annorepo/docs/api-usage.html";
+    a schema:WebSite.
+<https://knaw.nl> schema:location <https://tools.clariah.nl/stub/H-4a2ce50fe314e8ae>;
+    schema:name "KNAW";
+    schema:url "https://knaw.nl";
+    a schema:Organization.
+<https://mediasuite.clariah.nl/documentation> schema:name "Media Suite Documentation";
+    schema:url "https://mediasuite.clariah.nl/documentation";
+    a schema:WebSite.
+<https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb> schema:name "Jupyter Notebook: how to work with the Generale Missieven Corpus", "Tutorial for working with the General Missives (Dutch colonial history); family of Jupyter Notebooks";
+    schema:url "https://nbviewer.org/github/CLARIAH/wp6-missieven/blob/master/tutorial/start.ipynb";
+    a schema:WebSite.
+<https://nbviewer.org/github/ETCBC/bhsa/blob/master/tutorial/start.ipynb> schema:name "Tutorial for working with the Hebrew Bible; family of Jupyter Notebooks";
+    schema:url "https://nbviewer.org/github/ETCBC/bhsa/blob/master/tutorial/start.ipynb";
+    a schema:WebSite.
+<https://nbviewer.org/github/Nino-cunei/oldbabylonian/blob/master/tutorial/start.ipynb> schema:name "Tutorial for working with the Old Babylonian Letters; family of Jupyter Notebooks";
+    schema:url "https://nbviewer.org/github/Nino-cunei/oldbabylonian/blob/master/tutorial/start.ipynb";
+    a schema:WebSite.
+<https://nbviewer.org/github/Nino-cunei/uruk/blob/master/tutorial/start.ipynb> schema:name "Tutorial for working with the cuneiform tablets from Uruk; family of Jupyter Notebooks";
+    schema:url "https://nbviewer.org/github/Nino-cunei/uruk/blob/master/tutorial/start.ipynb";
+    a schema:WebSite.
+<https://nbviewer.org/github/annotation/banks/blob/master/programs/convert.ipynb> schema:name "Jupyter Notebook: convert the Banks example text inot Text-Fabric";
+    schema:url "https://nbviewer.org/github/annotation/banks/blob/master/programs/convert.ipynb";
+    a schema:WebSite.
+<https://orcid.org/0000-0001-5565-7577> schema:affiliation <https://tools.clariah.nl/stub/H38ac7499a8978c06>;
+    schema:familyName "Martinez";
+    schema:givenName "Carlos";
+    a schema:Person.
+<https://orcid.org/0000-0001-6854-5646> schema:affiliation <https://tools.clariah.nl/stub/H-2cbc66b51f899c8a>;
+    schema:familyName "Burgoyne";
+    schema:givenName "John Ashley";
+    a schema:Person.
+<https://orcid.org/0000-0001-7046-7923> schema:affiliation <https://tools.clariah.nl/stub/H-2cbc66b51f899c8a>;
+    schema:familyName "Honing";
+    schema:givenName "Henkjan";
+    a schema:Person.
+<https://orcid.org/0000-0001-7218-7642> schema:affiliation <https://tools.clariah.nl/stub/H-2cbc66b51f899c8a>;
+    schema:familyName "Janssen";
+    schema:givenName "Berit";
+    a schema:Person.
+<https://orcid.org/0000-0001-9510-0802> schema:affiliation <https://tools.clariah.nl/stub/H0de05aac58b21cfa>;
+    schema:familyName "Janssen";
+    schema:givenName "Rik D.T.";
+    a schema:Person.
+<https://orcid.org/0000-0002-0301-2029> schema:familyName "Koolen";
+    schema:givenName "Marijn";
+    a schema:Person.
+<https://orcid.org/0000-0002-1046-0006> schema:affiliation <https://huc.knaw.nl>, <https://www.ru.nl/cls>, <https://www.ru.nl/clst>, <https://knaw.huc.nl>;
+    schema:email "proycon@anaproy.nl";
+    schema:familyName "van Gompel";
+    schema:givenName "Maarten";
+    schema:position 4;
+    schema:url "https://proycon.anaproy.nl";
+    a schema:Person.
+<https://orcid.org/0000-0002-2713-213X> schema:affiliation <https://tools.clariah.nl/stub/H4d12d4a0defdab49>;
+    schema:familyName "Brinkmann";
+    schema:givenName "Govert";
+    a schema:Person.
+<https://orcid.org/0000-0002-3755-5929> schema:familyName "Buitendijk";
+    schema:givenName "Bram";
+    a schema:Person.
+<https://orcid.org/0000-0002-5145-3603> schema:familyName "van Noord";
+    schema:givenName "Nanne";
+    a schema:Person.
+<https://orcid.org/0000-0003-2493-656X> schema:affiliation <https://cls.ru.nl>;
+    schema:email "antal.vandenbosch@let.ru.nl";
+    schema:familyName "van den Bosch";
+    schema:givenName "Antal";
+    schema:position 2;
+    a schema:Person.
+<https://orcid.org/0000-0003-4646-5842> schema:affiliation <https://tools.clariah.nl/stub/H05da945084c7b48c>;
+    schema:familyName "Meroño-Peñuela";
+    schema:givenName "Albert";
+    a schema:Person.
+<https://pagexml.readthedocs.io/en/latest/> schema:name "pagexml-tools — pagexml-tools 0.3.2 documentation";
+    schema:url "https://pagexml.readthedocs.io/en/latest/";
+    a schema:WebSite.
+<https://pagexml.readthedocs.io/en/latest/?badge=latest> schema:name "pagexml-tools — pagexml-tools 0.3.2 documentation";
+    schema:url "https://pagexml.readthedocs.io/en/latest/?badge=latest";
+    a schema:WebSite.
+<https://portal.clarin.ivdnt.org/galahad/help> schema:name "GaLAHaD Help";
+    schema:url "https://portal.clarin.ivdnt.org/galahad/help";
+    a schema:WebSite.
+<https://tools.clariah.nl/alpino-service/2.4.1> schema:applicationCategory "Internet > WWW/HTTP > WSGI > Application", "Text Processing > Linguistic";
+    schema:applicationSuite "Alpino";
+    schema:audience <https://tools.clariah.nl/audience/developers>, <https://tools.clariah.nl/audience/science-research>;
+    schema:author <https://tools.clariah.nl/stub/H-72dd6e368bfcca1a>;
+    schema:codeRepository "https://github.com/proycon/alpino_clam_webservice";
+    schema:contributor <https://tools.clariah.nl/stub/H-72dd6e368bfcca1a>;
+    schema:dateCreated "2015-09-08T23:41:30Z+0200"^^schema:Date;
+    schema:dateModified "2024-10-17T17:01:23Z+0200"^^schema:Date;
+    schema:description "Alpino is a dependency parser for Dutch, developed in the context of the PIONIER Project Algorithms for Linguistic Processing, developed by Gertjan van Noord at the University of Groningen. This is the webservice for it. You can upload either tokenised or untokenised files (which will be automatically tokenised for you using ucto), the output will consist of a zip file containing XML files, one for each sentence in the input document.";
+    schema:downloadUrl "https://github.com/proycon/alpino_clam_webservice/archive/refs/tags/v2.4.1.zip";
+    schema:identifier "alpino-service";
+    schema:keywords "dependency parsing", "folia", "linguistics", "nlp", "syntax";
+    schema:license <http://spdx.org/licenses/GPL-3.0-only>;
+    schema:maintainer <https://tools.clariah.nl/person/maarten-van-gompel>;
+    schema:name "Alpino-Webservice";
+    schema:operatingSystem "BSD", "Linux", "macOS";
+    schema:producer <https://tools.clariah.nl/org/knaw-humanities-cluster-clst-radboud-university>;
+    schema:programmingLanguage "Python";
+    schema:releaseNotes "https://github.com/proycon/alpino_clam_webservice/releases/tag/v2.4.1";
+    schema:review <https://tools.clariah.nl/validation/N342055ed651a9bde70f48e45424dc494>;
+    schema:runtimePlatform "Python 3", "Python 3.10", "Python 3.6", "Python 3.7", "Python 3.8", "Python 3.9";
+    schema:softwareRequirements <https://tools.clariah.nl/stub/H6235ddf50f74d5d0>, <https://tools.clariah.nl/stub/H7e05be8b6d753d0d>;
+    schema:targetProduct <https://tools.clariah.nl/webapplication/N7b24c4bb5d0d3a3af002162454f41517>;
+    schema:url "https://github.com/proycon/alpino_clam_webservice";
+    schema:version "2.4.1";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/alpino-service/2.4.1>, <https://tools.clariah.nl/alpino-service.topcontributor/snapshot>, <https://tools.clariah.nl/alpino-webservice/2.4.1>, <https://tools.clariah.nl/alpino_clam_webservice/snapshot>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Level8Complete>, <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/proycon/alpino_clam_webservice/issues>;
+    codemeta:readme <https://github.com/proycon/alpino_clam_webservice/blob/v2.4.1//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:00:00 UTC 2025)\n\n[harvester info] --> Processing alpino-service (https://github.com/proycon/alpino_clam_webservice) [Mon Feb 24 03:00:00 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/proycon/alpino_clam_webservice...\n\n[harvester info] Found release v2.4.1\n\n[harvester info] Using 'v2.4.1'\n\n[harvester info] Git reference: v2.4.1\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/alpino-service for harvestable resources...\n\n[harvester info] found codemeta-harvest.json for alpino-service (md5sum dc9e71f716c2bf61ee5f99729991134a); values in here take precendence over (override) those in later detection stages\n\n[harvester info] found python setup for alpino-service, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] No license file found\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2015-09-08T23:41:30Z+0200, date modified: 2024-10-17T17:01:23Z+0200\n\n[harvester info] Querying Github/GitLab API (https://github.com/proycon/alpino_clam_webservice)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Found releaseNotes\n\n[harvester info] Querying Zenodo API for DOI (access token provided)...\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Found repostatus https://www.repostatus.org/#active\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Falling back to git tag (v2.4.1) if no version number is specified...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#active\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Found repostatus (master branch) https://www.repostatus.org/#active\n\n[harvester info] Setting group Alpino\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"alpino-service\" --codeRepository \"https://github.com/proycon/alpino_clam_webservice\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-version.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/43-releasenotes.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/20-python.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/11-repostatus.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-harvest.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/05-repostatus.alpino-service.codemeta.json /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.alpino-service.codemeta.json \n\n-- begin log --\n\nPassed 12 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-version.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/99-repostatus.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/43-releasenotes.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/20-python.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/11-repostatus.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-harvest.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/05-repostatus.alpino-service.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/04-applicationSuite.alpino-service.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/alpino-service\n\nProcessing source #1 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-version.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 1 new triples, total is now 3\n\nProcessing source #3 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.alpino-service.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/alpino-service.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/43-releasenotes.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 2 new triples, total is now 5\n\nProcessing source #5 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 1 new triples, total is now 6\n\nProcessing source #6 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.alpino-service.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/alpino_clam_webservice/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 19 new triples, total is now 24\n\nProcessing source #7 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] overriding old http://schema.org/dateCreated (2015-09-08T21:43:45Z -> 2015-09-08T23:41:30Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] overriding old http://schema.org/dateModified (2024-10-17T15:08:58Z -> 2024-10-17T17:01:23Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpino-service)] processed 2 new triples, total is now 24\n\nProcessing source #8 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/20-python.alpino-service.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/alpino-webservice/2.4.1\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/author (https://tools.clariah.nl/stub/H-653cfa622cf81e58 -> https://tools.clariah.nl/stub/H-528264cdf8936045)\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/description (A CLAM-powered webservice for Alpino, a dependency parser for Dutch -> Alpino is a dependency parser for Dutch, developed in the context of the PIONIER Project Algorithms for Linguistic Processing, developed by Gertjan van Noord at the University of Groningen. This is the webservice for it. You can upload either tokenised or untokenised files (which will be automatically tokenised for you using ucto), the output will consist of a zip file containing XML files, one for each sentence in the input document.)\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/name (alpino_clam_webservice -> Alpino-Webservice)\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/version (v2.4.1 -> 2.4.1)\n\n[CODEMETA COMPOSITION (alpino-webservice)] processed 69 new triples, total is now 83\n\nProcessing source #9 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/11-repostatus.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (alpino-webservice)] processed 1 new triples, total is now 83\n\nProcessing source #10 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-harvest.alpino-service.codemeta.json\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/softwareRequirements (https://tools.clariah.nl/dependency/folia-tools -> https://tools.clariah.nl/stub/H-3bc0e1a6fda60341)\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/softwareRequirements (https://tools.clariah.nl/dependency/clam-ge-3-1-4 -> https://tools.clariah.nl/stub/H-3bc0e1a6fda60341)\n\n[CODEMETA COMPOSITION (alpino-webservice)] overriding old http://schema.org/softwareRequirements (https://tools.clariah.nl/dependency/natsort -> https://tools.clariah.nl/stub/H-3bc0e1a6fda60341)\n\n[CODEMETA COMPOSITION (alpino-webservice)] processed 8 new triples, total is now 88\n\nProcessing source #11 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/05-repostatus.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (alpino-webservice)] processed 1 new triples, total is now 88\n\nProcessing source #12 of 12\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.alpino-service.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpino-service\n\n[CODEMETA COMPOSITION (alpino-webservice)] processed 1 new triples, total is now 89\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/alpino-service -> https://tools.clariah.nl/alpino-service/2.4.1\n\n[CODEMETA VALIDATION (alpino-service)] done\n\n[CODEMETA ENRICHMENT (alpino-service)] Guessing interface type http://schema.org/WebAPI based on clues\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (alpino-service)] adding author https://tools.clariah.nl/person/maarten-van-gompel as contributor\n\n[CODEMETA ENRICHMENT (alpino-service)] adding affiliation(s) of first author as producer\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #2: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #3: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #4: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #5: Info: A research domain *SHOULD* be expressed as a category using the NWO Research Fields vocabulary, if applicable (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpino-service/2.4.1 #6: Info: A research activity *SHOULD* be expressed as a category using the TaDiRaH vocabulary (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/alpino-service.codemeta.json\n\n[harvester info] Harvesting remote service URL https://webservices.cls.ru.nl/alpino for alpino-service: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl -O \"/tmp/codemeta-harvester.cache//tmp/alpino-service.codemeta.json\" \"/tmp/out/alpino-service.codemeta.json\" \"https://webservices.cls.ru.nl/alpino\"\n\n[harvester info] <-- Finished processing alpino-service (https://github.com/proycon/alpino_clam_webservice) [Mon Feb 24 03:00:22 UTC 2025]\n".
+<https://tools.clariah.nl/alpinograph/1.0.5> dct:relation <https://tools.clariah.nl/gretel>, <https://www.let.rug.nl/alfa/rdf/paqu>;
+    schema:applicationCategory <https://vocabs.dariah.eu/tadirah/structuralAnalysis>, <https://w3id.org/nwo-research-fields#Linguistics>, <https://w3id.org/nwo-research-fields#SoftwareForHumanities>, "nwo:ComputationalLinguisticsandPhilology";
+    schema:author <https://tools.clariah.nl/stub/H4667577e67377ad9>;
+    schema:codeRepository "https://github.com/rug-compling/alpinograph";
+    schema:contributor <https://tools.clariah.nl/stub/H4c94097e6433ecc5>;
+    schema:dateCreated "2020-03-25"^^schema:Date;
+    schema:dateModified "2024-04-24"^^schema:Date;
+    schema:description "AlpinoGraph is een tool om syntactisch geannoteerde corpora te doorzoeken. De tool maakt gebruik van AgensGraph. AgensGraph combineert databasetechnologie (PostgreSQL) en Cypher, de standaard zoektaal voor grafen. De zoek-queries die je in AlpinoGraph kunt gebruiken zijn daarom een mix van SQL en Cypher. Daar voegt AlpinoGraph nog enkele extra uitbreidingen aan toe, zoals een eenvoudig maar handig systeem van macro's, en visualisatie van de resultaten.";
+    schema:downloadUrl "https://github.com/rug-compling/alpinograph/archive/refs/heads/master.zip";
+    schema:identifier "alpinograph";
+    schema:keywords "Alpino", "Cypher", "Dependency parsing", "SPOD: Syntactic profiler of Dutch", "UD: Universal Dependencies";
+    schema:license <http://spdx.org/licenses/BSD-2-Clause>;
+    schema:maintainer <https://tools.clariah.nl/stub/H-13011a6c575d3c86>, <https://tools.clariah.nl/stub/H6ed411b86949c557>;
+    schema:name "AlpinoGraph";
+    schema:operatingSystem "Docker", "Linux";
+    schema:producer <https://tools.clariah.nl/stub/H5a458f469b56ea98>;
+    schema:programmingLanguage "Go";
+    schema:releaseNotes "https://github.com/rug-compling/alpinograph/blob/master/Changes.txt";
+    schema:review <https://tools.clariah.nl/validation/Nbee63bea8a39043c77ed28b0b552c611>;
+    schema:sameAs <https://tools.clariah.nl/alpinograph/1.0.5>;
+    schema:softwareHelp <https://tools.clariah.nl/stub/H-7f9635867ef947a2>;
+    schema:targetProduct <https://tools.clariah.nl/stub/H7b83e8c641e1f73e>;
+    schema:version "1.0.5";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://www.let.rug.nl/alfa/rdf/alpinograph>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Stage4Complete>, <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/rug-compling/alpinograph/issues>;
+    codemeta:readme <https://github.com/rug-compling/alpinograph/blob/master/README.md>;
+    codemeta:referencePublication <https://tools.clariah.nl/stub/H672064490a021b3e>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:00:25 UTC 2025)\n\n[harvester info] --> Processing alpinograph (https://github.com/rug-compling/alpinograph) [Mon Feb 24 03:00:25 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/rug-compling/alpinograph...\n\n[harvester info] Found release v1.0.5\n\n[harvester info] Using 'v1.0.5'\n\n[harvester info] Git reference: v1.0.5\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/alpinograph for harvestable resources...\n\n[harvester info] found codemeta.json for alpinograph (md5sum d018a7ebc7fdcdd169d1722078cc646a); **NOTE: this is considered authoritative and most other detection methods will be skipped now!**\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"alpinograph\" --codeRepository \"https://github.com/rug-compling/alpinograph\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/alpinograph.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.alpinograph.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-jsonld.alpinograph.codemeta.json \n\n-- begin log --\n\nPassed 2 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.alpinograph.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-jsonld.alpinograph.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/alpinograph\n\nProcessing source #1 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.alpinograph.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpinograph\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpinograph)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-jsonld.alpinograph.codemeta.json\n\n    Found main resource with URI https://www.let.rug.nl/alfa/rdf/alpinograph\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alpinograph\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpinograph)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#inactive -> https://www.repostatus.org/#active)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/alpinograph)] automatically converting spdx license URI from https:// to http:///\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alpinograph)] processed 87 new triples, total is now 87\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/alpinograph -> https://tools.clariah.nl/alpinograph/1.0.5\n\n[CODEMETA VALIDATION (alpinograph)] done\n\n[CODEMETA ENRICHMENT (alpinograph)] adding author https://tools.clariah.nl/stub/H-70498df0508dd107 as contributor\n\n[CODEMETA ENRICHMENT (alpinograph)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/alpinograph/1.0.5 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/alpinograph/1.0.5 #2: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/alpinograph.codemeta.json\n\n[harvester info] <-- Finished processing alpinograph (https://github.com/rug-compling/alpinograph) [Mon Feb 24 03:00:27 UTC 2025]\n".
+<https://tools.clariah.nl/alud/2.14.0> schema:applicationCategory <https://vocabs.dariah.eu/tadirah/structuralAnalysis>, <https://w3id.org/nwo-research-fields#Linguistics>, <https://w3id.org/nwo-research-fields#SoftwareForHumanities>, "nwo:ComputationalLinguisticsandPhilology";
+    schema:author <https://tools.clariah.nl/stub/H-6ab6711db123cee9>;
+    schema:codeRepository "https://github.com/rug-compling/alud";
+    schema:contributor <https://tools.clariah.nl/stub/H6d1a8c153e9711a9>;
+    schema:dateCreated "2019-06-30"^^schema:Date;
+    schema:dateModified "2024-04-24"^^schema:Date;
+    schema:datePublished "2019-11-27"^^schema:Date;
+    schema:description "A Go package for deriving Universal Dependencies from Dutch sentences parsed with Alpino";
+    schema:downloadUrl "https://github.com/rug-compling/alud/archive/refs/heads/master.zip";
+    schema:funding <https://tools.clariah.nl/stub/H-4018924ead47559b>;
+    schema:identifier "alud";
+    schema:keywords "Alpino", "UD: Universal Dependencies";
+    schema:license <http://spdx.org/licenses/BSD-2-Clause>;
+    schema:maintainer <https://tools.clariah.nl/stub/H-4252c559397b2065>, <https://tools.clariah.nl/stub/H189f83e1157e53db>, <https://tools.clariah.nl/stub/H646501f59d7a99c8>;
+    schema:name "alud";
+    schema:operatingSystem "aix", "android", "darwin", "dragonfly", "freebsd", "illumos", "ios", "js", "linux", "netbsd", "openbsd", "plan9", "solaris", "windows";
+    schema:producer <https://tools.clariah.nl/stub/H-4353f5e8f8edc2f6>;
+    schema:programmingLanguage "Go";
+    schema:releaseNotes "https://github.com/rug-compling/alud/blob/master/Changes.txt";
+    schema:review <https://tools.clariah.nl/validation/Nb5268542d622f91dfdb61109947f6fb3>;
+    schema:sameAs <https://tools.clariah.nl/alud/2.14.0>;
+    schema:softwareHelp <https://tools.clariah.nl/stub/H3f9d7349c35f079c>;
+    schema:targetProduct <https://tools.clariah.nl/stub/H-1f9059647e195f3d>, <https://tools.clariah.nl/stub/H34a5fb50d2744a8d>;
+    schema:version "2.14.0";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://www.let.rug.nl/alfa/rdf/alud>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Stage4Complete>, <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/rug-compling/alud/issues>;
+    codemeta:readme <https://github.com/rug-compling/alud/blob/master/README.md>;
+    codemeta:referencePublication <https://tools.clariah.nl/stub/H-135468d2078aad8a>, <https://tools.clariah.nl/stub/H495810e52cff797f>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:00:27 UTC 2025)\n\n[harvester info] --> Processing alud (https://github.com/rug-compling/alud) [Mon Feb 24 03:00:27 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/rug-compling/alud...\n\n[harvester info] Found release v2.14.0\n\n[harvester info] Using 'v2.14.0'\n\n[harvester info] Git reference: v2.14.0\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/alud for harvestable resources...\n\n[harvester info] found codemeta.json for alud (md5sum 734680b0fca3a08b03ecec46918b4d4f); **NOTE: this is considered authoritative and most other detection methods will be skipped now!**\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#active\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"alud\" --codeRepository \"https://github.com/rug-compling/alud\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/alud.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.alud.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-jsonld.alud.codemeta.json \n\n-- begin log --\n\nPassed 2 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.alud.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-jsonld.alud.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/alud\n\nProcessing source #1 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.alud.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alud\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alud)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-jsonld.alud.codemeta.json\n\n    Found main resource with URI https://www.let.rug.nl/alfa/rdf/alud\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/alud\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/alud)] automatically converting spdx license URI from https:// to http:///\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/alud)] processed 126 new triples, total is now 126\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/alud -> https://tools.clariah.nl/alud/2.14.0\n\n[CODEMETA VALIDATION (alud)] done\n\n[CODEMETA ENRICHMENT (alud)] adding author https://tools.clariah.nl/stub/H-52d674017a40d01a as contributor\n\n[CODEMETA ENRICHMENT (alud)] adding author https://tools.clariah.nl/stub/H70ef5e701a5cb2e1 as contributor\n\n[CODEMETA ENRICHMENT (alud)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/alud/2.14.0 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/alud.codemeta.json\n\n[harvester info] <-- Finished processing alud (https://github.com/rug-compling/alud) [Mon Feb 24 03:00:30 UTC 2025]\n".
+<https://tools.clariah.nl/annorepo-client/0.1.3> schema:applicationSuite "AnnoRepo";
+    schema:audience <https://tools.clariah.nl/audience/developers>;
+    schema:author <https://tools.clariah.nl/stub/H-ae9fcd05c8b4549>;
+    schema:codeRepository "https://github.com/knaw-huc/annorepo-python-client";
+    schema:contributor <https://tools.clariah.nl/stub/H-ae9fcd05c8b4549>;
+    schema:dateCreated "2022-04-07T12:02:03Z+0200"^^schema:Date;
+    schema:dateModified "2023-11-29T16:33:58Z+0100"^^schema:Date;
+    schema:description "A Python client for accessing an AnnoRepo server";
+    schema:downloadUrl "https://github.com/knaw-huc/annorepo-python-client/archive/refs/tags/0.1.3.zip";
+    schema:identifier "annorepo-client";
+    schema:license <http://spdx.org/licenses/MIT>;
+    schema:maintainer <https://tools.clariah.nl/person/bram-buitendijk>;
+    schema:name "annorepo-client";
+    schema:operatingSystem "OS Independent";
+    schema:producer <https://tools.clariah.nl/org/knaw-humanities-cluster>;
+    schema:programmingLanguage "Python";
+    schema:releaseNotes "https://github.com/knaw-huc/annorepo-python-client/releases/tag/0.1.3";
+    schema:review <https://tools.clariah.nl/validation/N17057706e9954d4dfbff304822e5ea2c>;
+    schema:runtimePlatform "Python 3";
+    schema:softwareHelp <https://annorepo-python-client.readthedocs.io/en/latest/>, <https://annorepo-python-client.readthedocs.io/en/latest/?badge=latest>;
+    schema:softwareRequirements <https://tools.clariah.nl/dependency/colorama-ge-0-4-4>, <https://tools.clariah.nl/dependency/google-api-python-client-ge-2-103-0>, <https://tools.clariah.nl/dependency/google-ge-3-0-0>, <https://tools.clariah.nl/dependency/icecream-ge-2-1-2>, <https://tools.clariah.nl/dependency/python-ge-3-7>, <https://tools.clariah.nl/dependency/requests-ge-2-27-1>, <https://tools.clariah.nl/dependency/tabulate-ge-0-9-0>;
+    schema:targetProduct <https://tools.clariah.nl/commandlineapplication/version/0.1.3>;
+    schema:url "https://github.com/knaw-huc/annorepo-python-client";
+    schema:version "0.1.3";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/annorepo-client/0.1.3>, <https://tools.clariah.nl/annorepo-client.topcontributor/snapshot>, <https://tools.clariah.nl/annorepo-python-client/snapshot>, <https://tools.clariah.nl/authors/snapshot>, <https://tools.clariah.nl/contributors/snapshot>, <https://tools.clariah.nl/maintainers/snapshot>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Stage1Planning>, <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/knaw-huc/annorepo-python-client/issues>;
+    codemeta:readme <https://github.com/knaw-huc/annorepo-python-client/blob/0.1.3//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:00:49 UTC 2025)\n\n[harvester info] --> Processing annorepo-client (https://github.com/knaw-huc/annorepo-python-client) [Mon Feb 24 03:00:49 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/knaw-huc/annorepo-python-client...\n\n[harvester info] Found release 0.1.3\n\n[harvester info] Using '0.1.3'\n\n[harvester info] Git reference: 0.1.3\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/annorepo-client for harvestable resources...\n\n[harvester info] found python setup for annorepo-client, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] Found license MIT\n\n[harvester info] Parsing MAINTAINERS...\n\n[harvester info] Parsing AUTHORS...\n\n[harvester info] Parsing CONTRIBUTORS...\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2022-04-07T12:02:03Z+0200, date modified: 2023-11-29T16:33:58Z+0100\n\n[harvester info] Querying Github/GitLab API (https://github.com/knaw-huc/annorepo-python-client)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Found releaseNotes\n\n[harvester info] Querying Zenodo API for DOI (access token provided)...\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Found repostatus https://www.repostatus.org/#wip\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Scraping title from https://annorepo-python-client.readthedocs.io/en/latest/\n\n[harvester info] Found documentation at https://annorepo-python-client.readthedocs.io/en/latest/ : \"name\": \"annorepo-client — annorepo-client 0.1.4 documentation\",\n\n[harvester info] Scraping title from https://annorepo-python-client.readthedocs.io/en/latest/?badge=latest\n\n[harvester info] Found documentation at https://annorepo-python-client.readthedocs.io/en/latest/?badge=latest : \"name\": \"annorepo-client — annorepo-client 0.1.4 documentation\",\n\n[harvester info] Falling back to git tag (0.1.3) if no version number is specified...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#active\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Found repostatus (master branch) https://www.repostatus.org/#active\n\n[harvester info] Parsing MAINTAINERS from master branch...\n\n[harvester info] Setting group AnnoRepo\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"annorepo-client\" --codeRepository \"https://github.com/knaw-huc/annorepo-python-client\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-version.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/50-documentation.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/43-releasenotes.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/32-contributors.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/31-authors.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/30-maintainers.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/29-license.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/20-python.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/11-repostatus.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/05-repostatus.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/05-maintainers.annorepo-client.codemeta.json /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.annorepo-client.codemeta.json \n\n-- begin log --\n\nPassed 17 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-version.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/99-repostatus.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/50-documentation.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/43-releasenotes.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/32-contributors.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/31-authors.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/30-maintainers.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/29-license.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/20-python.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/11-repostatus.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/05-repostatus.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/05-maintainers.annorepo-client.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/04-applicationSuite.annorepo-client.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/annorepo-client\n\nProcessing source #1 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-version.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 1 new triples, total is now 3\n\nProcessing source #3 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/annorepo-client.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/50-documentation.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 8 new triples, total is now 11\n\nProcessing source #5 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/43-releasenotes.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 2 new triples, total is now 13\n\nProcessing source #6 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 1 new triples, total is now 14\n\nProcessing source #7 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/annorepo-python-client/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 12 new triples, total is now 25\n\nProcessing source #8 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] overriding old http://schema.org/dateCreated (2022-04-07T10:43:58Z -> 2022-04-07T12:02:03Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] overriding old http://schema.org/dateModified (2024-09-11T16:03:46Z -> 2023-11-29T16:33:58Z+0100)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 2 new triples, total is now 25\n\nProcessing source #9 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/32-contributors.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/contributors/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 8 new triples, total is now 32\n\nProcessing source #10 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/31-authors.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/authors/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 8 new triples, total is now 33\n\nProcessing source #11 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/30-maintainers.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/maintainers/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 6 new triples, total is now 34\n\nProcessing source #12 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/29-license.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] overriding old http://schema.org/license (http://spdx.org/licenses/MIT -> MIT)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/annorepo-client)] automatically converting license to spdx URI\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/annorepo-client)] processed 1 new triples, total is now 34\n\nProcessing source #13 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/20-python.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/annorepo-client/0.1.3\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (annorepo-client)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#active -> https://www.repostatus.org/#concept)\n\n[CODEMETA COMPOSITION (annorepo-client)] overriding old http://schema.org/name (annorepo-python-client -> annorepo-client)\n\n[CODEMETA COMPOSITION (annorepo-client)] processed 85 new triples, total is now 104\n\nProcessing source #14 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/11-repostatus.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (annorepo-client)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#concept -> https://www.repostatus.org/#wip)\n\n[CODEMETA COMPOSITION (annorepo-client)] processed 1 new triples, total is now 104\n\nProcessing source #15 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/05-repostatus.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (annorepo-client)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#wip -> https://www.repostatus.org/#active)\n\n[CODEMETA COMPOSITION (annorepo-client)] processed 1 new triples, total is now 104\n\nProcessing source #16 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/05-maintainers.annorepo-client.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/maintainers/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (annorepo-client)] processed 6 new triples, total is now 104\n\nProcessing source #17 of 17\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.annorepo-client.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/annorepo-client\n\n[CODEMETA COMPOSITION (annorepo-client)] processed 1 new triples, total is now 105\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/annorepo-client -> https://tools.clariah.nl/annorepo-client/0.1.3\n\n[CODEMETA VALIDATION (annorepo-client)] done\n\n[CODEMETA ENRICHMENT (annorepo-client)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\nVALIDATION https://tools.clariah.nl/annorepo-client/0.1.3 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/annorepo-client/0.1.3 #2: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/annorepo-client/0.1.3 #3: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/annorepo-client.codemeta.json\n\n[harvester info] <-- Finished processing annorepo-client (https://github.com/knaw-huc/annorepo-python-client) [Mon Feb 24 03:01:14 UTC 2025]\n".
+<https://tools.clariah.nl/api> schema:name "Network of Terms GraphQL API";
+    schema:url "https://termennetwerk-api.netwerkdigitaalerfgoed.nl";
+    a schema:WebApplication.
+<https://tools.clariah.nl/asr_nl/0.6.2> schema:applicationCategory <https://vocabs.dariah.eu/tadirah/speechRecognizing>, <https://w3id.org/nwo-research-fields#SoftwareForHumanities>;
+    schema:author <https://tools.clariah.nl/stub/H2f57a92d1c6be925>;
+    schema:codeRepository "https://github.com/opensource-spraakherkenning-nl/asr_nl";
+    schema:contributor <https://tools.clariah.nl/stub/H5c75c1d2a41b111e>;
+    schema:dateCreated "2017-04-02"^^schema:Date;
+    schema:description "This is a web-based automatic speech recogniser for Dutch, capable of transcribing dutch speech recordings using multiple models.";
+    schema:identifier "asr_nl";
+    schema:keywords "dutch", "nlp", "speech recognition";
+    schema:license <http://spdx.org/licenses/AGPL-3.0-only>;
+    schema:maintainer <https://tools.clariah.nl/stub/H-6616991b63360edb>;
+    schema:name "Automatic Speech Recognition for Dutch";
+    schema:operatingSystem "Linux";
+    schema:producer <https://www.ru.nl/clst>;
+    schema:review <https://tools.clariah.nl/validation/N5785de79bed8e14dfee14da4e93d8aba>;
+    schema:softwareRequirements <https://tools.clariah.nl/stub/H-142aee9537adb21f>, <https://tools.clariah.nl/stub/H-609dc24aa928d843>, <https://tools.clariah.nl/stub/H520632c6b263ed6c>;
+    schema:sourceOrganization <https://www.ru.nl/clst>;
+    schema:targetProduct <https://tools.clariah.nl/stub/H-7fdc44951ce320f6>, <https://tools.clariah.nl/webapplication/N4611f9fd3cf8a05136c8367c0ebdf159>;
+    schema:url "https://github.com/opensource-spraakherkenning-nl/asr_nl";
+    schema:version "0.6.2";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/asr_nl/0.6.2>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Level9Proven>, <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/opensource-spraakherkenning-nl/asr_nl/issues>;
+    codemeta:readme <https://github.com/opensource-spraakherkenning-nl/asr_nl/blob/master/README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:01:39 UTC 2025)\n\n[harvester info] --> Processing asr_nl (https://github.com/opensource-spraakherkenning-nl/asr_nl) [Mon Feb 24 03:01:39 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/opensource-spraakherkenning-nl/asr_nl...\n\n[harvester info] Found release v0.6.2\n\n[harvester info] Using 'v0.6.2'\n\n[harvester info] Git reference: v0.6.2\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/asr_nl for harvestable resources...\n\n[harvester info] found codemeta.json for asr_nl (md5sum c38d31855921f1b956862aa9c5b2bed7); **NOTE: this is considered authoritative and most other detection methods will be skipped now!**\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"asr_nl\" --codeRepository \"https://github.com/opensource-spraakherkenning-nl/asr_nl\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/asr_nl.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.asr_nl.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-jsonld.asr_nl.codemeta.json \n\n-- begin log --\n\nPassed 2 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.asr_nl.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-jsonld.asr_nl.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/asr-nl\n\nProcessing source #1 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.asr_nl.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asr-nl\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asr-nl)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-jsonld.asr_nl.codemeta.json\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asr-nl\n\n[CODEMETA COMPOSITION (asr_nl)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#inactive -> https://www.repostatus.org/#active)\n\n[CODEMETA CORRECTION (asr_nl)] automatically converting spdx license URI from https:// to http:///\n\n[CODEMETA COMPOSITION (asr_nl)] processed 70 new triples, total is now 70\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/asr-nl -> https://tools.clariah.nl/asr_nl/0.6.2\n\n[CODEMETA VALIDATION (asr_nl)] done\n\n[CODEMETA ENRICHMENT (asr_nl)] Guessing interface type https://w3id.org/software-types#WebApplication based on clues\n\n[CODEMETA ENRICHMENT (asr_nl)] adding author https://tools.clariah.nl/stub/H75a61702f1276d99 as contributor\n\n[CODEMETA ENRICHMENT (asr_nl)] adding author https://tools.clariah.nl/stub/H4c9c104a2ef66131 as contributor\n\n[CODEMETA ENRICHMENT (asr_nl)] adding author https://tools.clariah.nl/stub/H-7a0ba406736d98d5 as contributor\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #2: Info: Software source code *MAY* express the programming language(s) used (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #3: Info: An interface type *SHOULD* be expressed: Software source code should define one or more target products that are the resulting software applications offering specific interfaces (The metadata does express this currently, but something is wrong in the way it is expressed. Is the type/class valid?)\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #4: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #5: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asr_nl/0.6.2 #6: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/asr_nl.codemeta.json\n\n[harvester info] Harvesting remote service URL https://webservices.cls.ru.nl/asr_nl/ for asr_nl: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl -O \"/tmp/codemeta-harvester.cache//tmp/asr_nl.codemeta.json\" \"/tmp/out/asr_nl.codemeta.json\" \"https://webservices.cls.ru.nl/asr_nl/\"\n\n[harvester info] <-- Finished processing asr_nl (https://github.com/opensource-spraakherkenning-nl/asr_nl) [Mon Feb 24 03:01:44 UTC 2025]\n".
+<https://tools.clariah.nl/asrservice/0.3> schema:applicationCategory "Internet > WWW/HTTP > WSGI > Application", "Text Processing > Linguistic";
+    schema:audience <https://tools.clariah.nl/audience/developers>, <https://tools.clariah.nl/audience/science-research>;
+    schema:author <https://tools.clariah.nl/stub/H-72dd6e368bfcca1a>;
+    schema:codeRepository "https://github.com/opensource-spraakherkenning-nl/asrservice";
+    schema:contributor <https://tools.clariah.nl/stub/H-72dd6e368bfcca1a>;
+    schema:dateCreated "2024-02-16T11:01:30Z+0100"^^schema:Date;
+    schema:dateModified "2024-04-12T10:39:45Z+0200"^^schema:Date;
+    schema:description "An Automatic Speech Recognition Service for a variety of languages, powered by WhisperX";
+    schema:downloadUrl "https://github.com/opensource-spraakherkenning-nl/asrservice/archive/refs/tags/v0.3.zip";
+    schema:identifier "asrservice";
+    schema:keywords "clam webservice rest nlp computational_linguistics rest";
+    schema:license <http://spdx.org/licenses/GPL-3.0-only>, <http://spdx.org/licenses/GPL-3.0-or-later>;
+    schema:maintainer <https://tools.clariah.nl/person/maarten-van-gompel>;
+    schema:name "asrservice";
+    schema:operatingSystem "BSD", "Linux", "macOS";
+    schema:producer <https://tools.clariah.nl/org/open-spraaktechnologie>;
+    schema:programmingLanguage "Python";
+    schema:releaseNotes "https://github.com/opensource-spraakherkenning-nl/asrservice/releases/tag/v0.3";
+    schema:review <https://tools.clariah.nl/validation/Nb22559d541b1c939a05874b62e91b1a4>;
+    schema:runtimePlatform "Python 3", "Python 3.10", "Python 3.11", "Python 3.6", "Python 3.7", "Python 3.8", "Python 3.9";
+    schema:softwareRequirements <https://tools.clariah.nl/dependency/clam-ge-3-2>, <https://tools.clariah.nl/dependency/whisperx>;
+    schema:targetProduct <https://tools.clariah.nl/stub/H-6b5875779f8b4ccb>, <https://tools.clariah.nl/webapplication/N5f7adabeff81335b9dfceacfd584b403>;
+    schema:url "https://github.com/opensource-spraakherkenning-nl/asrservice";
+    schema:version "0.3";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/asrservice/0.3>, <https://tools.clariah.nl/asrservice.topcontributor/snapshot>, <https://tools.clariah.nl/asrservice/snapshot>;
+    codemeta:buildInstructions <https://github.com/opensource-spraakherkenning-nl/asrservice/blob/v0.3//INSTALL>;
+    codemeta:developmentStatus <https://w3id.org/research-technology-readiness-levels#Stage3Experimental>, <https://www.repostatus.org/#wip>;
+    codemeta:issueTracker <https://github.com/opensource-spraakherkenning-nl/asrservice/issues>;
+    codemeta:readme <https://github.com/opensource-spraakherkenning-nl/asrservice/blob/v0.3//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:01:44 UTC 2025)\n\n[harvester info] --> Processing asrservice (https://github.com/opensource-spraakherkenning-nl/asrservice) [Mon Feb 24 03:01:44 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/opensource-spraakherkenning-nl/asrservice...\n\n[harvester info] Found release v0.3\n\n[harvester info] Using 'v0.3'\n\n[harvester info] Git reference: v0.3\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/asrservice for harvestable resources...\n\n[harvester info] found python setup for asrservice, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] Found license AGPL-3.0-only\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2024-02-16T11:01:30Z+0100, date modified: 2024-04-12T10:39:45Z+0200\n\n[harvester info] Querying Github/GitLab API (https://github.com/opensource-spraakherkenning-nl/asrservice)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Found buildInstructions in INSTALL\n\n[harvester info] Found releaseNotes\n\n[harvester info] Querying Zenodo API for DOI (access token provided)...\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Falling back to git tag (v0.3) if no version number is specified...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"asrservice\" --codeRepository \"https://github.com/opensource-spraakherkenning-nl/asrservice\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-version.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/43-releasenotes.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/42-buildinstructions.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/29-license.asrservice.codemeta.json /tmp/codemeta-harvester.cache//tmp/20-python.asrservice.codemeta.json \n\n-- begin log --\n\nPassed 10 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-version.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/99-repostatus.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/43-releasenotes.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/42-buildinstructions.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/29-license.asrservice.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/20-python.asrservice.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/asrservice\n\nProcessing source #1 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-version.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 3\n\nProcessing source #3 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.asrservice.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/asrservice.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/43-releasenotes.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 2 new triples, total is now 5\n\nProcessing source #5 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/42-buildinstructions.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 6\n\nProcessing source #6 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 7\n\nProcessing source #7 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.asrservice.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/asrservice/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 14 new triples, total is now 20\n\nProcessing source #8 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] overriding old http://schema.org/dateCreated (2024-02-16T10:06:53Z -> 2024-02-16T11:01:30Z+0100)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] overriding old http://schema.org/dateModified (2024-04-15T12:24:08Z -> 2024-04-12T10:39:45Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 2 new triples, total is now 20\n\nProcessing source #9 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/29-license.asrservice.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] overriding old http://schema.org/license (http://spdx.org/licenses/AGPL-3.0-only -> AGPL-3.0-only)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/asrservice)] automatically converting license to spdx URI\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/asrservice)] processed 1 new triples, total is now 20\n\nProcessing source #10 of 10\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/20-python.asrservice.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/asrservice/0.3\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/asrservice\n\n[CODEMETA COMPOSITION (asrservice)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#inactive -> https://www.repostatus.org/#wip)\n\n[CODEMETA COMPOSITION (asrservice)] overriding old http://schema.org/license (http://spdx.org/licenses/AGPL-3.0-only -> http://spdx.org/licenses/GPL-3.0-only)\n\n[CODEMETA COMPOSITION (asrservice)] overriding old http://schema.org/version (v0.3 -> 0.3)\n\n[CODEMETA COMPOSITION (asrservice)] processed 64 new triples, total is now 77\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/asrservice -> https://tools.clariah.nl/asrservice/0.3\n\n[CODEMETA VALIDATION (asrservice)] done\n\n[CODEMETA ENRICHMENT (asrservice)] Guessing interface type https://w3id.org/software-types#WebApplication based on clues\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (asrservice)] adding author https://tools.clariah.nl/person/maarten-van-gompel as contributor\n\n[CODEMETA ENRICHMENT (asrservice)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #2: Info: An interface type *SHOULD* be expressed: Software source code should define one or more target products that are the resulting software applications offering specific interfaces (The metadata does express this currently, but something is wrong in the way it is expressed. Is the type/class valid?)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #3: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #4: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #5: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #6: Info: A research domain *SHOULD* be expressed as a category using the NWO Research Fields vocabulary, if applicable (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/asrservice/0.3 #7: Info: A research activity *SHOULD* be expressed as a category using the TaDiRaH vocabulary (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/asrservice.codemeta.json\n\n[harvester info] Harvesting remote service URL https://webservices2.cls.ru.nl/asrservice/ for asrservice: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl -O \"/tmp/codemeta-harvester.cache//tmp/asrservice.codemeta.json\" \"/tmp/out/asrservice.codemeta.json\" \"https://webservices2.cls.ru.nl/asrservice/\"\n\n[harvester info] <-- Finished processing asrservice (https://github.com/opensource-spraakherkenning-nl/asrservice) [Mon Feb 24 03:02:00 UTC 2025]\n".
+<https://tools.clariah.nl/auchann/0.2.0> schema:author <https://tools.clariah.nl/stub/H429f203056dc730a>;
+    schema:codeRepository "https://github.com/UUDigitalHumanitieslab/auchann";
+    schema:contributor <https://tools.clariah.nl/stub/H5614fd9b5674091d>;
+    schema:dateCreated "2022-01-12T10:39:58Z+0100"^^schema:Date;
+    schema:dateModified "2023-08-21T12:04:40Z+0200"^^schema:Date;
+    schema:description "The AuChAnn (Automatic CHAT Annotation) package can generate CHAT annotations based on a transcript-correction pairs of utterances.";
+    schema:downloadUrl "https://github.com/UUDigitalHumanitieslab/auchann/archive/refs/tags/develop.zip";
+    schema:identifier "auchann";
+    schema:license <http://spdx.org/licenses/BSD-3-Clause>;
+    schema:maintainer <https://tools.clariah.nl/person/digital-humanities-lab>;
+    schema:name "auchann";
+    schema:producer <https://tools.clariah.nl/org/uu-digital-humanities-lab>;
+    schema:programmingLanguage "Python";
+    schema:releaseNotes "https://github.com/UUDigitalHumanitieslab/auchann/releases/tag/develop";
+    schema:review <https://tools.clariah.nl/validation/Ncb3aa1e3bb91e947937b9dec73787e3c>;
+    schema:runtimePlatform "Python 3";
+    schema:softwareRequirements <https://tools.clariah.nl/dependency/chamd-ge-0-5-8>, <https://tools.clariah.nl/dependency/editdistance>, <https://tools.clariah.nl/dependency/pyyaml-include>, <https://tools.clariah.nl/dependency/sastadev-ge-0-03>;
+    schema:targetProduct <https://tools.clariah.nl/commandlineapplication/auchann/0.2.0>;
+    schema:url "https://github.com/UUDigitalHumanitieslab/auchann";
+    schema:version "0.2.0";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/auchann/0.2.0>, <https://tools.clariah.nl/auchann.topcontributor/snapshot>, <https://tools.clariah.nl/auchann/snapshot>;
+    codemeta:developmentStatus <https://www.repostatus.org/#inactive>;
+    codemeta:issueTracker <https://github.com/UUDigitalHumanitieslab/auchann/issues>;
+    codemeta:readme <https://github.com/UUDigitalHumanitieslab/auchann/blob/develop//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:02:00 UTC 2025)\n\n[harvester info] --> Processing auchann (https://github.com/UUDigitalHumanitieslab/auchann) [Mon Feb 24 03:02:00 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/UUDigitalHumanitieslab/auchann...\n\n[harvester info] No releases found, falling back to default git branch!\n\n[harvester info] Using 'develop'\n\n[harvester info] Git reference: develop\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/auchann for harvestable resources...\n\n[harvester info] found python setup for auchann, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] No license file found\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2022-01-12T10:39:58Z+0100, date modified: 2023-08-21T12:04:40Z+0200\n\n[harvester info] Querying Github/GitLab API (https://github.com/UUDigitalHumanitieslab/auchann)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Found releaseNotes\n\n[harvester info] Querying Zenodo API for DOI (access token provided)...\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Falling back to git tag (develop) if no version number is specified...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"auchann\" --codeRepository \"https://github.com/UUDigitalHumanitieslab/auchann\" --validate /etc/software.ttl --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-version.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/43-releasenotes.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.auchann.codemeta.json /tmp/codemeta-harvester.cache//tmp/20-python.auchann.codemeta.json \n\n-- begin log --\n\nPassed 8 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-version.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/99-repostatus.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/43-releasenotes.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.auchann.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/20-python.auchann.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/auchann\n\nProcessing source #1 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-version.auchann.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.auchann.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 1 new triples, total is now 3\n\nProcessing source #3 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.auchann.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/auchann.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/43-releasenotes.auchann.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 2 new triples, total is now 5\n\nProcessing source #5 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.auchann.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 1 new triples, total is now 6\n\nProcessing source #6 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.auchann.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/auchann/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 14 new triples, total is now 19\n\nProcessing source #7 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.auchann.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] overriding old http://schema.org/dateCreated (2022-01-12T09:39:57Z -> 2022-01-12T10:39:58Z+0100)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] overriding old http://schema.org/dateModified (2023-08-21T11:46:54Z -> 2023-08-21T12:04:40Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/auchann)] processed 2 new triples, total is now 19\n\nProcessing source #8 of 8\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/20-python.auchann.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/auchann/0.2.0\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/auchann\n\n[CODEMETA COMPOSITION (auchann)] overriding old http://schema.org/description (Generates CHAT annotations from transcript-correction utterance pairs -> The AuChAnn (Automatic CHAT Annotation) package can generate CHAT annotations based on a transcript-correction pairs of utterances.)\n\n[CODEMETA COMPOSITION (auchann)] overriding old http://schema.org/version (develop -> 0.2.0)\n\n[CODEMETA COMPOSITION (auchann)] processed 49 new triples, total is now 61\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/auchann -> https://tools.clariah.nl/auchann/0.2.0\n\n[CODEMETA VALIDATION (auchann)] done\n\n[CODEMETA ENRICHMENT (auchann)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (auchann)] adding author https://tools.clariah.nl/person/digital-humanities-lab as contributor\n\n[CODEMETA ENRICHMENT (auchann)] adding author https://tools.clariah.nl/person/utrecht-university as contributor\n\n[CODEMETA ENRICHMENT (auchann)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/auchann/0.2.0 #1: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/auchann/0.2.0 #2: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/auchann/0.2.0 #3: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/auchann/0.2.0 #4: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/auchann/0.2.0 #5: Info: The technology readiness level *SHOULD* be expressed (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/auchann.codemeta.json\n\n[harvester info] <-- Finished processing auchann (https://github.com/UUDigitalHumanitieslab/auchann) [Mon Feb 24 03:02:12 UTC 2025]\n".
+<https://tools.clariah.nl/audience/developers> schema:audienceType "Developers";
+    a schema:Audience.
+<https://tools.clariah.nl/audience/education> schema:audienceType "Education";
+    a schema:Audience.
+<https://tools.clariah.nl/audience/religion> schema:audienceType "Religion";
+    a schema:Audience.
+<https://tools.clariah.nl/audience/researchers> schema:audienceType "Researchers";
+    a schema:Audience.
+<https://tools.clariah.nl/audience/science-research> schema:audienceType "Science/Research";
+    a schema:Audience.
+<https://tools.clariah.nl/cesar/unknown> schema:author <https://tools.clariah.nl/stub/H-60ba850fdcd3f515>;
+    schema:codeRepository "https://github.com/ErwinKomen/RU-cesar";
+    schema:contributor <https://tools.clariah.nl/stub/H-3c2db2a75b7884bd>;
+    schema:dateCreated "2018"^^schema:Date;
+    schema:description "Django web application that communicates with the CorpusStudioWeb back-end 'Crpp'. Two main purposes: (1) browse texts, (2) conduct syntactic searches with definable output per hit. Searches are translated to Xquery 'under the hood'";
+    schema:funder <https://tools.clariah.nl/stub/H0d65af8c23c5061d>;
+    schema:identifier "cesar";
+    schema:keywords "syntax", "xquery";
+    schema:maintainer <https://tools.clariah.nl/stub/H-1f8f0108bdc02a80>;
+    schema:name "Corpus Editor for Syntactically Annotated Resources (Cesar)";
+    schema:operatingSystem "POSIX";
+    schema:producer <https://www.ru.nl/humanitieslab/technical-support-group>;
+    schema:programmingLanguage <https://tools.clariah.nl/stub/H-599dce15624737f7>;
+    schema:review <https://tools.clariah.nl/validation/Ndad9afc77754a7a46ff87d1229434602>;
+    schema:sourceOrganization <https://www.ru.nl/humanitieslab/technical-support-group>;
+    schema:targetProduct <https://tools.clariah.nl/webapplication/ru-cesar>;
+    schema:url "https://github.com/ErwinKomen/RU-Cesar";
+    schema:version "unknown";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/cesar/unknown>;
+    codemeta:developmentStatus <https://www.repostatus.org/#active>;
+    codemeta:issueTracker <https://github.com/ErwinKomen/RU-Cesar/issues>;
+    codemeta:referencePublication <https://tools.clariah.nl/stub/H-5dd47d9473a77ce6>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:02:38 UTC 2025)\n\n[harvester info] --> Processing cesar (https://github.com/ErwinKomen/RU-cesar) [Mon Feb 24 03:02:38 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/ErwinKomen/RU-cesar...\n\n[harvester info] No releases found, falling back to default git branch!\n\n[harvester info] Using 'master'\n\n[harvester info] Git reference: master\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/cesar/cesar for harvestable resources...\n\n[harvester info] found codemeta.json for cesar (md5sum 777a73008087652ecf4dba37bd37ec6c); **NOTE: this is considered authoritative and most other detection methods will be skipped now!**\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#active\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"cesar\" --codeRepository \"https://github.com/ErwinKomen/RU-cesar\" --validate /etc/software.ttl --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/cesar.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.cesar.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-jsonld.cesar.codemeta.json \n\n-- begin log --\n\nPassed 2 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.cesar.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-jsonld.cesar.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/cesar\n\nProcessing source #1 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.cesar.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cesar\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cesar)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 2\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-jsonld.cesar.codemeta.json\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cesar\n\n[CODEMETA COMPOSITION (cesar)] overriding old https://codemeta.github.io/terms/developmentStatus (https://www.repostatus.org/#active -> active)\n\n[CODEMETA CORRECTION (cesar)] automatically converting status active to repostatus URI\n\n[CODEMETA COMPOSITION (cesar)] processed 56 new triples, total is now 56\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/cesar -> https://tools.clariah.nl/cesar/unknown\n\n[CODEMETA VALIDATION (cesar)] license not set\n\n[CODEMETA VALIDATION (cesar)] done\n\n[CODEMETA ENRICHMENT (cesar)] Guessing interface type http://schema.org/WebApplication based on clues\n\n[CODEMETA ENRICHMENT (cesar)] adding author https://tools.clariah.nl/stub/H-3466006c01ec56b6 as contributor\n\n[CODEMETA ENRICHMENT (cesar)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/cesar/unknown #1: Violation: Software source code *MUST* have a proper README. (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cesar/unknown #2: Violation: Software source code *MUST* state its license (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cesar/unknown #3: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cesar/unknown #4: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cesar/unknown #5: Info: The technology readiness level *SHOULD* be expressed (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/cesar.codemeta.json\n\n[harvester info] Harvesting remote service URL https://cesar.science.ru.nl for cesar: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl -O \"/tmp/codemeta-harvester.cache//tmp/cesar.codemeta.json\" \"/tmp/out/cesar.codemeta.json\" \"https://cesar.science.ru.nl\"\n\n[harvester info] <-- Finished processing cesar (https://github.com/ErwinKomen/RU-cesar) [Mon Feb 24 03:02:43 UTC 2025]\n".
+<https://tools.clariah.nl/chamd/0.5.12> schema:author <https://tools.clariah.nl/stub/H-6ec66a0272e7720b>;
+    schema:codeRepository "https://github.com/UUDigitalHumanitieslab/chamd";
+    schema:contributor <https://tools.clariah.nl/stub/H564e83858f7267a2>;
+    schema:dateCreated "2017-03-15T17:11:41Z+0100"^^schema:Date;
+    schema:dateModified "2024-03-13T11:22:57Z+0100"^^schema:Date;
+    schema:description "Conversion and cleaning of CHILDES CHA files into PaQu Plaintext Metadata Format (to convert to Alpino).";
+    schema:downloadUrl "https://github.com/UUDigitalHumanitieslab/chamd/archive/refs/tags/0.5.12.zip";
+    schema:identifier "chamd";
+    schema:license <http://spdx.org/licenses/MIT>;
+    schema:maintainer <https://tools.clariah.nl/stub/H2da7dcbb42d9405a>;
+    schema:name "CHAMD";
+    schema:producer <https://tools.clariah.nl/org/uu-digital-humanities-lab>;
+    schema:programmingLanguage "Python";
+    schema:releaseNotes "https://github.com/UUDigitalHumanitieslab/chamd/releases/tag/0.5.12";
+    schema:review <https://tools.clariah.nl/validation/Nd20529038dbc839183eae85627465a49>;
+    schema:runtimePlatform "Python 3";
+    schema:targetProduct <https://tools.clariah.nl/commandlineapplication/chamd/0.5.12>;
+    schema:url "https://github.com/UUDigitalHumanitieslab/chamd";
+    schema:version "0.5.12";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/chamd/0.5.12>, <https://tools.clariah.nl/chamd.topcontributor/snapshot>, <https://tools.clariah.nl/chamd/snapshot>;
+    codemeta:contIntegration <https://github.com/UUDigitalHumanitieslab/chamd/actions/>;
+    codemeta:developmentStatus <https://www.repostatus.org/#inactive>;
+    codemeta:issueTracker <https://github.com/UUDigitalHumanitieslab/chamd/issues>;
+    codemeta:readme <https://github.com/UUDigitalHumanitieslab/chamd/blob/0.5.12//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:02:43 UTC 2025)\n\n[harvester info] --> Processing chamd (https://github.com/UUDigitalHumanitieslab/chamd) [Mon Feb 24 03:02:43 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/UUDigitalHumanitieslab/chamd...\n\n[harvester info] Found release 0.5.12\n\n[harvester info] Using '0.5.12'\n\n[harvester info] Git reference: 0.5.12\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/chamd for harvestable resources...\n\n[harvester info] found CITATION.cff for chamd, converting to codemeta\n\n[harvester info] found python setup for chamd, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] Found license MIT\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2017-03-15T17:11:41Z+0100, date modified: 2024-03-13T11:22:57Z+0100\n\n[harvester info] Querying Github/GitLab API (https://github.com/UUDigitalHumanitieslab/chamd)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Found releaseNotes\n\n[harvester info] Querying Zenodo API for DOI (access token provided)...\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Found CI https://github.com/UUDigitalHumanitieslab/chamd/actions/\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Falling back to git tag (0.5.12) if no version number is specified...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Looking for repostatus information in README.md in master branch...\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"chamd\" --codeRepository \"https://github.com/UUDigitalHumanitieslab/chamd\" --validate /etc/software.ttl --released --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-version.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/43-releasenotes.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/29-license.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/20-python.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/12-citationcff.chamd.codemeta.json /tmp/codemeta-harvester.cache//tmp/12-ci.chamd.codemeta.json \n\n-- begin log --\n\nPassed 11 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-version.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/99-repostatus.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/43-releasenotes.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/29-license.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/20-python.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/12-citationcff.chamd.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/12-ci.chamd.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/chamd\n\nProcessing source #1 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-version.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 1 new triples, total is now 3\n\nProcessing source #3 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.chamd.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/chamd.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/43-releasenotes.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 2 new triples, total is now 5\n\nProcessing source #5 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 1 new triples, total is now 6\n\nProcessing source #6 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.chamd.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/chamd/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 14 new triples, total is now 19\n\nProcessing source #7 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] overriding old http://schema.org/dateCreated (2017-03-23T10:39:12Z -> 2017-03-15T17:11:41Z+0100)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] overriding old http://schema.org/dateModified (2024-03-13T10:23:31Z -> 2024-03-13T11:22:57Z+0100)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 2 new triples, total is now 19\n\nProcessing source #8 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/29-license.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] overriding old http://schema.org/license (http://spdx.org/licenses/MIT -> MIT)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/chamd)] automatically converting license to spdx URI\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/chamd)] processed 1 new triples, total is now 19\n\nProcessing source #9 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/20-python.chamd.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/chamd/0.5.12\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (chamd)] overriding old http://schema.org/description (CHAT conversion, cleaning and reading library -> Conversion and cleaning of CHILDES CHA files into PaQu Plaintext Metadata Format)\n\n[CODEMETA COMPOSITION (chamd)] processed 27 new triples, total is now 39\n\nProcessing source #10 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/12-citationcff.chamd.codemeta.json\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (chamd)] overriding old http://schema.org/author (https://tools.clariah.nl/stub/H-6cddbce7c6b0eeb1 -> https://tools.clariah.nl/stub/H06c6181cbd61676c)\n\n[CODEMETA COMPOSITION (chamd)] overriding old http://schema.org/description (Conversion and cleaning of CHILDES CHA files into PaQu Plaintext Metadata Format -> Conversion and cleaning of CHILDES CHA files into PaQu Plaintext Metadata Format (to convert to Alpino).)\n\n[CODEMETA COMPOSITION (chamd)] overriding old http://schema.org/license (http://spdx.org/licenses/MIT -> https://spdx.org/licenses/MIT)\n\n[CODEMETA COMPOSITION (chamd)] overriding old http://schema.org/name (chamd -> CHAMD)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/chamd)] automatically converting spdx license URI from https:// to http:///\n\n[CODEMETA COMPOSITION (chamd)] processed 27 new triples, total is now 59\n\nProcessing source #11 of 11\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/12-ci.chamd.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/chamd\n\n[CODEMETA COMPOSITION (chamd)] processed 1 new triples, total is now 60\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/chamd -> https://tools.clariah.nl/chamd/0.5.12\n\n[CODEMETA VALIDATION (chamd)] done\n\n[CODEMETA ENRICHMENT (chamd)] automatically adding programmingLanguage Python derived from runtimePlatform Python\n\n[CODEMETA ENRICHMENT (chamd)] adding author https://tools.clariah.nl/stub/H-72eb1b9d66c63dc4 as contributor\n\n[CODEMETA ENRICHMENT (chamd)] adding author https://tools.clariah.nl/stub/H-6ac7d7ae5cbf73d5 as contributor\n\n[CODEMETA ENRICHMENT (chamd)] adding author https://tools.clariah.nl/stub/H-5a306e1bff129f72 as contributor\n\n[CODEMETA ENRICHMENT (chamd)] considering first author as maintainer\n\nVALIDATION https://tools.clariah.nl/chamd/0.5.12 #1: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/chamd/0.5.12 #2: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/chamd/0.5.12 #3: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/chamd/0.5.12 #4: Info: The technology readiness level *SHOULD* be expressed (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/chamd.codemeta.json\n\n[harvester info] <-- Finished processing chamd (https://github.com/UUDigitalHumanitieslab/chamd) [Mon Feb 24 03:02:55 UTC 2025]\n".
+<https://tools.clariah.nl/clariah-fcs-endpoints/0.1> schema:applicationSuite "Blacklab & Corpus Search";
+    schema:author <https://tools.clariah.nl/stub/H4f1435ee2bd82b9e>;
+    schema:codeRepository "https://github.com/INL/clariah-fcs-endpoints";
+    schema:contributor <https://tools.clariah.nl/stub/H34272c20017617a9>;
+    schema:dateCreated "2016-09-11T19:38:43Z+0200"^^schema:Date;
+    schema:dateModified "2023-05-10T15:46:27Z+0200"^^schema:Date;
+    schema:description "CLARIAH Federated content search corpora, developed by the Dutch Language Institute (INT), is a service to enable searching in multiple Dutch corpora at the same time. This application implements the CLARIN FCS 2.0 specification on top of Dutch language corpora. This repository hosts the source code.";
+    schema:funding <https://tools.clariah.nl/stub/H0049fcdd85d04a19>;
+    schema:identifier "clariah-fcs-endpoints";
+    schema:keywords "BlackLab", "CLARIN", "FCS 2.0", "Federated Content Search", "Nederlab", "corpus search";
+    schema:license <https://www.gnu.org/licenses/gpl-3.0.html>;
+    schema:maintainer <https://tools.clariah.nl/person/mathieu-fannee>;
+    schema:name "A Blacklab Server CLARIN FCS 2.0 endpoint";
+    schema:producer <https://tools.clariah.nl/stub/H01b80794b2defc8b>;
+    schema:programmingLanguage "Java";
+    schema:repository "https://nexus.clarin.eu/content/repositories/Clarin", "https://nexus.clarin.eu/content/repositories/clarin-snapshot";
+    schema:review <https://tools.clariah.nl/validation/N93c78ff8e246774217144e641d78b1b5>;
+    schema:runtimePlatform "Java";
+    schema:softwareHelp <https://www.clarin.eu/blog/clarin-federated-content-search-version-2>;
+    schema:softwareRequirements <https://tools.clariah.nl/dependency/com-fasterxml-jackson-core-jackson-databind-2-12-6-1>, <https://tools.clariah.nl/dependency/com-googlecode-json-simple-json-simple-1-1-1>, <https://tools.clariah.nl/dependency/com-jayway-jsonpath-json-path-2-1-0>, <https://tools.clariah.nl/dependency/eu-clarin-sru-fcs-fcs-simple-endpoint-1-4-0>, <https://tools.clariah.nl/dependency/javax-servlet-servlet-api-2-5>, <https://tools.clariah.nl/dependency/junit-junit-4-13-1>, <https://tools.clariah.nl/dependency/org-apache-logging-log4j-log4j-core-2-17-1>, <https://tools.clariah.nl/dependency/org-apache-logging-log4j-log4j-slf4j-impl-2-15-0>, <https://tools.clariah.nl/dependency/org-apache-maven-plugin-testing-maven-plugin-testing-harness-3-3-0>, <https://tools.clariah.nl/dependency/org-eclipse-jetty-test-jetty-servlet-8-1-19-v20160209>;
+    schema:targetProduct <https://tools.clariah.nl/stub/H474756d2ee102285>, <https://tools.clariah.nl/stub/H5e732e232cb05a46>;
+    schema:version "0.1";
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/clariah-fcs-endpoints/0.1>, <https://tools.clariah.nl/clariah-fcs-endpoints.topcontributor/snapshot>, <https://tools.clariah.nl/clariah-fcs-endpoints/snapshot>, <https://tools.clariah.nl/org.ivdnt.fcs.endpoint.clariah-fcs-endpoints/0.1>;
+    codemeta:contIntegration <https://github.com/INL/clariah-fcs-endpoints>;
+    codemeta:developmentStatus <https://www.repostatus.org/#inactive>;
+    codemeta:issueTracker <https://github.com/INL/clariah-fcs-endpoints/issues>;
+    codemeta:readme <https://github.com/INL/clariah-fcs-endpoints/blob/master//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:02:57 UTC 2025)\n\n[harvester info] --> Processing clariah-fcs-endpoints (https://github.com/INL/clariah-fcs-endpoints) [Mon Feb 24 03:02:57 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/INL/clariah-fcs-endpoints...\n\n[harvester info] No releases found, falling back to default git branch!\n\n[harvester info] Using 'master'\n\n[harvester info] Git reference: master\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/clariah-fcs-endpoints for harvestable resources...\n\n[harvester info] found codemeta-harvest.json for clariah-fcs-endpoints (md5sum 751b47d38ed83d33e0e94cff74870c84); values in here take precendence over (override) those in later detection stages\n\n[harvester info] found pom.xml (Java/Maven) for clariah-fcs-endpoints, converting to codemeta\n\n[harvester info] Looking for license....\n\n[harvester info] Found license GPL-3.0-only\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2016-09-11T19:38:43Z+0200, date modified: 2023-05-10T15:46:27Z+0200\n\n[harvester info] Querying Github/GitLab API (https://github.com/INL/clariah-fcs-endpoints)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#inactive\n\n[harvester info] Setting group Blacklab & Corpus Search\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"clariah-fcs-endpoints\" --codeRepository \"https://github.com/INL/clariah-fcs-endpoints\" --validate /etc/software.ttl --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/29-license.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/21-java.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/10-harvest.clariah-fcs-endpoints.codemeta.json /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.clariah-fcs-endpoints.codemeta.json \n\n-- begin log --\n\nPassed 9 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/29-license.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/21-java.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/10-harvest.clariah-fcs-endpoints.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/04-applicationSuite.clariah-fcs-endpoints.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/clariah-fcs-endpoints\n\nProcessing source #1 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.clariah-fcs-endpoints.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/clariah-fcs-endpoints.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 1 new triples, total is now 2\n\nProcessing source #3 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.clariah-fcs-endpoints.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/clariah-fcs-endpoints/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 16 new triples, total is now 18\n\nProcessing source #5 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] overriding old http://schema.org/dateCreated (2017-09-03T19:25:10Z -> 2016-09-11T19:38:43Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] overriding old http://schema.org/dateModified (2024-01-22T17:15:05Z -> 2023-05-10T15:46:27Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 2 new triples, total is now 18\n\nProcessing source #6 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/29-license.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] overriding old http://schema.org/license (http://spdx.org/licenses/GPL-3.0-only -> GPL-3.0-only)\n\n[CODEMETA CORRECTION (https://tools.clariah.nl/clariah-fcs-endpoints)] automatically converting license to spdx URI\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/clariah-fcs-endpoints)] processed 1 new triples, total is now 18\n\nProcessing source #7 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/21-java.clariah-fcs-endpoints.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/org.ivdnt.fcs.endpoint.clariah-fcs-endpoints/0.1\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/description (REST endpoints for CLARIAH Federated Content Search -> CLARIAH Federated content search for Dutch corpora, developed by the Dutch Language Institute (INT), is a service to enable searching in multiple Dutch corpora at the same time according to the CLARIN FCS 2.0 specification on top of Dutch language corpora. This repository hosts the source code.)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/license (http://spdx.org/licenses/GPL-3.0-only -> http://www.gnu.org/licenses/gpl.txt)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/name (clariah-fcs-endpoints -> A Blacklab Server CLARIN FCS 2.0 endpoint)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] processed 80 new triples, total is now 93\n\nProcessing source #8 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/10-harvest.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/description (CLARIAH Federated content search for Dutch corpora, developed by the Dutch Language Institute (INT), is a service to enable searching in multiple Dutch corpora at the same time according to the CLARIN FCS 2.0 specification on top of Dutch language corpora. This repository hosts the source code. -> CLARIAH Federated content search corpora, developed by the Dutch Language Institute (INT), is a service to enable searching in multiple Dutch corpora at the same time. This application implements the CLARIN FCS 2.0 specification on top of Dutch language corpora. This repository hosts the source code.)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/license (http://www.gnu.org/licenses/gpl.txt -> https://www.gnu.org/licenses/gpl-3.0.html)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/producer (https://tools.clariah.nl/org/dutch-language-institute -> https://tools.clariah.nl/stub/H-18d6380ac33b1809)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/keywords (fcs -> corpus search)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/keywords (corpus -> corpus search)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] overriding old http://schema.org/keywords (clariah -> corpus search)\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] processed 41 new triples, total is now 127\n\nProcessing source #9 of 9\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/04-applicationSuite.clariah-fcs-endpoints.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/clariah-fcs-endpoints\n\n[CODEMETA COMPOSITION (org.ivdnt.fcs.endpoint.clariah-fcs-endpoints)] processed 1 new triples, total is now 128\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/clariah-fcs-endpoints -> https://tools.clariah.nl/clariah-fcs-endpoints/0.1\n\n[CODEMETA VALIDATION (clariah-fcs-endpoints)] done\n\n[CODEMETA ENRICHMENT (clariah-fcs-endpoints)] adding author https://tools.clariah.nl/stub/H-6457942756155bba as contributor\n\n[CODEMETA ENRICHMENT (clariah-fcs-endpoints)] adding author https://tools.clariah.nl/stub/H-350657fc45f862c2 as contributor\n\n[CODEMETA ENRICHMENT (clariah-fcs-endpoints)] adding author https://tools.clariah.nl/stub/H-25d27d4c10e45941 as contributor\n\nVALIDATION https://tools.clariah.nl/clariah-fcs-endpoints/0.1 #1: Info: An interface type *SHOULD* be expressed: Software source code should define one or more target products that are the resulting software applications offering specific interfaces (The metadata does express this currently, but something is wrong in the way it is expressed. Is the type/class valid?)\n\nVALIDATION https://tools.clariah.nl/clariah-fcs-endpoints/0.1 #2: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/clariah-fcs-endpoints/0.1 #3: Info: The technology readiness level *SHOULD* be expressed (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/clariah-fcs-endpoints.codemeta.json\n\n[harvester info] Harvesting remote service URL https://portal.clarin.inl.nl/fcscorpora/clariah-fcs-endpoints/sru for clariah-fcs-endpoints: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl -O \"/tmp/codemeta-harvester.cache//tmp/clariah-fcs-endpoints.codemeta.json\" \"/tmp/out/clariah-fcs-endpoints.codemeta.json\" \"https://portal.clarin.inl.nl/fcscorpora/clariah-fcs-endpoints/sru\"\n\n[harvester info] <-- Finished processing clariah-fcs-endpoints (https://github.com/INL/clariah-fcs-endpoints) [Mon Feb 24 03:03:12 UTC 2025]\n".
+<https://tools.clariah.nl/cobalt/snapshot> schema:codeRepository "https://github.com/INL/COBALT";
+    schema:dateCreated "2014-04-14T13:54:07Z+0200"^^schema:Date;
+    schema:dateModified "2020-07-17T09:55:43Z+0200"^^schema:Date;
+    schema:description "Corpus annotation tool";
+    schema:identifier "cobalt";
+    schema:keywords "corpus";
+    schema:name "COBALT";
+    schema:producer <https://tools.clariah.nl/org/dutch-language-institute>;
+    schema:review <https://tools.clariah.nl/validation/N423080814b0abf0dfc8856dc7a845500>;
+    a schema:SoftwareSourceCode;
+    owl:sameAs <https://tools.clariah.nl/cobalt/snapshot>, <https://tools.clariah.nl/cobalt.topcontributor/snapshot>;
+    codemeta:developmentStatus <https://www.repostatus.org/#suspended>;
+    codemeta:issueTracker <https://github.com/INL/COBALT/issues>;
+    codemeta:readme <https://github.com/INL/COBALT/blob/master//README.md>;
+    <https://github.com/proycon/codemetapy/errors> 0;
+    <https://github.com/proycon/codemetapy/log> "(log file starts at Mon Feb 24 03:03:23 UTC 2025)\n\n[harvester info] --> Processing cobalt (https://github.com/INL/COBALT) [Mon Feb 24 03:03:23 UTC 2025]\n\n[harvester info] Git updating cached clone of https://github.com/INL/COBALT...\n\n[harvester info] No releases found, falling back to default git branch!\n\n[harvester info] Using 'master'\n\n[harvester info] Git reference: master\n\n[harvester info] Scanning directory /tmp/codemeta-harvester.cache/cobalt for harvestable resources...\n\n[harvester info] Looking for license....\n\n[harvester info] No license file found\n\n[harvester info] Getting contributors from git...\n\n[harvester info] No git contributors found\n\n[harvester info] Getting top contributor from git...\n\n[harvester info] Git top contributor  will be assigned as author (and maintainer) if none are found in the metadata\n\n[harvester info] Extracting last and first commit date from git log....\n\n[harvester info] Date created: 2014-04-14T13:54:07Z+0200, date modified: 2020-07-17T09:55:43Z+0200\n\n[harvester info] Querying Github/GitLab API (https://github.com/INL/COBALT)\n\n[harvester info] Adding URL for found README: README.md\n\n[harvester info] Looking for TRL information in README.md...\n\n[harvester info] Looking for repostatus information in README.md...\n\n[harvester info] Looking for continuous integration information in README.md...\n\n[harvester info] Looking for documentation links in README.md...\n\n[harvester info] Inferring repostatus information from git activity (used only as a fallback if not explicitly provided)...\n\n[harvester info] Inferred repostatus https://www.repostatus.org/#suspended\n\n[harvester info] Reconciliating: codemetapy  --baseuri https://tools.clariah.nl --baseuri https://tools.clariah.nl --includecontext --addcontext https://w3id.org/nwo-research-fields --addcontext https://w3id.org/research-technology-readiness-levels --addcontextgraph https://vocabs.dariah.eu/rest/v1/tadirah/data?format=text/turtle --trl --identifier \"cobalt\" --codeRepository \"https://github.com/INL/COBALT\" --validate /etc/software.ttl --enrich --textv \"Please consult the CLARIAH Software Metadata Requirements at https://github.com/CLARIAH/clariah-plus/blob/main/requirements/software-metadata-requirements.md for an in-depth explanation of any found problems\" -O /tmp/out/cobalt.codemeta.json /tmp/codemeta-harvester.cache//tmp/99-repostatus.cobalt.codemeta.json /tmp/codemeta-harvester.cache//tmp/90-authors.cobalt.codemeta.json /tmp/codemeta-harvester.cache//tmp/41-readme.cobalt.codemeta.json /tmp/codemeta-harvester.cache//tmp/40-gitapi.cobalt.codemeta.json /tmp/codemeta-harvester.cache//tmp/39-gitdate.cobalt.codemeta.json \n\n-- begin log --\n\nPassed 5 files/sources but specified 0 input types! Automatically guessing types...\n\nDetected input types: [('/tmp/codemeta-harvester.cache//tmp/99-repostatus.cobalt.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/90-authors.cobalt.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/41-readme.cobalt.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/40-gitapi.cobalt.codemeta.json', 'json'), ('/tmp/codemeta-harvester.cache//tmp/39-gitdate.cobalt.codemeta.json', 'json')]\n\nAdding to contextgraph: /tmp/turtle\n\nInitial URI automatically generated, may be overriden later: https://tools.clariah.nl/cobalt\n\nProcessing source #1 of 5\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/99-repostatus.cobalt.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cobalt\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] processed 1 new triples, total is now 2\n\nProcessing source #2 of 5\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/90-authors.cobalt.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/cobalt.topcontributor/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cobalt\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] processed 1 new triples, total is now 2\n\nProcessing source #3 of 5\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/41-readme.cobalt.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cobalt\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] processed 1 new triples, total is now 3\n\nProcessing source #4 of 5\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/40-gitapi.cobalt.codemeta.json\n\n    Found main resource with URI https://tools.clariah.nl/cobalt/snapshot\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cobalt\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] processed 12 new triples, total is now 14\n\nProcessing source #5 of 5\n\nParsing json-ld file from /tmp/codemeta-harvester.cache//tmp/39-gitdate.cobalt.codemeta.json\n\n    NOTE: Not a valid JSON-LD document, @context missing! Attempting to inject automatically...\n\n    Injected (possibly temporary) URI https://tools.clariah.nl/cobalt\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] overriding old http://schema.org/dateCreated (2015-04-02T09:01:19Z -> 2014-04-14T13:54:07Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] overriding old http://schema.org/dateModified (2020-07-17T07:59:39Z -> 2020-07-17T09:55:43Z+0200)\n\n[CODEMETA COMPOSITION (https://tools.clariah.nl/cobalt)] processed 2 new triples, total is now 14\n\nRemapping URI to (possibly) new identifier and version component: https://tools.clariah.nl/cobalt -> https://tools.clariah.nl/cobalt/snapshot\n\n[CODEMETA VALIDATION (cobalt)] author not set\n\n[CODEMETA VALIDATION (cobalt)] license not set\n\n[CODEMETA VALIDATION (cobalt)] done\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #1: Violation: The authors of the software source code *MUST* be expressed. (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #2: Violation: The maintainer of the software source code *MUST* be expressed. (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #3: Violation: Software source code *MUST* state its license (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #4: Violation: Software source code *MUST* state its version (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #5: Info: Software source code *SHOULD* link to a continuous integration service that builds the software and runs the software's tests (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #6: Info: Software source code *MAY* express the programming language(s) used (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #7: Warning: All contributors *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #8: Info: An interface type *SHOULD* be expressed: Software source code should define one or more target products that are the resulting software applications offering specific interfaces (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #9: Warning: Documentation *SHOULD* be expressed (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #10: Info: Reference publications *SHOULD* be expressed, if any (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #11: Info: The funder *SHOULD* be acknowledged (This is missing in the metadata)\n\nVALIDATION https://tools.clariah.nl/cobalt/snapshot #12: Info: The technology readiness level *SHOULD* be expressed (This is missing in the metadata)\n\n-- end log --\n\n[harvester info] Output written to /tmp/out/cobalt.codemeta.json\n\n[harvester info] <-- Finished processing cobalt (https://github.com/INL/COBALT) [Mon Feb 24 03:03:31 UTC 2025]\n".
+<https://tools.clariah.nl/commandlineapplication/alpino2folia/2.5.8> schema:name "alpino2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "alpino2folia".
+<https://tools.clariah.nl/commandlineapplication/auchann/0.2.0> schema:name "auchann";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "auchann".
+<https://tools.clariah.nl/commandlineapplication/chamd/0.5.12> schema:name "chamd";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "chamd".
+<https://tools.clariah.nl/commandlineapplication/codemeta-server> schema:name "codemeta-server";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#ServerApplication>;
+    <https://w3id.org/software-types#executableName> "codemeta-server".
+<https://tools.clariah.nl/commandlineapplication/codemeta2html> schema:name "codemeta2html";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "codemeta2html".
+<https://tools.clariah.nl/commandlineapplication/codemetapy> schema:name "codemetapy";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "codemetapy".
+<https://tools.clariah.nl/commandlineapplication/conllu2folia/2.5.8> schema:name "conllu2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "conllu2folia".
+<https://tools.clariah.nl/commandlineapplication/cow-tool-cli/1.21> schema:name "cow_tool_cli";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "cow_tool_cli".
+<https://tools.clariah.nl/commandlineapplication/cow-tool/1.21> schema:name "cow_tool";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "cow_tool".
+<https://tools.clariah.nl/commandlineapplication/dcoi2folia/2.5.8> schema:name "dcoi2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "dcoi2folia".
+<https://tools.clariah.nl/commandlineapplication/folia2annotatedtxt/2.5.8> schema:name "folia2annotatedtxt";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2annotatedtxt".
+<https://tools.clariah.nl/commandlineapplication/folia2columns/2.5.8> schema:name "folia2columns";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2columns".
+<https://tools.clariah.nl/commandlineapplication/folia2dcoi/2.5.8> schema:name "folia2dcoi";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2dcoi".
+<https://tools.clariah.nl/commandlineapplication/folia2html/2.5.8> schema:name "folia2html";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2html".
+<https://tools.clariah.nl/commandlineapplication/folia2rst/2.5.8> schema:name "folia2rst";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2rst".
+<https://tools.clariah.nl/commandlineapplication/folia2salt/2.5.8> schema:name "folia2salt";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2salt".
+<https://tools.clariah.nl/commandlineapplication/folia2stam/2.5.8> schema:name "folia2stam";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2stam".
+<https://tools.clariah.nl/commandlineapplication/folia2txt/2.5.8> schema:name "folia2txt";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folia2txt".
+<https://tools.clariah.nl/commandlineapplication/foliabench/2.5.8> schema:name "foliabench";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliabench".
+<https://tools.clariah.nl/commandlineapplication/foliacat/2.5.8> schema:name "foliacat";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliacat".
+<https://tools.clariah.nl/commandlineapplication/foliacorrect/2.5.8> schema:name "foliacorrect";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliacorrect".
+<https://tools.clariah.nl/commandlineapplication/foliacount/2.5.8> schema:name "foliacount";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliacount".
+<https://tools.clariah.nl/commandlineapplication/foliadocserve/0.7.8> schema:name "foliadocserve";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliadocserve".
+<https://tools.clariah.nl/commandlineapplication/foliaerase/2.5.8> schema:name "foliaerase";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaerase".
+<https://tools.clariah.nl/commandlineapplication/foliaeval/2.5.8> schema:name "foliaeval";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaeval".
+<https://tools.clariah.nl/commandlineapplication/foliafreqlist/2.5.8> schema:name "foliafreqlist";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliafreqlist".
+<https://tools.clariah.nl/commandlineapplication/foliaid/2.5.8> schema:name "foliaid";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaid".
+<https://tools.clariah.nl/commandlineapplication/folialangid/2.5.8> schema:name "folialangid";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "folialangid".
+<https://tools.clariah.nl/commandlineapplication/foliamerge/2.5.8> schema:name "foliamerge";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliamerge".
+<https://tools.clariah.nl/commandlineapplication/foliaquery/2.5.8> schema:name "foliaquery";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaquery".
+<https://tools.clariah.nl/commandlineapplication/foliaquery1/2.5.8> schema:name "foliaquery1";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaquery1".
+<https://tools.clariah.nl/commandlineapplication/foliasetdefinition/2.5.8> schema:name "foliasetdefinition";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliasetdefinition".
+<https://tools.clariah.nl/commandlineapplication/foliaspec/2.5.8> schema:name "foliaspec";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaspec".
+<https://tools.clariah.nl/commandlineapplication/foliaspec2json/2.5.8> schema:name "foliaspec2json";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaspec2json".
+<https://tools.clariah.nl/commandlineapplication/foliaspec2rdf/2.5.8> schema:name "foliaspec2rdf";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaspec2rdf".
+<https://tools.clariah.nl/commandlineapplication/foliasplit/2.5.8> schema:name "foliasplit";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliasplit".
+<https://tools.clariah.nl/commandlineapplication/foliatextcontent/2.5.8> schema:name "foliatextcontent";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliatextcontent".
+<https://tools.clariah.nl/commandlineapplication/foliatree/2.5.8> schema:name "foliatree";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliatree".
+<https://tools.clariah.nl/commandlineapplication/foliaupgrade/2.5.8> schema:name "foliaupgrade";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliaupgrade".
+<https://tools.clariah.nl/commandlineapplication/foliavalidator/2.5.8> schema:name "foliavalidator";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "foliavalidator".
+<https://tools.clariah.nl/commandlineapplication/gecco/0.3.0> schema:name "gecco";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "gecco".
+<https://tools.clariah.nl/commandlineapplication/rst2folia/2.5.8> schema:name "rst2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "rst2folia".
+<https://tools.clariah.nl/commandlineapplication/sastadev/0.2.3> schema:name "sastadev";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "sastadev".
+<https://tools.clariah.nl/commandlineapplication/tei2folia/2.5.8> schema:name "tei2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "tei2folia".
+<https://tools.clariah.nl/commandlineapplication/transcribedspeech2folia/2.5.8> schema:name "transcribedspeech2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "transcribedspeech2folia".
+<https://tools.clariah.nl/commandlineapplication/txt2folia/2.5.8> schema:name "txt2folia";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "txt2folia".
+<https://tools.clariah.nl/commandlineapplication/version/0.1.3> schema:name "version";
+    schema:runtimePlatform "Python 3";
+    a <https://w3id.org/software-types#CommandLineApplication>;
+    <https://w3id.org/software-types#executableName> "version".
+<https://tools.clariah.nl/commandlineapplication/version/0.5.1> schema:name "version".

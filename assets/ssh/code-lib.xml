@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:codemeta="https://codemeta.github.io/terms/"
+   xmlns:cbs_project="https://w3id.org/odissei/ns/kg/cbs/project/"
+   xmlns:dct="http://purl.org/dc/terms/"
+   xmlns:dcmitype="http://purl.org/dc/dcmitype/"
+   xmlns:doi="https://doi.org/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:sdo="https://schema.org/"
+   xmlns:sftio="https://w3id.org/software-iodata#"
+   xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/sf4q6/">
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata, R</sdo:programmingLanguage>
+    <sdo:maintainer>Christoph Janietz</sdo:maintainer>
+    <dct:language>Stata, R</dct:language>
+    <sdo:name>Occupations, organizations, and the structure of wage inequality in the Netherlands</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <dct:title>Occupations, organizations, and the structure of wage inequality in the Netherlands</dct:title>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.rssm.2019.100468"/>
+    <dct:creator rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8419"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.rssm.2019.100468"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/fvqtc/">
+    <dct:title>Knowing me, knowing you: Socio-economic status and (segregation in) peer and parental networks in primary school</dct:title>
+    <sdo:maintainer>Dieuwke Zwier</sdo:maintainer>
+    <dct:requires>CBS microdata, PRIMS</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9232"/>
+    <dct:language>R</dct:language>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.socnet.2023.03.003"/>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-5898-5557"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-5898-5557"/>
+    <sdo:name>Knowing me, knowing you: Socio-economic status and (segregation in) peer and parental networks in primary school</sdo:name>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.socnet.2023.03.003"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/uzcrw?view_only=7114b77c9f8b4062ab31f885ce331a65">
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-7899-2762"/>
+    <dct:title>Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs</dct:title>
+    <sdo:maintainer>Lianne Mulder</sdo:maintainer>
+    <dct:language>SPSS</dct:language>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8642"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-7899-2762"/>
+    <sdo:programmingLanguage>SPSS</sdo:programmingLanguage>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1371/journal.pone.0292805"/>
+    <sdo:name>Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs</sdo:name>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1371/journal.pone.0292805"/>
+    <sdo:funding>MAD2022</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/y7tnx/">
+    <sdo:maintainer>Christoph Janietz</sdo:maintainer>
+    <dct:language>Stata, R</dct:language>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1093/esr/jcad075"/>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8419"/>
+    <sdo:author rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <dct:title>Temporary employment and wage inequality over the life course</dct:title>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata, R</sdo:programmingLanguage>
+    <dct:creator rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <sdo:name>Temporary employment and wage inequality over the life course</sdo:name>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1093/esr/jcad075"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://github.com/rivm-syso/DIAPER">
+    <sdo:maintainer>Joyce Molenaar</sdo:maintainer>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:requires>CBS microdata; Perined; Vektis</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8552"/>
+    <dct:language>Stata</dct:language>
+    <sdo:name>Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis</sdo:name>
+    <dct:title>Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis</dct:title>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-8025-040X"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-8025-040X"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1093/eurpub/ckac170"/>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1093/eurpub/ckac170"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/8mw5s/">
+    <dct:language>Stata</dct:language>
+    <sdo:maintainer>Gabriele Mari</sdo:maintainer>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9102"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <sdo:name>Less for more? Cuts to child benefits, family adjustments, and long-run child outcomes in larger families</sdo:name>
+    <dct:title>Less for more? Cuts to child benefits, family adjustments, and long-run child outcomes in larger families</dct:title>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1007/s00148-024-01029-4"/>
+    <sdo:funding>MAG2021</sdo:funding>
+    <sdo:author rdf:resource="https://orcid.org/0000-0001-8557-5337"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-8557-5337"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1007/s00148-024-01029-4"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/eymg8/">
+    <dct:language>Stata, R</dct:language>
+    <sdo:maintainer>Christoph Janietz</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8419"/>
+    <sdo:author rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.ssresearch.2024.103005"/>
+    <sdo:name>Occupations and careers within organizations: Do organizations facilitate unequal wage growth?</sdo:name>
+    <dct:title>Occupations and careers within organizations: Do organizations facilitate unequal wage growth?</dct:title>
+    <sdo:programmingLanguage>Stata, R</sdo:programmingLanguage>
+    <dct:creator rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.ssresearch.2024.103005"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/yt4dj/">
+    <sdo:maintainer>Christoph Janietz</sdo:maintainer>
+    <sdo:programmingLanguage>Stata, R</sdo:programmingLanguage>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8419"/>
+    <dct:language>Stata, R</dct:language>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1162/euso_a_00020"/>
+    <dct:title>Essential Workers and Wage Inequality: Wage Differentials before and during the Covid-19 Pandemic, 2006 to 2022</dct:title>
+    <sdo:name>Essential Workers and Wage Inequality: Wage Differentials before and during the Covid-19 Pandemic, 2006 to 2022</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <dct:creator rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1162/euso_a_00020"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/wnhm7/">
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:language>Stata</dct:language>
+    <sdo:name>The timing of parental unemployment, insurance and children's education</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1080/14616696.2023.2188550"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0001-8557-5337"/>
+    <dct:title>The timing of parental unemployment, insurance and children's education</dct:title>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-8557-5337"/>
+    <sdo:maintainer>Gabriele Mari</sdo:maintainer>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1080/14616696.2023.2188550"/>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/SES/208008SSBONT_SEC1"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://github.com/PerlineDemange/CBS-MR">
+    <dct:title>Evaluating the causal relationship between educational attainment and mental health</dct:title>
+    <sdo:maintainer>Perline Demange</sdo:maintainer>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8590"/>
+    <dct:language>R</dct:language>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-7061-8354"/>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <sdo:name>Evaluating the causal relationship between educational attainment and mental health</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1101/2023.01.26.23285029"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-7061-8354"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1101/2023.01.26.23285029"/>
+    <sdo:funding>MAD2022</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/46yqp/">
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <sdo:maintainer>Erwin Gielens</sdo:maintainer>
+    <dct:language>R</dct:language>
+    <sdo:name>Statistics Netherlands (CBS) Microdata: Merging datasets (generic)</sdo:name>
+    <dct:title>Statistics Netherlands (CBS) Microdata: Merging datasets (generic)</dct:title>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-8022-6354"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-8022-6354"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/gmcjv/">
+    <dct:language>R</dct:language>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-9919-4738"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:name>Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood</sdo:name>
+    <sdo:maintainer>Weverthon Barbosa Machado</sdo:maintainer>
+    <dct:title>Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood</dct:title>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.15195/v10.a14"/>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <sdo:author rdf:resource="https://orcid.org/0000-0001-9919-4738"/>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9120"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.15195/v10.a14"/>
+    <sdo:funding>MAD2021</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.5281/zenodo.7443895">
+    <sdo:maintainer>Damiano Uccheddu</sdo:maintainer>
+    <dct:requires>CBS microdata, SHARE</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:language>Stata</dct:language>
+    <sdo:name>Children's strains, parents' pains? How adult children's union dissolution influences older parents' health</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-6215-203X"/>
+    <dct:title>Children's strains, parents' pains? How adult children's union dissolution influences older parents' health</dct:title>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-6215-203X"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.20377/jfr-774"/>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.20377/jfr-774"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/ygs72/">
+    <sdo:maintainer>Hannah Roberts</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <dct:language>R</dct:language>
+    <sdo:name>Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.envint.2021.106635"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0001-6978-4737"/>
+    <dct:title>Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study</dct:title>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-6978-4737"/>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8217"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.envint.2021.106635"/>
+    <sdo:funding>MAD2020</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.7910/DVN/P39QGO">
+    <sdo:maintainer>Marie Labussière</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:language>Stata</dct:language>
+    <sdo:name>Timing of citizenship acquisition and immigrants' children educational outcomes: a family fixed-effects approach</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1093/esr/jcad027"/>
+    <dct:title>Timing of citizenship acquisition and immigrants' children educational outcomes: a family fixed-effects approach</dct:title>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1093/esr/jcad027"/>
+  </sdo:SoftwareSourceCode>
+  <dcmitype:Dataset rdf:about="https://doi.org/10.34894/YQIIQV">
+    <sdo:publisher rdf:resource="https://osf.io/9b2xh/"/>
+    <dct:publisher rdf:resource="https://osf.io/9b2xh/"/>
+  </dcmitype:Dataset>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.7910/DVN/VMMMCL">
+    <dct:language>Stata</dct:language>
+    <sdo:maintainer>Marie Labussière</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <sdo:name>Citizenship and education trajectories among children of immigrants: A transition-oriented sequence analysis</sdo:name>
+    <dct:title>Citizenship and education trajectories among children of immigrants: A transition-oriented sequence analysis</dct:title>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.alcr.2021.100433"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.alcr.2021.100433"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.1016/j.lanepe.2023.100749">
+    <sdo:maintainer>Lianne Mulder</sdo:maintainer>
+    <sdo:programmingLanguage>SPSS</sdo:programmingLanguage>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8642"/>
+    <dct:language>SPSS</dct:language>
+    <sdo:name>Diversity in the pathway from medical student to specialist in the Netherlands: a retrospective cohort study</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.lanepe.2023.100749"/>
+    <dct:title>Diversity in the pathway from medical student to specialist in the Netherlands: a retrospective cohort study</dct:title>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-7899-2762"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-7899-2762"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.lanepe.2023.100749"/>
+    <sdo:funding>MAD2022</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/xsgdt/">
+    <dct:title>Gene-environment interaction analysis of school quality and educational inequality</dct:title>
+    <sdo:maintainer>Kim Stienstra</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata; Mplus</sdo:programmingLanguage>
+    <dct:language>Stata; Mplus</dct:language>
+    <sdo:name>Gene-environment interaction analysis of school quality and educational inequality</sdo:name>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1038/s41539-024-00225-x"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-9877-6215"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-9877-6215"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1038/s41539-024-00225-x"/>
+    <sdo:funding>MAG2019</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://jhr.uwpress.org/content/early/2023/06/01/jhr.1021-11986R1/tab-supplemental">
+    <sdo:maintainer>Esmée Zwiers</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8666"/>
+    <dct:language>Stata</dct:language>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.3368/jhr.1021-11986R1"/>
+    <dct:title>Medication of Postpartum Depression and Maternal Outcomes: Evidence from Geographic Variation in Dutch Prescribing</dct:title>
+    <sdo:name>Medication of Postpartum Depression and Maternal Outcomes: Evidence from Geographic Variation in Dutch Prescribing</sdo:name>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.3368/jhr.1021-11986R1"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://github.com/UtrechtUniversity/streetview-greenery">
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-0392-8915"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <dct:title>NEEDS (Dynamic Urban Environmental Exposures on Depression and Suicide)</dct:title>
+    <sdo:name>NEEDS (Dynamic Urban Environmental Exposures on Depression and Suicide)</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-0392-8915"/>
+    <sdo:programmingLanguage>Python</sdo:programmingLanguage>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8217"/>
+    <sdo:maintainer>Marco Helbich</sdo:maintainer>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1016/j.landurbplan.2021.104181"/>
+    <dct:language>Python</dct:language>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1016/j.landurbplan.2021.104181"/>
+    <sdo:funding>MAD2020</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.5281/zenodo.11225732">
+    <sdo:maintainer>Ahmad Hesam</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <dct:title>Enhancing Accuracy in Country-Wide Agent-Based Epidemiological Modeling through the Application of 17 Million Individual-Level Microdata Points</dct:title>
+    <sdo:name>Enhancing Accuracy in Country-Wide Agent-Based Epidemiological Modeling through the Application of 17 Million Individual-Level Microdata Points</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0001-7331-1000"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0001-7331-1000"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1101/2024.05.27.24307982"/>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1101/2024.05.27.24307982"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://github.com/MarkDVerhagen/Dutch_healthcare_inequalities_COVID19">
+    <sdo:maintainer>Mark Verhagen</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8951"/>
+    <dct:language>R</dct:language>
+    <sdo:programmingLanguage>R</sdo:programmingLanguage>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1038/s41467-024-45720-2"/>
+    <dct:title>Inequalities in Healthcare use during the COVID-19 pandemic</dct:title>
+    <sdo:name>Inequalities in Healthcare use during the COVID-19 pandemic</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-2746-0309"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-2746-0309"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1038/s41467-024-45720-2"/>
+  </sdo:SoftwareSourceCode>
+  <dcmitype:Dataset rdf:about="https://doi.org/10.34894/63XWJB">
+    <dct:publisher rdf:resource="https://osf.io/9b2xh/"/>
+    <sdo:publisher rdf:resource="https://osf.io/9b2xh/"/>
+  </dcmitype:Dataset>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/zf25j/">
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-2323-3782"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <dct:title>Inequality in pandemic effects on school track placement and the role of social and academic embeddedness</dct:title>
+    <sdo:name>Inequality in pandemic effects on school track placement and the role of social and academic embeddedness</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-2323-3782"/>
+    <sdo:programmingLanguage>SPSS, Stata, R</sdo:programmingLanguage>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9232"/>
+    <sdo:maintainer>Herman G. van de Werfhorst</sdo:maintainer>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1038/s41539-024-00283-1"/>
+    <dct:language>SPSS, Stata, R</dct:language>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1038/s41539-024-00283-1"/>
+    <sdo:funding>MAD2022</sdo:funding>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/9b2xh/">
+    <dct:language>Stata</dct:language>
+    <dct:creator rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <sftio:producesData rdf:resource="https://doi.org/10.34894/63XWJB"/>
+    <sftio:producesData rdf:resource="https://doi.org/10.34894/YQIIQV"/>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:produces rdf:resource="https://doi.org/10.34894/63XWJB"/>
+    <sdo:produces rdf:resource="https://doi.org/10.34894/YQIIQV"/>
+    <sdo:maintainer>Christoph Janietz</sdo:maintainer>
+    <sdo:name>Netherlands Integrated Database of Inequality in Organizations (NIDIO)</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0009-0006-0888-5650"/>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9607"/>
+    <dct:title>Netherlands Integrated Database of Inequality in Organizations (NIDIO)</dct:title>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://doi.org/10.7910/DVN/5XYHJD">
+    <sdo:maintainer>Marie Labussière</sdo:maintainer>
+    <dct:requires>CBS microdata</dct:requires>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:language>Stata</dct:language>
+    <sdo:name>The intergenerational impact of naturalisation reforms: the citizenship status of children of immigrants in the Netherlands, 1995-2016</sdo:name>
+    <dct:title>The intergenerational impact of naturalisation reforms: the citizenship status of children of immigrants in the Netherlands, 1995-2016</dct:title>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1080/1369183X.2020.1724533"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0003-4115-7883"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1080/1369183X.2020.1724533"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/xt4cq/">
+    <dct:title>Let's Stick Together: Peer Effects in Secondary School Choice and Variations by Student Socio-Economic Background</dct:title>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-5898-5557"/>
+    <sdo:maintainer>Dieuwke Zwier</sdo:maintainer>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/9232"/>
+    <dct:requires>CBS microdata, NCO</dct:requires>
+    <sdo:name>Let's Stick Together: Peer Effects in Secondary School Choice and Variations by Student Socio-Economic Background</sdo:name>
+    <sdo:programmingLanguage>Stata</sdo:programmingLanguage>
+    <dct:language>Stata</dct:language>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1093/esr/jcac033"/>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-5898-5557"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1093/esr/jcac033"/>
+  </sdo:SoftwareSourceCode>
+  <sdo:SoftwareSourceCode rdf:about="https://osf.io/7semh/">
+    <sdo:maintainer>Aranka van Ballering</sdo:maintainer>
+    <dct:requires>Lifelines, NPCD</dct:requires>
+    <sdo:producer rdf:resource="https://w3id.org/odissei/ns/kg/cbs/project/8656"/>
+    <dct:language>SPSS</dct:language>
+    <sdo:programmingLanguage>SPSS</sdo:programmingLanguage>
+    <dct:title>Sex and gender differences in primary care help-seeking for common somatic symptoms: a longitudinal study</dct:title>
+    <sdo:name>Sex and gender differences in primary care help-seeking for common somatic symptoms: a longitudinal study</sdo:name>
+    <sdo:author rdf:resource="https://orcid.org/0000-0002-3491-8990"/>
+    <codemeta:referencePublication rdf:resource="https://doi.org/10.1080/02813432.2023.2191653"/>
+    <dct:creator rdf:resource="https://orcid.org/0000-0002-3491-8990"/>
+    <dct:isReferencedBy rdf:resource="https://doi.org/10.1080/02813432.2023.2191653"/>
+  </sdo:SoftwareSourceCode>
+</rdf:RDF>

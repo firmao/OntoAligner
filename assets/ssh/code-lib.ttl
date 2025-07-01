@@ -1,0 +1,336 @@
+@prefix doi: <https://doi.org/>.
+@prefix dct: <http://purl.org/dc/terms/>.
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#>.
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix dcmitype: <http://purl.org/dc/dcmitype/>.
+@prefix sdo: <https://schema.org/>.
+@prefix codemeta: <https://codemeta.github.io/terms/>.
+@prefix cbs_project: <https://w3id.org/odissei/ns/kg/cbs/project/>.
+@prefix sftio: <https://w3id.org/software-iodata#>.
+
+doi:10.1016\/j.lanepe.2023.100749 dct:creator <https://orcid.org/0000-0002-7899-2762>;
+    dct:isReferencedBy doi:10.1016\/j.lanepe.2023.100749;
+    dct:language "SPSS";
+    dct:requires "CBS microdata";
+    dct:title "Diversity in the pathway from medical student to specialist in the Netherlands: a retrospective cohort study";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.lanepe.2023.100749;
+    sdo:author <https://orcid.org/0000-0002-7899-2762>;
+    sdo:funding "MAD2022";
+    sdo:maintainer "Lianne Mulder";
+    sdo:name "Diversity in the pathway from medical student to specialist in the Netherlands: a retrospective cohort study";
+    sdo:producer cbs_project:8642;
+    sdo:programmingLanguage "SPSS".
+doi:10.34894\/63XWJB dct:publisher <https://osf.io/9b2xh/>;
+    a dcmitype:Dataset;
+    sdo:publisher <https://osf.io/9b2xh/>.
+doi:10.34894\/YQIIQV dct:publisher <https://osf.io/9b2xh/>;
+    a dcmitype:Dataset;
+    sdo:publisher <https://osf.io/9b2xh/>.
+<https://osf.io/9b2xh/> dct:creator <https://orcid.org/0009-0006-0888-5650>;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "Netherlands Integrated Database of Inequality in Organizations (NIDIO)";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    sdo:author <https://orcid.org/0009-0006-0888-5650>;
+    sdo:maintainer "Christoph Janietz";
+    sdo:name "Netherlands Integrated Database of Inequality in Organizations (NIDIO)";
+    sdo:producer cbs_project:9607;
+    sdo:produces doi:10.34894\/63XWJB, doi:10.34894\/YQIIQV;
+    sdo:programmingLanguage "Stata";
+    sftio:producesData doi:10.34894\/63XWJB, doi:10.34894\/YQIIQV.
+doi:10.5281\/zenodo.11225732 dct:creator <https://orcid.org/0000-0001-7331-1000>;
+    dct:isReferencedBy doi:10.1101\/2024.05.27.24307982;
+    dct:requires "CBS microdata";
+    dct:title "Enhancing Accuracy in Country-Wide Agent-Based Epidemiological Modeling through the Application of 17 Million Individual-Level Microdata Points";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1101\/2024.05.27.24307982;
+    sdo:author <https://orcid.org/0000-0001-7331-1000>;
+    sdo:maintainer "Ahmad Hesam";
+    sdo:name "Enhancing Accuracy in Country-Wide Agent-Based Epidemiological Modeling through the Application of 17 Million Individual-Level Microdata Points".
+doi:10.5281\/zenodo.7443895 dct:creator <https://orcid.org/0000-0002-6215-203X>;
+    dct:isReferencedBy doi:10.20377\/jfr-774;
+    dct:language "Stata";
+    dct:requires "CBS microdata, SHARE";
+    dct:title "Children's strains, parents' pains? How adult children's union dissolution influences older parents' health";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.20377\/jfr-774;
+    sdo:author <https://orcid.org/0000-0002-6215-203X>;
+    sdo:maintainer "Damiano Uccheddu";
+    sdo:name "Children's strains, parents' pains? How adult children's union dissolution influences older parents' health";
+    sdo:programmingLanguage "Stata".
+doi:10.7910\/DVN\/5XYHJD dct:creator <https://orcid.org/0000-0003-4115-7883>;
+    dct:isReferencedBy doi:10.1080\/1369183X.2020.1724533;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "The intergenerational impact of naturalisation reforms: the citizenship status of children of immigrants in the Netherlands, 1995-2016";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1080\/1369183X.2020.1724533;
+    sdo:author <https://orcid.org/0000-0003-4115-7883>;
+    sdo:maintainer "Marie Labussière";
+    sdo:name "The intergenerational impact of naturalisation reforms: the citizenship status of children of immigrants in the Netherlands, 1995-2016";
+    sdo:programmingLanguage "Stata".
+doi:10.7910\/DVN\/P39QGO dct:creator <https://orcid.org/0000-0003-4115-7883>;
+    dct:isReferencedBy doi:10.1093\/esr\/jcad027;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "Timing of citizenship acquisition and immigrants' children educational outcomes: a family fixed-effects approach";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1093\/esr\/jcad027;
+    sdo:author <https://orcid.org/0000-0003-4115-7883>;
+    sdo:maintainer "Marie Labussière";
+    sdo:name "Timing of citizenship acquisition and immigrants' children educational outcomes: a family fixed-effects approach";
+    sdo:programmingLanguage "Stata".
+doi:10.7910\/DVN\/VMMMCL dct:creator <https://orcid.org/0000-0003-4115-7883>;
+    dct:isReferencedBy doi:10.1016\/j.alcr.2021.100433;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "Citizenship and education trajectories among children of immigrants: A transition-oriented sequence analysis";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.alcr.2021.100433;
+    sdo:author <https://orcid.org/0000-0003-4115-7883>;
+    sdo:maintainer "Marie Labussière";
+    sdo:name "Citizenship and education trajectories among children of immigrants: A transition-oriented sequence analysis";
+    sdo:programmingLanguage "Stata".
+<https://github.com/MarkDVerhagen/Dutch_healthcare_inequalities_COVID19> dct:creator <https://orcid.org/0000-0003-2746-0309>;
+    dct:isReferencedBy doi:10.1038\/s41467-024-45720-2;
+    dct:language "R";
+    dct:requires "CBS microdata";
+    dct:title "Inequalities in Healthcare use during the COVID-19 pandemic";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1038\/s41467-024-45720-2;
+    sdo:author <https://orcid.org/0000-0003-2746-0309>;
+    sdo:maintainer "Mark Verhagen";
+    sdo:name "Inequalities in Healthcare use during the COVID-19 pandemic";
+    sdo:producer cbs_project:8951;
+    sdo:programmingLanguage "R".
+<https://github.com/PerlineDemange/CBS-MR> dct:creator <https://orcid.org/0000-0002-7061-8354>;
+    dct:isReferencedBy doi:10.1101\/2023.01.26.23285029;
+    dct:language "R";
+    dct:requires "CBS microdata";
+    dct:title "Evaluating the causal relationship between educational attainment and mental health";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1101\/2023.01.26.23285029;
+    sdo:author <https://orcid.org/0000-0002-7061-8354>;
+    sdo:funding "MAD2022";
+    sdo:maintainer "Perline Demange";
+    sdo:name "Evaluating the causal relationship between educational attainment and mental health";
+    sdo:producer cbs_project:8590;
+    sdo:programmingLanguage "R".
+<https://github.com/UtrechtUniversity/streetview-greenery> dct:creator <https://orcid.org/0000-0003-0392-8915>;
+    dct:isReferencedBy doi:10.1016\/j.landurbplan.2021.104181;
+    dct:language "Python";
+    dct:requires "CBS microdata";
+    dct:title "NEEDS (Dynamic Urban Environmental Exposures on Depression and Suicide)";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.landurbplan.2021.104181;
+    sdo:author <https://orcid.org/0000-0003-0392-8915>;
+    sdo:funding "MAD2020";
+    sdo:maintainer "Marco Helbich";
+    sdo:name "NEEDS (Dynamic Urban Environmental Exposures on Depression and Suicide)";
+    sdo:producer cbs_project:8217;
+    sdo:programmingLanguage "Python".
+<https://github.com/rivm-syso/DIAPER> dct:creator <https://orcid.org/0000-0002-8025-040X>;
+    dct:isReferencedBy doi:10.1093\/eurpub\/ckac170;
+    dct:language "Stata";
+    dct:requires "CBS microdata; Perined; Vektis";
+    dct:title "Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1093\/eurpub\/ckac170;
+    sdo:author <https://orcid.org/0000-0002-8025-040X>;
+    sdo:maintainer "Joyce Molenaar";
+    sdo:name "Defining vulnerability subgroups among pregnant women using pre-pregnancy information: a latent class analysis";
+    sdo:producer cbs_project:8552;
+    sdo:programmingLanguage "Stata".
+<https://jhr.uwpress.org/content/early/2023/06/01/jhr.1021-11986R1/tab-supplemental> dct:isReferencedBy doi:10.3368\/jhr.1021-11986R1;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "Medication of Postpartum Depression and Maternal Outcomes: Evidence from Geographic Variation in Dutch Prescribing";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.3368\/jhr.1021-11986R1;
+    sdo:maintainer "Esmée Zwiers";
+    sdo:name "Medication of Postpartum Depression and Maternal Outcomes: Evidence from Geographic Variation in Dutch Prescribing";
+    sdo:producer cbs_project:8666;
+    sdo:programmingLanguage "Stata".
+<https://osf.io/46yqp/> dct:creator <https://orcid.org/0000-0002-8022-6354>;
+    dct:language "R";
+    dct:requires "CBS microdata";
+    dct:title "Statistics Netherlands (CBS) Microdata: Merging datasets (generic)";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    sdo:author <https://orcid.org/0000-0002-8022-6354>;
+    sdo:maintainer "Erwin Gielens";
+    sdo:name "Statistics Netherlands (CBS) Microdata: Merging datasets (generic)";
+    sdo:programmingLanguage "R".
+<https://osf.io/7semh/> dct:creator <https://orcid.org/0000-0002-3491-8990>;
+    dct:isReferencedBy doi:10.1080\/02813432.2023.2191653;
+    dct:language "SPSS";
+    dct:requires "Lifelines, NPCD";
+    dct:title "Sex and gender differences in primary care help-seeking for common somatic symptoms: a longitudinal study";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1080\/02813432.2023.2191653;
+    sdo:author <https://orcid.org/0000-0002-3491-8990>;
+    sdo:maintainer "Aranka van Ballering";
+    sdo:name "Sex and gender differences in primary care help-seeking for common somatic symptoms: a longitudinal study";
+    sdo:producer cbs_project:8656;
+    sdo:programmingLanguage "SPSS".
+<https://osf.io/8mw5s/> dct:creator <https://orcid.org/0000-0001-8557-5337>;
+    dct:isReferencedBy doi:10.1007\/s00148-024-01029-4;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "Less for more? Cuts to child benefits, family adjustments, and long-run child outcomes in larger families";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1007\/s00148-024-01029-4;
+    sdo:author <https://orcid.org/0000-0001-8557-5337>;
+    sdo:funding "MAG2021";
+    sdo:maintainer "Gabriele Mari";
+    sdo:name "Less for more? Cuts to child benefits, family adjustments, and long-run child outcomes in larger families";
+    sdo:producer cbs_project:9102;
+    sdo:programmingLanguage "Stata".
+<https://osf.io/eymg8/> dct:creator <https://orcid.org/0009-0006-0888-5650>;
+    dct:isReferencedBy doi:10.1016\/j.ssresearch.2024.103005;
+    dct:language "Stata, R";
+    dct:requires "CBS microdata";
+    dct:title "Occupations and careers within organizations: Do organizations facilitate unequal wage growth?";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.ssresearch.2024.103005;
+    sdo:author <https://orcid.org/0009-0006-0888-5650>;
+    sdo:maintainer "Christoph Janietz";
+    sdo:name "Occupations and careers within organizations: Do organizations facilitate unequal wage growth?";
+    sdo:producer cbs_project:8419;
+    sdo:programmingLanguage "Stata, R".
+<https://osf.io/fvqtc/> dct:creator <https://orcid.org/0000-0002-5898-5557>;
+    dct:isReferencedBy doi:10.1016\/j.socnet.2023.03.003;
+    dct:language "R";
+    dct:requires "CBS microdata, PRIMS";
+    dct:title "Knowing me, knowing you: Socio-economic status and (segregation in) peer and parental networks in primary school";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.socnet.2023.03.003;
+    sdo:author <https://orcid.org/0000-0002-5898-5557>;
+    sdo:maintainer "Dieuwke Zwier";
+    sdo:name "Knowing me, knowing you: Socio-economic status and (segregation in) peer and parental networks in primary school";
+    sdo:producer cbs_project:9232;
+    sdo:programmingLanguage "R".
+<https://osf.io/gmcjv/> dct:creator <https://orcid.org/0000-0001-9919-4738>;
+    dct:isReferencedBy doi:10.15195\/v10.a14;
+    dct:language "R";
+    dct:requires "CBS microdata";
+    dct:title "Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.15195\/v10.a14;
+    sdo:author <https://orcid.org/0000-0001-9919-4738>;
+    sdo:funding "MAD2021";
+    sdo:maintainer "Weverthon Barbosa Machado";
+    sdo:name "Money, Birth, Gender: Explaining Unequal Earnings Trajectories following Parenthood";
+    sdo:producer cbs_project:9120;
+    sdo:programmingLanguage "R".
+<https://osf.io/sf4q6/> dct:creator <https://orcid.org/0009-0006-0888-5650>;
+    dct:isReferencedBy doi:10.1016\/j.rssm.2019.100468;
+    dct:language "Stata, R";
+    dct:requires "CBS microdata";
+    dct:title "Occupations, organizations, and the structure of wage inequality in the Netherlands";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.rssm.2019.100468;
+    sdo:author <https://orcid.org/0009-0006-0888-5650>;
+    sdo:maintainer "Christoph Janietz";
+    sdo:name "Occupations, organizations, and the structure of wage inequality in the Netherlands";
+    sdo:producer cbs_project:8419;
+    sdo:programmingLanguage "Stata, R".
+<https://osf.io/uzcrw?view_only=7114b77c9f8b4062ab31f885ce331a65> dct:creator <https://orcid.org/0000-0002-7899-2762>;
+    dct:isReferencedBy doi:10.1371\/journal.pone.0292805;
+    dct:language "SPSS";
+    dct:requires "CBS microdata";
+    dct:title "Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1371\/journal.pone.0292805;
+    sdo:author <https://orcid.org/0000-0002-7899-2762>;
+    sdo:funding "MAD2022";
+    sdo:maintainer "Lianne Mulder";
+    sdo:name "Inequality of opportunity in selection procedures limits diversity in higher education: An intersectional study of Dutch selective higher education programs";
+    sdo:producer cbs_project:8642;
+    sdo:programmingLanguage "SPSS".
+<https://osf.io/wnhm7/> dct:creator <https://orcid.org/0000-0001-8557-5337>;
+    dct:isReferencedBy doi:10.1080\/14616696.2023.2188550;
+    dct:language "Stata";
+    dct:requires "CBS microdata";
+    dct:title "The timing of parental unemployment, insurance and children's education";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1080\/14616696.2023.2188550;
+    sdo:author <https://orcid.org/0000-0001-8557-5337>;
+    sdo:maintainer "Gabriele Mari";
+    sdo:name "The timing of parental unemployment, insurance and children's education";
+    sdo:producer cbs_project:SES\/208008SSBONT_SEC1;
+    sdo:programmingLanguage "Stata".
+<https://osf.io/xsgdt/> dct:creator <https://orcid.org/0000-0002-9877-6215>;
+    dct:isReferencedBy doi:10.1038\/s41539-024-00225-x;
+    dct:language "Stata; Mplus";
+    dct:requires "CBS microdata";
+    dct:title "Gene-environment interaction analysis of school quality and educational inequality";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1038\/s41539-024-00225-x;
+    sdo:author <https://orcid.org/0000-0002-9877-6215>;
+    sdo:funding "MAG2019";
+    sdo:maintainer "Kim Stienstra";
+    sdo:name "Gene-environment interaction analysis of school quality and educational inequality";
+    sdo:programmingLanguage "Stata; Mplus".
+<https://osf.io/xt4cq/> dct:creator <https://orcid.org/0000-0002-5898-5557>;
+    dct:isReferencedBy doi:10.1093\/esr\/jcac033;
+    dct:language "Stata";
+    dct:requires "CBS microdata, NCO";
+    dct:title "Let's Stick Together: Peer Effects in Secondary School Choice and Variations by Student Socio-Economic Background";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1093\/esr\/jcac033;
+    sdo:author <https://orcid.org/0000-0002-5898-5557>;
+    sdo:maintainer "Dieuwke Zwier";
+    sdo:name "Let's Stick Together: Peer Effects in Secondary School Choice and Variations by Student Socio-Economic Background";
+    sdo:producer cbs_project:9232;
+    sdo:programmingLanguage "Stata".
+<https://osf.io/y7tnx/> dct:creator <https://orcid.org/0009-0006-0888-5650>;
+    dct:isReferencedBy doi:10.1093\/esr\/jcad075;
+    dct:language "Stata, R";
+    dct:requires "CBS microdata";
+    dct:title "Temporary employment and wage inequality over the life course";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1093\/esr\/jcad075;
+    sdo:author <https://orcid.org/0009-0006-0888-5650>;
+    sdo:maintainer "Christoph Janietz";
+    sdo:name "Temporary employment and wage inequality over the life course";
+    sdo:producer cbs_project:8419;
+    sdo:programmingLanguage "Stata, R".
+<https://osf.io/ygs72/> dct:creator <https://orcid.org/0000-0001-6978-4737>;
+    dct:isReferencedBy doi:10.1016\/j.envint.2021.106635;
+    dct:language "R";
+    dct:requires "CBS microdata";
+    dct:title "Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1016\/j.envint.2021.106635;
+    sdo:author <https://orcid.org/0000-0001-6978-4737>;
+    sdo:funding "MAD2020";
+    sdo:maintainer "Hannah Roberts";
+    sdo:name "Multiple environmental exposures along daily mobility paths and depressive symptoms: A smartphone-based tracking study";
+    sdo:producer cbs_project:8217;
+    sdo:programmingLanguage "R".
+<https://osf.io/yt4dj/> dct:creator <https://orcid.org/0009-0006-0888-5650>;
+    dct:isReferencedBy doi:10.1162\/euso_a_00020;
+    dct:language "Stata, R";
+    dct:requires "CBS microdata";
+    dct:title "Essential Workers and Wage Inequality: Wage Differentials before and during the Covid-19 Pandemic, 2006 to 2022";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1162\/euso_a_00020;
+    sdo:author <https://orcid.org/0009-0006-0888-5650>;
+    sdo:maintainer "Christoph Janietz";
+    sdo:name "Essential Workers and Wage Inequality: Wage Differentials before and during the Covid-19 Pandemic, 2006 to 2022";
+    sdo:producer cbs_project:8419;
+    sdo:programmingLanguage "Stata, R".
+<https://osf.io/zf25j/> dct:creator <https://orcid.org/0000-0003-2323-3782>;
+    dct:isReferencedBy doi:10.1038\/s41539-024-00283-1;
+    dct:language "SPSS, Stata, R";
+    dct:requires "CBS microdata";
+    dct:title "Inequality in pandemic effects on school track placement and the role of social and academic embeddedness";
+    a dcmitype:Software, sdo:SoftwareSourceCode;
+    codemeta:referencePublication doi:10.1038\/s41539-024-00283-1;
+    sdo:author <https://orcid.org/0000-0003-2323-3782>;
+    sdo:funding "MAD2022";
+    sdo:maintainer "Herman G. van de Werfhorst";
+    sdo:name "Inequality in pandemic effects on school track placement and the role of social and academic embeddedness";
+    sdo:producer cbs_project:9232;
+    sdo:programmingLanguage "SPSS, Stata, R".

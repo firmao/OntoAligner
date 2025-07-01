@@ -15,7 +15,7 @@ print("Test Task:", task)
 # The paths to the source ontology, target ontology, and reference matching files are provided
 dataset = task.collect(source_ontology_path="../assets/MI-MatOnto/mi_ontology.xml",
                        target_ontology_path="../assets/MI-MatOnto/matonto_ontology.xml",
-                       reference_matching_path="../assets/MI-MatOnto/matchings.xml")
+                       reference_matching_path="")
 
 # Initialize the encoder model to map concepts between the source and target ontologies
 # 'ConceptParentLightweightEncoder' is used here to generate embeddings for matching
