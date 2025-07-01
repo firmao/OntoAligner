@@ -13,8 +13,8 @@ print("Test Task:", task)
 
 # Collect the dataset for ontology matching, including source, target, and reference matching
 # The paths to the source ontology, target ontology, and reference matching files are provided
-dataset = task.collect(source_ontology_path="../assets/MI-MatOnto/mi_ontology.xml",
-                       target_ontology_path="../assets/MI-MatOnto/matonto_ontology.xml",
+dataset = task.collect(source_ontology_path="../assets/ssh/code-lib.xml",
+                       target_ontology_path="../assets/ssh/clariah-tools.xml",
                        reference_matching_path="")
 
 # Initialize the encoder model to map concepts between the source and target ontologies
