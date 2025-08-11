@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+>
+   <rdf:Description rdf:about="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:isVersionOf rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes"/>
+      <skos:notation>CessdaPersistentIdentifierTypes</skos:notation>
+      <dcterms:title xml:lang="en">CESSDA Persistent Identifier Types</dcterms:title>
+      <dcterms:description xml:lang="en">Lists the types of persistent identifiers that CESSDA accepts as study level PIDs in its data catalogue.</dcterms:description>
+      <owl:versionInfo>1.0.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      <dcterms:rights>Copyright &#xa9;CESSDA 2020</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#ARK"/>
+      <skos:hasTopConcept rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#DOI"/>
+      <skos:hasTopConcept rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#Handle"/>
+      <skos:hasTopConcept rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#URN"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#ARK">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0"/>
+      <skos:notation>ARK</skos:notation>
+      <skos:prefLabel xml:lang="en">ARK</skos:prefLabel>
+      <skos:definition xml:lang="en">Archival Resource Key</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#DOI">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0"/>
+      <skos:notation>DOI</skos:notation>
+      <skos:prefLabel xml:lang="en">DOI</skos:prefLabel>
+      <skos:definition xml:lang="en">Digital Object Identifier</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#Handle">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0"/>
+      <skos:notation>Handle</skos:notation>
+      <skos:prefLabel xml:lang="en">Handle</skos:prefLabel>
+      <skos:definition xml:lang="en">The Handle system. Includes ePIC Handles.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0#URN">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://vocabularies.cessda.eu/vocabulary/CessdaPersistentIdentifierTypes?v=1.0.0"/>
+      <skos:notation>URN</skos:notation>
+      <skos:prefLabel xml:lang="en">URN</skos:prefLabel>
+      <skos:definition xml:lang="en">Universal Resource Name</skos:definition>
+   </rdf:Description>
+</rdf:RDF>

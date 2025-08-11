@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+         xmlns:owl="http://www.w3.org/2002/07/owl#"
+         xmlns:dcterms="http://purl.org/dc/terms/"
+>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#ConceptScheme"/>
+      <dcterms:isVersionOf rdf:resource="null/1.0.0/1.1.0/1.2.0/1.3.0/1.4.0/1.5.0/1.6.0/1.7.0/1.8.0/1.9.0"/>
+      <skos:notation>rexconcepts</skos:notation>
+      <dcterms:title xml:lang="en"> Central concepts of R|EX research </dcterms:title>
+      <dcterms:description xml:lang="en">This CV, developed within the framework of the DP-R|EX joint project, involving the partner institutions DeZIM, Qualiservice and GESIS, maps the central concepts and theoretical approaches in research on racism and right-wing extremism. The compilation is based on a systematic evaluation of the relevant national and international empirical research literature. The CV equally takes into account the different thematic (racism, right-wing extremism, discrimination) as well as methodological (qualitative research, standardised surveys, data from social media and messaging services) research strands. </dcterms:description>
+      <owl:versionInfo>1.9.0</owl:versionInfo>
+      <dcterms:license rdf:resource="http://creativecommons.org/licenses/by/4.0/"/>
+      <dcterms:rights>Copyright &#xa9;GESIS 2025</dcterms:rights>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#33"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#32"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#01"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#03"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#04"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#05"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#39"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#56"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#42"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#57"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#08"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#09"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#31"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#44"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#11"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#12"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#46"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#15"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#16"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#17"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#18"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#43"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#45"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#20"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#22"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#54"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#47"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#48"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#68"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#41"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#37"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#24"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#25"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#26"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#28"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#51"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#49"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#60"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#38"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#58"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#29"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#30"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#52"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#50"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#40"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#61"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#62"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#63"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#64"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#65"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#66"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#67"/>
+      <skos:hasTopConcept rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#69"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#33">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>33</skos:notation>
+      <skos:prefLabel xml:lang="en">Anti-racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Anti-racism includes all approaches that aim to eliminate conditions and attitudes that are based on racist intentions.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#32">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>32</skos:notation>
+      <skos:prefLabel xml:lang="en">Anomia</skos:prefLabel>
+      <skos:definition xml:lang="en">Anomie refers to the literal opposition or absence of law and order and was introduced by Emile Durkheim (1858-1917) to analyse social distress, particularly deviant behaviours, as a result of societal modernisation (Oberwittler, 2018). In sociology, the term is often used to describe a state of lack of social norms and order at the macro level. At the individual level, the equivalent (&apos;anomia&apos;) refers to insufficient social integration and the feelings of alienation, powerlessness, helplessness and isolation that arise from it.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#01">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>01</skos:notation>
+      <skos:prefLabel xml:lang="en">Antifeminism</skos:prefLabel>
+      <skos:definition xml:lang="en">Antifeminism forms the opposition to feminism and emerged parallel to the women&apos;s movement. These are organised, heterogeneous groups of actors who explicitly position themselves against feminism and/or heteronormatively oppose the pluralisation of sexual, gender and family life forms and an accompanying recognition of these in their diversity in debates on family, gender and sexuality-related issues.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02</skos:notation>
+      <skos:prefLabel xml:lang="en">Antisemitism</skos:prefLabel>
+      <skos:definition xml:lang="en">Anti-Semitism is a permanent, latent stock of hostile beliefs towards Jews as a collective. These beliefs manifest themselves on an individual level in the form of prejudices and stereotypes, within the culture in the form of myths, ideology, popular beliefs and symbols, as well as in the form of individual or collective actions. Social or legal discrimination, political mobilisation against Jews and collective or state violence, aim to defame, expel or oppress Jews as such.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.02d"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02.2d</skos:notation>
+      <skos:prefLabel xml:lang="en">NS-comparative Criticism of Israel</skos:prefLabel>
+      <skos:definition xml:lang="en">Nazi-comparative critique of Israel describes the rejection of Jews that is legitimised by Israeli policies and a critique of Israel that works with Nazi comparisons and associations, e.g. by using the word &quot;war of extermination&quot; (Zick &amp; K&#xfc;pper, 2005).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02.2a</skos:notation>
+      <skos:prefLabel xml:lang="en">Classical antisemitism</skos:prefLabel>
+      <skos:definition xml:lang="en">An offensive devaluation of Jews on the basis of negative and traditional stereotypes. Examples of this are the enemy image of the Christ-killer or the money-grubbing usurious Jew.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02.2b</skos:notation>
+      <skos:prefLabel xml:lang="en">Secondary antisemitism</skos:prefLabel>
+      <skos:definition xml:lang="en">A form of Antisemitism that is specific to Germany, characterised by the relativisation, trivialisation and partial denial of the National Socialist atrocities against the European Jews. Examples include the denial of the Holocaust (Auschwitz lie) and the frequent perpetrator-victim reversal.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.2c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02.2c</skos:notation>
+      <skos:prefLabel xml:lang="en">Israel-related antisemitism</skos:prefLabel>
+      <skos:definition xml:lang="en">Holding Jews responsible for and criticising Israel&apos;s policies. The respective resident, local Jewish population outside Israel becomes a representative of Israeli politics and, because of this, a target of public attacks and discrimination.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#02.02d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>02.02d</skos:notation>
+      <skos:prefLabel xml:lang="en">Muslim antisemitism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#03">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>03</skos:notation>
+      <skos:prefLabel xml:lang="en">Antiziganism</skos:prefLabel>
+      <skos:definition xml:lang="en">Antigypsyism is a form of racism in which racist prejudices are specifically directed against a certain ethnic group. An essential component of the term is the word &apos;Gypsy&apos;, which is a discriminatory foreign designation and is often perceived as offensive by the targeted groups. Most of the people referred to by this term feel that they belong to the Sinti or Roma group. But also other groups, such as the Irish Travelers, the Dutch Woonwagenbewoers or the Yenish are stigmatised as &quot;Gypsies&quot;. Since antiziganism is fed by culturally transmitted images and stereotypes, A. often has nothing in common with the real people who are affected. In that sense, the prejudice structure takes on a life of its own.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#04">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>04</skos:notation>
+      <skos:prefLabel xml:lang="en">Authoritarianism</skos:prefLabel>
+      <skos:definition xml:lang="en">At the macro level, the term authoritarianism describes a dictatorial form of rule which, unlike dictatorial totalitarianism, often allows for a certain degree of pluralism. The most important characteristic of authoritarian forms of rule is the lack of fundamental ideologies; instead, they fall back on supposedly eternal, general values and traditional patterns of morality. In contrast to totalitarianism, authoritarianism does not focus on ideology, but on the authoritarian leader (Linz 2011). Typical of authoritarianism is the desire for power and strength, whereas weaker minorities are often despised in an aggressive manner. These minorities are also often used as scapegoats. The resulting image of the enemy is usually embodied by migrants, asylum seekers and fellow citizens of Jewish or Islamic faith.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#04.4a"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#04.4a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>04.4a</skos:notation>
+      <skos:prefLabel xml:lang="en">Authoritarian personality</skos:prefLabel>
+      <skos:definition xml:lang="en">To further define the authoritarian personality, Adorno identified nine essential character dimensions that form the basic content for qualitative and empirical analyses (especially the Fascism Scale): - Conventionalism: rigid attachment to the conventional values of the middle class. - Authoritarian submissiveness: Uncritical submission to idealised authorities of the self-group. - Authoritarian aggression: Tendency to look for people who disregard conventional values in order to condemn, reject and punish them. - Authoritarian aggression: Tendency to look for people who disregard conventional values in order to be able to condemn, reject and punish them. - Anti-intraception: rejection of the subjective, the imaginative, the sensitive. - Superstition and stereotypy: belief in the mystical determination of one&apos;s own destiny; the disposition to think in rigid categories. - Power thinking and &quot;showmanship&quot;: thinking in dimensions such as domination - submission, strong - weak, leader - followers; identification with power figures; overemphasis on conventionalised attributes of the self; exaggerated display of strength and robustness. - Destructiveness and cynicism: General hostility, defamation of the human. - Projectivity: Disposition to believe in wild and dangerous processes in the world; the projection of unconscious drive impulses onto the outside world. - Sexuality: Exaggerated preoccupation with sexual &quot;processes&quot;.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#05">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>05</skos:notation>
+      <skos:prefLabel xml:lang="en">Chauvinism</skos:prefLabel>
+      <skos:definition xml:lang="en">Chauvinism refers to the exaggerated feeling of superiority of a group, which is accompanied by contempt for people outside this group. Often chauvinism is expressed as an extreme form of patriotism or nationalism (national chauvinism). Social chauvinism as a component of the social movement describes a chauvinism of the elite against social achievements and embodies a kind of &quot;classism&quot;. Male/masculine chauvinism describes an attitude that is directed against equal rights for women in the public as well as in the private sphere.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#39">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>39</skos:notation>
+      <skos:prefLabel xml:lang="en">Critical Whiteness</skos:prefLabel>
+      <skos:definition xml:lang="en">Critical whiteness refers to the process of becoming aware of one&apos;s privileges based on a predominant skin colour or ethnicity and understanding the impact of these privileges.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#56">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>56</skos:notation>
+      <skos:prefLabel xml:lang="en">Understanding of democracy</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination</skos:prefLabel>
+      <skos:definition xml:lang="en">Discrimination is considered to be a social phenomenon based on the social construction of categorisations into belonging and non-belonging and associated positions in the social structure. Discriminatory attitudes and actions (micro-level) are thus the result of discriminatory conditions that are anchored in social structures and processes (macro-level). According to the General Equal Treatment Act (AGG), discrimination is either direct  or indirect. The former occurs when a person experiences, has experienced or would experience less favourable treatment than a comparator. The latter refers to seemingly neutral regulations that put people at a disadvantage because of a characteristic that sets them apart from the majority society. Such characteristics include, for example, a person&apos;s ethnic or religious affiliation, national origin, language deficits or external characteristic features. In addition, the concept of discrimination combines an active role (discriminatory attitudes and behaviour) and a passive role (experiences or perceptions of discrimination).</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6e"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6f"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6g"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6h"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.06i"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6a</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination experiences</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6b</skos:notation>
+      <skos:prefLabel xml:lang="en">Discriminatory behaviour</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6c</skos:notation>
+      <skos:prefLabel xml:lang="en">Language discrimination</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6d</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on nationality</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6e">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6e</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on ethnicity</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6f">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6f</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on religious affiliation</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6g">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6g</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on appearance</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.6h">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.6h</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on gender</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#06.06i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>06.06i</skos:notation>
+      <skos:prefLabel xml:lang="en">Discrimination based on age</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#42">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>42</skos:notation>
+      <skos:prefLabel xml:lang="en">Naturalisation measures</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#57">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>57</skos:notation>
+      <skos:prefLabel xml:lang="en">Attitudes towards the European Union (EU)</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>07</skos:notation>
+      <skos:prefLabel xml:lang="en">Ethnocentrism</skos:prefLabel>
+      <skos:definition xml:lang="en">Ethnocentrism describes the tendency to regard one&apos;s own culture as the universal social standard, also for other cultures. In this way, one&apos;s own culture is positively distinguished from other (cultural) groups/circles. The disparagement of the foreign group takes place on the one hand through essentialisation (feelings of superiority, discrimination and clear demarcation of the foreign group, stereotyping) and naturalisation, which is based on the inequality of external physical characteristics, from which inner (psychological) characteristics are inferred. These characteristics are transferred to the entire foreign group (totalisation). As in ethnonationalism, the natural originality of one&apos;s own culture is assumed.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7c"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>07.7a</skos:notation>
+      <skos:prefLabel xml:lang="en">Ethnisation</skos:prefLabel>
+      <skos:definition xml:lang="en">Ethnisation ( also known as &apos;culturalisation&apos; or &apos;cultural essentialisation&apos;) is a process of categorising cultural groups. A distinction can be made between self-ethnicisation and foreign-ethnicisation. When we speak of the ethnicisation of certain groups, we are talking about the process of reducing differences (assimilation) between these cultural groups.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>07.7b</skos:notation>
+      <skos:prefLabel xml:lang="en">Ethnonationalism</skos:prefLabel>
+      <skos:definition xml:lang="en">Ethnonationalism ( also known as &quot;ethnic nationalism&quot;) refers to identity with and loyalty to a nation in the sense of a human distinctiveness based on a myth of common ancestry. Although the belief that one&apos;s nation is ethnically pure, exclusive and unique is based on an intuitive view rather than rational logic, as such it can withstand scientific and historical evidence to the contrary.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#07.7c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>07.7c</skos:notation>
+      <skos:prefLabel xml:lang="en">Ethnocide</skos:prefLabel>
+      <skos:definition xml:lang="en">Ethnocide is understood to be a &quot;cultural death&quot;. An intentional ethnocide is an attempt to destroy the cultural existence of an ethnic group and is usually attributed to a dominant society&apos;s sense of superiority over ethnic minorities.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#08">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>08</skos:notation>
+      <skos:prefLabel xml:lang="en">Extremist (sub-)groups</skos:prefLabel>
+      <skos:definition xml:lang="en">Extremist subgroups include (right-wing) extremist or radical organisations that follow a specific ideology and are usually opposed to the prevailing state system. One of the best-known examples is the National Socialist Underground (NSU), a neo-Nazi terrorist organisation with xenophobic and racist motives. In addition, extremist groups of non-German origin also exist, such as the Grey Wolves; a Turkish nationalist movement that follows Islamic values and is directed against supposed leftists and non-Turks (especially also Kurds and Armenians).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#09">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>09</skos:notation>
+      <skos:prefLabel xml:lang="en">Fascism</skos:prefLabel>
+      <skos:definition xml:lang="en">Fascism is a form of ultra-nationalist populism. Based on the historical context (such as the Third Reich or Mussolini&apos;s Italy), a fascist system is characterised by the rule of only one political, anti-democratic party, massive terror and violence against dissenters, and the absence of freedom of expression and freedom of the press. Fascist movements seek to restore pre-modern patriarchal values within a new order based on ethnic, racial or religious communities.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>35</skos:notation>
+      <skos:prefLabel xml:lang="en">Reasons for fleeing a country</skos:prefLabel>
+      <skos:definition xml:lang="en">Reasons for seeking shelter provide information on the reasons that lead people to leave their home country. They include, for example, political persecution, economic hardship/malaise or environmental disasters.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35d"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>35.35a</skos:notation>
+      <skos:prefLabel xml:lang="en">Political persecution</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>35.35b</skos:notation>
+      <skos:prefLabel xml:lang="en">Economic migrants</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>35.35c</skos:notation>
+      <skos:prefLabel xml:lang="en">Environmentally displaced persons</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#35.35d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>35.35d</skos:notation>
+      <skos:prefLabel xml:lang="en">Family migration</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#31">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>31</skos:notation>
+      <skos:prefLabel xml:lang="en">Xenophobia</skos:prefLabel>
+      <skos:definition xml:lang="en">Xenophobia is solely intended to be a demarcation of one&apos;s own group from other foreign groups. Nevertheless, both in the sciences and in everyday language use, the term implies that these are people of a different ethnic-cultural origin (Jaschke 2001).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#44">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>44</skos:notation>
+      <skos:prefLabel xml:lang="en">Understanding of gender roles</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10</skos:notation>
+      <skos:prefLabel xml:lang="en">Group-focused enmity</skos:prefLabel>
+      <skos:definition xml:lang="en">Group-focused enmity refers to pejorative and exclusionary attitudes towards people based on their assigned membership of a social group (foreign attribution). This can manifest itself, among other things, in discriminatory or violent behaviour and have an impact on structural and institutional dimensions of society (Zick et al. 2012).</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10e"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10.10a</skos:notation>
+      <skos:prefLabel xml:lang="en">Hostility towards foreigners</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10.10b</skos:notation>
+      <skos:prefLabel xml:lang="en">Precedent rights of established</skos:prefLabel>
+      <skos:definition xml:lang="en">Establishment prerogatives are rights that people claim for themselves who consider themselves long-established. If, for example, people who have lived in a region for a long time enjoy more rights than newcomers, one can speak of established privileges (cf. Heinrich B&#xf6;ll Foundation).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10.10c</skos:notation>
+      <skos:prefLabel xml:lang="en">Homophobia</skos:prefLabel>
+      <skos:definition xml:lang="en">H. refers to negative attitudes, prejudices, and rejection towards homosexual individuals.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10.10d</skos:notation>
+      <skos:prefLabel xml:lang="en">Hostility towards the homeless</skos:prefLabel>
+      <skos:definition xml:lang="en">Hostility towards individuals experiencing homelessness. It is regarded by social scientists as a typical element of a right-wing extremist worldview.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#10.10e">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>10.10e</skos:notation>
+      <skos:prefLabel xml:lang="en">Sexism</skos:prefLabel>
+      <skos:definition xml:lang="en">S denotes the disadvantage, devaluation, harm, and oppression of an individual or a group based on their gender (bpb, Federal Agency for Civic Education).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#11">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>11</skos:notation>
+      <skos:prefLabel xml:lang="en">Hate speech</skos:prefLabel>
+      <skos:definition xml:lang="en">Hate speech is a deliberate and intentional public expression aimed at defaming a group of people. It can occur in different forms in the media or social networks. Hate speech relies on characteristic features such as skin colour, religion, ethnicity or nationality, gender, sexual identity or political orientation. Hate speech is also referred to as negative stereotyping, which is socially accepted and therefore not recognised as such. In addition, hate speech insinuates malicious or misleading intentions on the part of others and often employs emotional and negative language to mobilise the public.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#12">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>12</skos:notation>
+      <skos:prefLabel xml:lang="en">Identity &amp; sense of social belonging</skos:prefLabel>
+      <skos:definition xml:lang="en">The term &quot;identity&quot; is referred to as the social dimension of the concept itself and has a constitutive, symbolically demarcating character. It conveys a sense of belonging to a particular social group and in this regard is not singular but can be multifaceted (Alba 2005).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13</skos:notation>
+      <skos:prefLabel xml:lang="en">Integration</skos:prefLabel>
+      <skos:definition xml:lang="en">Integration refers to the social and political inclusion of individuals or population groups who belong to a minority and differ, for example, in their ethnicity, religion or language (Schubert &amp; Klein 2020).</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13e"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13.13a</skos:notation>
+      <skos:prefLabel xml:lang="en">Assimilation</skos:prefLabel>
+      <skos:definition xml:lang="en">A. describes a gradual adaptation of minorities to the socio-economic, social and cultural structures of the majority society.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13.13b</skos:notation>
+      <skos:prefLabel xml:lang="en">Marginalisation</skos:prefLabel>
+      <skos:definition xml:lang="en">Describes a social process in which social groups are excluded from social participation (political, cultural, economic).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13.13c</skos:notation>
+      <skos:prefLabel xml:lang="en">Multiculturalism</skos:prefLabel>
+      <skos:definition xml:lang="en">Multiculturalism refers to the existence of a liberal-open order of (cultural, religious, ethnic or linguistic) diversity within a society.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13.13d</skos:notation>
+      <skos:prefLabel xml:lang="en">Segregation</skos:prefLabel>
+      <skos:definition xml:lang="en">Segregation describes the (spatial) division/polarisation of different social groups.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#13.13e">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>13.13e</skos:notation>
+      <skos:prefLabel xml:lang="en">Socio-spatial separation </skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#46">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>46</skos:notation>
+      <skos:prefLabel xml:lang="en">Integration policy</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14</skos:notation>
+      <skos:prefLabel xml:lang="en">Intergroup relations/conflicts</skos:prefLabel>
+      <skos:definition xml:lang="en">Positive intergroup contacts, especially interethnic ones, signal to minority groups that &apos;ethnic (group) boundaries&apos; are permeable and that belonging to the host society represents a viable strategy. The nature of the relationship is crucial. Negative relations with the dominant group can therefore have the opposite effect and bring discrepancies to the fore. In this case, the group boundaries seem invincible and lead not only to conflicts but also to segregation or marginalisation.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14e"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14f"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14g"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14a</skos:notation>
+      <skos:prefLabel xml:lang="en">Threat perceptions</skos:prefLabel>
+      <skos:definition xml:lang="en">People living in situations of scarcity in particular tend to perceive certain groups as competitors and hold them responsible for their situation. The individual situation or the situation of one&apos;s own group can be a starting point for comparative processes (Rippl, 2003).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14b</skos:notation>
+      <skos:prefLabel xml:lang="en">In-group preference / welfare chauvinism</skos:prefLabel>
+      <skos:definition xml:lang="en">Refers to a rhetoric that describes the already existing welfare state as an exclusive institution that is to be protected or closed off from &apos;the others&apos;.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14c</skos:notation>
+      <skos:prefLabel xml:lang="en">Realistic threat perceptions</skos:prefLabel>
+      <skos:definition xml:lang="en">Refers to the objective/proven disadvantage of comparable social groups.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14d</skos:notation>
+      <skos:prefLabel xml:lang="en">Symbolic threat perceptions</skos:prefLabel>
+      <skos:definition xml:lang="en">Refers to subjectively perceived disadvantage from an individual perspective that is not based on empirical facts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14e">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14e</skos:notation>
+      <skos:prefLabel xml:lang="en">Intergroup contact</skos:prefLabel>
+      <skos:definition xml:lang="en">Neighbourhood, labour market, family/friends</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14f">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14f</skos:notation>
+      <skos:prefLabel xml:lang="en">Social dominance orientation</skos:prefLabel>
+      <skos:definition xml:lang="en">SDO is based on the assumption that society as a social system is structured on the basis of group-based hierarchies (Heyder et al 2005).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#14.14g">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>14.14g</skos:notation>
+      <skos:prefLabel xml:lang="en">Deprivation</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#15">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>15</skos:notation>
+      <skos:prefLabel xml:lang="en">Criminality</skos:prefLabel>
+      <skos:definition xml:lang="en">Criminality refers to the totality of all offences punishable by law within a jurisdiction or a community of law.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#16">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>16</skos:notation>
+      <skos:prefLabel xml:lang="en">Left-wing extremism</skos:prefLabel>
+      <skos:definition xml:lang="en">Left-wing extremism forms the opposition to right-wing extremism. It strives for the abolition of the capitalist social order and for equal opportunities and equal rights within a liberal-democratic and diverse social order.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#17">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>17</skos:notation>
+      <skos:prefLabel xml:lang="en">Left-wing populism</skos:prefLabel>
+      <skos:definition xml:lang="en">Left populism represents an egalitarian and anti-capitalist political stance that primarily criticises the economic and financial elites. The LWP resorts to a normatively charged political logic in which the people is not a given entity, but is developed in political conflict.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#18">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>18</skos:notation>
+      <skos:prefLabel xml:lang="en">Human rights violation</skos:prefLabel>
+      <skos:definition xml:lang="en">A human rights violation occurs when people are persecuted, threatened or discriminated against on grounds of religion, ethnicity, political opinion or sexual orientation (cf. UNHCR).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#43">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>43</skos:notation>
+      <skos:prefLabel xml:lang="en">Motives for migration</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#45">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>45</skos:notation>
+      <skos:prefLabel xml:lang="en">Migration policy</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>19</skos:notation>
+      <skos:prefLabel xml:lang="en">Migration and integration policies</skos:prefLabel>
+      <skos:definition xml:lang="en">Immigration policies aim to establish a balanced approach to dealing with legal and illegal immigration. This includes, for example, regulations on the asylum procedure, family reunification or official integration measures.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19.19a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19.19b"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19.19a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>19.19a</skos:notation>
+      <skos:prefLabel xml:lang="en">Principle of awarding citizenship based on parentage (jus sanguinis) </skos:prefLabel>
+      <skos:definition xml:lang="en">Children acquire citizenship based on the nationality of their parents (or at least one parent), regardless of their place of birth.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#19.19b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>19.19b</skos:notation>
+      <skos:prefLabel xml:lang="en">Principle of awarding citizenship to persons born within their territories ( jus soli) </skos:prefLabel>
+      <skos:definition xml:lang="en">The principle by which a state grants its citizenship to all children born within its territory is referred to as the principle of jus soli or birthright citizenship.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#20">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>20</skos:notation>
+      <skos:prefLabel xml:lang="en">Militarism</skos:prefLabel>
+      <skos:definition xml:lang="en">Militarism is defined as an attitude that seeks to establish military ways of thinking and behaviour as the foundation of the state and society. Characteristics of militarism emphasis on military patterns and the influence of military orders on the civilian society (Schneider, 2023).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>21</skos:notation>
+      <skos:prefLabel xml:lang="en">Nationalism</skos:prefLabel>
+      <skos:definition xml:lang="en">Nationalism refers to an ideology that exaggerates or defines the characteristics of one&apos;s own ethnic community (e.g. language, culture, history). This ideology culminates in the exaggerated desire for the unity of people and country. Nationalism conveys a sense of belonging and promises equality through unity. In contrast to patriotism (love of one&apos;s fatherland), nationalism glorifies one&apos;s own nation and devalues other nations in the process.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.21a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.21b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.55"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.21a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>21.21a</skos:notation>
+      <skos:prefLabel xml:lang="en">National socialism</skos:prefLabel>
+      <skos:definition xml:lang="en">National Socialism refers to a political movement in Germany that emerged in the period of crisis after World War I. The National Socialist dictatorship established a system of rule according to the authoritarian F&#xfc;hrer principle (command and submission), unrestrained actionism, a one-party system (NSDAP), planned war economy, which was maintained by the exercise of violence and terror. National Socialism is considered anti-democratic, anti-pluralist, anti-Semitic, racist and imperialist.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.21b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>21.21b</skos:notation>
+      <skos:prefLabel xml:lang="en">Patriotism</skos:prefLabel>
+      <skos:definition xml:lang="en">Patriotism is the love of one&apos;s country. It refers to a special appreciation of the traditions, cultural and historical values and achievements of one&apos;s own people. A patriot often has a particularly close relationship with the symbols of his or her country, such as the anthem, flags, medals, certain festivals that commemorate historical events. Patriots are present in all countries. In a negative sense, P. can lead to nationalistic national pride and. In a positive, contemporary sense, P. can be understood as positive identification with the public-political institutions of a country and defence of fundamental rights and human rights (constitutional P.).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#21.55">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>21.55</skos:notation>
+      <skos:prefLabel xml:lang="en">Local patriotism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#22">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>22</skos:notation>
+      <skos:prefLabel xml:lang="en">Neonazism</skos:prefLabel>
+      <skos:definition xml:lang="en">Neo-Nazism professes the ideology of National Socialism and is oriented towards the establishment of an authoritarian F&#xfc;hrer state modelled on the &quot;Third Reich&quot;. The German people are regarded as superior and superior in comparison to other ethnic groups and have a clear anti-Semitic stance. (Neo-Nazis are always also right-wing extremists - but in reverse, not every right-wing extremist can automatically be called a neo-Nazi).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#54">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>54</skos:notation>
+      <skos:prefLabel xml:lang="en">East-West differences</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#47">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>47</skos:notation>
+      <skos:prefLabel xml:lang="en">Personality traits</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#48">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>48</skos:notation>
+      <skos:prefLabel xml:lang="en">Political ideology</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#68">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>68</skos:notation>
+      <skos:prefLabel xml:lang="en">Populism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#41">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>41</skos:notation>
+      <skos:prefLabel xml:lang="en">Protest movements</skos:prefLabel>
+      <skos:definition xml:lang="en">Protest movements are an expression of rejection or opposition to certain events, situations or certain political discourses. As a movement, they denote organised and public demonstrations aimed at social change.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23</skos:notation>
+      <skos:prefLabel xml:lang="en">Racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Racism can be defined as the discrimination of people on the basis of cultural or ethnic characteristics. Emphasising differences in arbitrary criteria (such as origin or skin colour) provides the necessary basis for categorisation. These in turn serve to justify social, political and economic actions that exclude certain groups from access to material and symbolic resources. Consequently, any practice that discriminates against, insults, threatens or excludes people on the basis of - group-related physical characteristics (e.g. skin colour), - their ethnic or national origin - and/or certain cultural characteristics (such as language, religion, lifestyle or name) can be described as racist.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.34"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.36"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23c"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23e"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23f"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23g"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23h"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23i"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23a</skos:notation>
+      <skos:prefLabel xml:lang="en">Everyday racism</skos:prefLabel>
+      <skos:definition xml:lang="en">The privilege of belonging, or the exclusion of those who do not belong, arises in everyday situations with the help of so-called identification rituals. This everyday racism, usually in the form of subtle comments or questions, can be hurtful and exclusionary for those affected. It is a matter of adopting racist forms of thought and action in everyday situations, which consolidate the underlying social power structures. Here racism is no longer questioned, but accepted as &apos;normal&apos; by dominant groups.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.34">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.34</skos:notation>
+      <skos:prefLabel xml:lang="en">Anti-Muslim racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Anti-Muslim racism (or Islamophobia) takes into account political, structural and institutional dimensions of hostility towards Muslims (Keskinkilic, 2019).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23b</skos:notation>
+      <skos:prefLabel xml:lang="en">Implicit racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Implicit racism refers to incidents where racist behaviour or attitudes are subtly and often unintentionally expressed, for example in jokes or alleged compliments.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.36">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.36</skos:notation>
+      <skos:prefLabel xml:lang="en">Explicit racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Explicit racism describes incidents where racist behaviour or attitudes are publicly displayed and clearly recognisable as such, for example an insult in public or violent attacks against minorities.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23c</skos:notation>
+      <skos:prefLabel xml:lang="en">Institutional racism</skos:prefLabel>
+      <skos:definition xml:lang="en">When racism emanates from institutions (such as the police, authorities or schools) it is referred to as institutional racism.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23d</skos:notation>
+      <skos:prefLabel xml:lang="en">Neoracism</skos:prefLabel>
+      <skos:definition xml:lang="en">Neo-racism (in contrast to ideologies of the extreme right-wing circles) is no longer based on genetic concepts of race (as in extreme right-wing circles), but on cultural differences (culturalisation).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23e">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23e</skos:notation>
+      <skos:prefLabel xml:lang="en">Overt racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Overt racism refers to incidents where racist behaviour or attitudes are publicly displayed and clearly recognisable as such, for example an insult in public or violent attacks against minorities.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23f">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23f</skos:notation>
+      <skos:prefLabel xml:lang="en">Postcolonial racism</skos:prefLabel>
+      <skos:definition xml:lang="en">Postcolonialism serves as a collective term for a range of approaches critical of colonialism in the cultural, historical and social sciences that denounce essentialist assumptions about the exemplary nature of Western development as eurocentric. Postcolonial racism is evident in the remnants of the colonial era. These are relics such as statues glorifying colonial rule or discriminatory street names.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23g">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23g</skos:notation>
+      <skos:prefLabel xml:lang="en">Racial color blindness </skos:prefLabel>
+      <skos:definition xml:lang="en">RCB can be defined as the belief that a person&apos;s ethnicity should not affect how that person is treated in society. On the one hand, it encompasses external characteristics and thus the belief that people should not be treated differently because of their skin colour. On the other hand, &apos;blindness&apos; refers to a power aversion that opposes systematic preferential treatment based on skin colour (Apfelbaum et al. 2012). A related concept is colourblind racism (&apos;colourblind racism&apos;), as a form of discrimination in which a person claims to be completely ignorant of the skin colour of others and therefore believes that they treat all racial groups equally. Colourblindness is therefore criticised for frequently leading to discriminatory practices, as it allows people to ignore circumstances that lead to racial differences.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23h">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23h</skos:notation>
+      <skos:prefLabel xml:lang="en">Perceptions of racism</skos:prefLabel>
+      <skos:definition xml:lang="en">The passive role, as an observer of discrimination.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#23.23i">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>23.23i</skos:notation>
+      <skos:prefLabel xml:lang="en"> Structural racism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#37">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>37</skos:notation>
+      <skos:prefLabel xml:lang="en">Radicalisation</skos:prefLabel>
+      <skos:definition xml:lang="en">Radicalisation describes an increasing turn of individuals or groups towards an extremist way of thinking and acting. In order to achieve their own goals, radical actors are characterised by their willingness to use violence and illegitimate means (BKA).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#24">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>24</skos:notation>
+      <skos:prefLabel xml:lang="en">Right-wing extremism</skos:prefLabel>
+      <skos:definition xml:lang="en">Right-wing extremism involves attitudes or behaviour based on the racial or ethnic social inequality of people. Right-wing extremists reject the free democratic fundamental order as well as social diversity and intend, if necessary by using violence, to establish an authoritarian or even totalitarian state system in which nationalist and racist ideas are to form the basis of the social order.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#25">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>25</skos:notation>
+      <skos:prefLabel xml:lang="en">Right-wing populism</skos:prefLabel>
+      <skos:definition xml:lang="en">Right-wing populism encompasses a form of populism that opposes the democratic system with nationalist, ethnic, racist and authoritarian theories and slogans. Populists portray themselves as the (only) voice of the &apos;people&apos;, who consciously distance themselves from the &apos;corrupt elites&apos;, for example from certain parties, corporations, public media. Populism tries to win over voters by instrumentalising (supposed) crisis situations and simplifying the political and social situation. (Right-wing populism and right-wing extremism have a common intersection. However, right-wing extremism differs from RWE in that it is not necessarily anti-democratic).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#26">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>26</skos:notation>
+      <skos:prefLabel xml:lang="en">Right-wing radicalism</skos:prefLabel>
+      <skos:definition xml:lang="en">RWR refers to a basic political-ideological attitude that attempts to solve social issues and problems with particular consistency and one-sided intransigence. Radical attitudes, however, do not necessarily violate the principles of the free democratic constitutional order and are thus given a legitimate place in a pluralistic social order (in this respect they differ from right-wing extremism).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>27</skos:notation>
+      <skos:prefLabel xml:lang="en">Religious ideology</skos:prefLabel>
+      <skos:definition xml:lang="en">Ideologies are systems of thought and world interpretation that postulate supposed truths as correct, authoritative and necessary. They are therefore evaluative systems that are produced by the striving for power of their representatives. Ideologies often appear in connection with established &quot;isms&quot; (fascism, racism, communism, capitalism, utopianism, etc.), but are not bound to such concepts. Each type of grouping can produce its own ideologies. In religions, ideologies serve as a kind of moral compass.</skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27d"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27a"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27b"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27c"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27d">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>27.27d</skos:notation>
+      <skos:prefLabel xml:lang="en">Christian fundamentalism</skos:prefLabel>
+      <skos:definition xml:lang="en">CF refers to strands of Christian thought that refer to the Bible as the foundation for beliefs and political convictions. These embody strict instructions for action and religious precepts.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27a">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>27.27a</skos:notation>
+      <skos:prefLabel xml:lang="en">Jihadism</skos:prefLabel>
+      <skos:definition xml:lang="en">&quot;Jihad&quot; is translated from Arabic as &apos;holy war&apos; or &apos;holy struggle&apos;. It is considered an extremely violent sub-form of Islamism that places holy war at the centre of its doctrine. Jihadism is justified by a view in which jihadists are seen as victims of a large-scale campaign by the &apos;Christian West&apos; and are now waging a fight for freedom in the name of Allah and the Islamic community.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27b">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>27.27b</skos:notation>
+      <skos:prefLabel xml:lang="en">Islamism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#27.27c">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>27.27c</skos:notation>
+      <skos:prefLabel xml:lang="en">Salafism</skos:prefLabel>
+      <skos:definition xml:lang="en">Salafism provides the ideological underpinning for jihadism. It pretends to be guided in its thinking and actions exclusively by a literal understanding of the Koran and Sunna (ways of acting and statements of the Prophet recommended for imitation) as well as by the example of the Islamic Prophet Muhammad. Violence is legitimised as a possible option, but is not considered a central method (as in jihadism). Salafists reject the free democratic constitutional order and partly contradict the history of Islam. They claim exclusivity and see themselves as the only &apos;true&apos; Muslims.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#28">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>28</skos:notation>
+      <skos:prefLabel xml:lang="en">Solidarity</skos:prefLabel>
+      <skos:definition xml:lang="en">Solidarity refers to the social cohesion between individuals or different groups within or across societies.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#51">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>51</skos:notation>
+      <skos:prefLabel xml:lang="en">Social distance</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#49">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>49</skos:notation>
+      <skos:prefLabel xml:lang="en">Social networks</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#60">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>60</skos:notation>
+      <skos:prefLabel xml:lang="en"> Transnational networks</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#38">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>38</skos:notation>
+      <skos:prefLabel xml:lang="en">Social inequality</skos:prefLabel>
+      <skos:definition xml:lang="en">SI is always based on a subjective value attitude towards the social situation. A condemnation of the social situation is influenced to a large extent by whether the given situation is seen as natural or as the result of social circumstances (Schubert, Klein 2020).</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#58">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>58</skos:notation>
+      <skos:prefLabel xml:lang="en">Socialisation background</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#29">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>29</skos:notation>
+      <skos:prefLabel xml:lang="en">Terrorism</skos:prefLabel>
+      <skos:definition xml:lang="en">An association is considered to be terrorist if one of the acts enumerated in the standard is intended to intimidate the population in a significant manner, to coerce an authority/organisation illegally by force or by threat of force, or to eliminate or significantly impair and damage the basic political, constitutional, economic or social structures of a state or organisation. Well-known examples of terrorist attacks are violent acts motivated by right-wing extremism, such as the attack on a synagogue in Halle in October 2019, or attacks with a suspected Islamist background, such as 11 September 2001.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#30">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>30</skos:notation>
+      <skos:prefLabel xml:lang="en">Totalitarianism</skos:prefLabel>
+      <skos:definition xml:lang="en">Totalitarianism refers to totalitarian systems that have no democratic standards. Essential characteristics of totalitarian movements: 1. claim to sole representation: they see themselves as the sole and exclusive owners of political, religious or other ideological &quot;truths&quot;. 2. hermetically sealed &quot;world views&quot;: seen from the inside, they are not open to rational criticism and refer to the allegedly &quot;eternal&quot; and immutable truth. 3. anti-enlightenment, absolutist basis of legitimacy: not the reason of the enlightened subject, but the ideology conveyed by the leader is considered the only source of legitimacy. 4. rhetoric of the enemy and rigid distinction between good and evil (extreme way of thinking). 5. own conceptual systems with reinterpretations of everyday language terms or originary meanings. 6. incompatibility with democratic and liberal structures. 7. high potential for violence.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#52">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>52</skos:notation>
+      <skos:prefLabel xml:lang="en">Conspiracy theories</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#50">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>50</skos:notation>
+      <skos:prefLabel xml:lang="en">Value orientations</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#40">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>40</skos:notation>
+      <skos:prefLabel xml:lang="en">White supremacy</skos:prefLabel>
+      <skos:definition xml:lang="en">WS describes beliefs and ideas that assert a natural superiority of the lighter-skinned or &quot;white&quot; human races over people of colour. In contemporary usage, the term White Supremacist is used to describe some groups that hold ultra-nationalist, racist or fascist doctrines. White supremacist groups have often relied on violence to achieve their goals.</skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>59</skos:notation>
+      <skos:prefLabel xml:lang="en">Citizenship</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59.61"/>
+      <skos:narrower rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59.60"/>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59.61">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>59.61</skos:notation>
+      <skos:prefLabel xml:lang="en">Principle of territoriality (ius soli)</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#59.60">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>59.60</skos:notation>
+      <skos:prefLabel xml:lang="en">Citizenship by bloodline (ius sanguinis) </skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#61">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>61</skos:notation>
+      <skos:prefLabel xml:lang="en"> Experience of violence </skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#62">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>62</skos:notation>
+      <skos:prefLabel xml:lang="en">Language skills</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#63">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>63</skos:notation>
+      <skos:prefLabel xml:lang="en"> Preventive measures</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#64">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>64</skos:notation>
+      <skos:prefLabel xml:lang="en"> Glorification/ Trivialisation of National Socialism</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#65">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>65</skos:notation>
+      <skos:prefLabel xml:lang="en">Attitude towards non-governmental organisations (NGOs) </skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#66">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>66</skos:notation>
+      <skos:prefLabel xml:lang="en">Political trust</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#67">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>67</skos:notation>
+      <skos:prefLabel xml:lang="en">Worries about immigration</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+   <rdf:Description rdf:about="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de#69">
+      <rdf:type rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
+      <skos:inScheme rdf:resource="https://www.gesis.org/vocabulary/rexconcepts/1.9.0/de"/>
+      <skos:notation>69</skos:notation>
+      <skos:prefLabel xml:lang="en">Social cohesion</skos:prefLabel>
+      <skos:definition xml:lang="en"></skos:definition>
+   </rdf:Description>
+</rdf:RDF>

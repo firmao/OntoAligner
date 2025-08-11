@@ -1,0 +1,1683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:acl="http://www.w3.org/ns/auth/acl#" xmlns:apods="https://activitypods.org/ns/core#" xmlns:as="https://www.w3.org/ns/activitystreams#" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:linkml="https://w3id.org/linkml/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+  <rdf:Description rdf:nodeID="genid1">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid1">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#openEndpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid2">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid3">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#prefLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid4">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#icon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid5">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#openEndpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid6">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#labelPredicate"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid7">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#openEndpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid8">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid9">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid9">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid9">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid10">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#labelPredicate"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid11">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid11">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid11">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid12">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#prefLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid13">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid13">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid13">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid14">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#describedClass"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid15">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid15">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid15">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#icon"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid16">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid16">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid16">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#labelPredicate"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid17">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#prefLabel"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid18">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#icon"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:label>ClassDescription</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <dcterms:title>Class Description</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid1"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid2"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid3"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid4"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid5"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid6"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid7"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid8"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid9"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid10"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid11"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid12"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid13"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid14"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid15"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid16"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid17"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <rdfs:subClassOf rdf:nodeID="genid18"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <skos:definition>Description of an RDFS class used in Type Registration</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ClassDescription">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Collection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Collection">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Collection">
+    <rdfs:label>Collection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Collection">
+    <skos:exactMatch rdf:resource="https://www.w3.org/ns/activitystreams#Collection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Collection">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid19">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid19">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid19">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#acceptedAccessNeeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid20">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid20">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid20">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#acceptedSpecialRights"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <owl:allValuesFrom rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid21">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#acceptedAccessNeeds"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <owl:allValuesFrom rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid22">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#acceptedSpecialRights"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:label>Install</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <dcterms:title>Install Activity</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:subClassOf rdf:nodeID="genid19"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:subClassOf rdf:nodeID="genid20"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:subClassOf rdf:nodeID="genid21"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:subClassOf rdf:nodeID="genid22"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <skos:definition>Activity to Install an app using Solid Application Interoperability</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Install">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <rdfs:label>Notification</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <dcterms:title>User Notification</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <skos:definition>A notification activity from an app to notify the user.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Notification">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#OrderedCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#OrderedCollection">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#OrderedCollection">
+    <rdfs:label>OrderedCollection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#OrderedCollection">
+    <skos:exactMatch rdf:resource="https://www.w3.org/ns/activitystreams#OrderedCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#OrderedCollection">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid23">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid23">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid23">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#providedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid24">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid24">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid24">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#locales"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid25">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#area"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid26">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#area"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid27">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#providedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid28">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#locales"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid29">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid29">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid29">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#providedBy"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid30">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#baseUrl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid31">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#area"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid32">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid32">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid32">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#baseUrl"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid33">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#baseUrl"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:label>PodProvider</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <dcterms:title>Pod Provider Description</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid23"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid24"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid25"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid26"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid27"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid28"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid29"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid30"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid32"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <rdfs:subClassOf rdf:nodeID="genid33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <skos:definition>General information about a pod provider</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PodProvider">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <rdfs:label>announcers</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <dcterms:title>Announcers of an Activity</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <skos:definition>The set of actors authorized to announce an activity</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announcers">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <rdfs:label>announces</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <dcterms:title>Announces of an Activity</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <skos:definition>The set of actors authorized to view an activity</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#announces">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#application">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#application">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#application">
+    <rdfs:label>application</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#application">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <rdfs:label>attendees</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <dcterms:title>Attendees of an Event</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <skos:definition>The set of a attendees of an event</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#attendees">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <rdfs:label>availableApps</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <dcterms:title>Available Apps for Type</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <skos:definition>The available apps that are capable of handling a given class</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#availableApps">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <rdfs:label>capabilities</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <dcterms:title>Capabilities ldp resource container</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <rdfs:seeAlso rdf:resource="https://docs.activitypods.org/architecture/authorization/#capability-urls"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <skos:definition>URI to an actor's container of capabilities. This should be referenced from an actor's WebID.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#capabilities">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <rdfs:label>closingTime</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <dcterms:title>Closing Time of Event</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Datetime"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <skos:definition>The datetime at which no new attendees can join an activity</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#closingTime">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <rdfs:label>contactRequests</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <dcterms:title>Contact Requests Collection</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <skos:definition>Collection of contact requests to an ActivityPub actor</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contactRequests">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <rdfs:label>contacts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <dcterms:title>Contacts</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <skos:definition>Collection of contacts of an ActivityPub actor</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#contacts">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <rdfs:label>defaultApp</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <dcterms:title>Default App for Class</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <skos:definition>The default app to open a resource of a given RDFS class with.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#defaultApp">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <rdfs:label>dereferenceItems</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Boolean"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <rdfs:seeAlso rdf:resource="https://docs.activitypods.org/architecture/resources-management/#create-custom-collection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#dereferenceItems">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <rdfs:label>hasActivityGrant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <dcterms:title>Activity Grant</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#ActivityGrant"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <skos:definition>Grant to perform an action on an outbox</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasActivityGrant">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <rdfs:label>hasAuthorization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <dcterms:title>Authorization</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#Authorization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <skos:definition>An authorization to read, write, or control one or more resources</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasAuthorization">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasClassDescription">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasClassDescription">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasClassDescription">
+    <rdfs:label>hasClassDescription</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasClassDescription">
+    <dcterms:title>Class Description</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasClassDescription">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <rdfs:label>hasFormat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <dcterms:title>Type of Event</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#EventFormat"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <skos:definition>The EventFormat type of an event (e.g. a movie night).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasFormat">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasSpecialRights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasSpecialRights">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasSpecialRights">
+    <rdfs:label>hasSpecialRights</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasSpecialRights">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasSpecialRights">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <rdfs:label>hasStatus</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <dcterms:title>Status of Event</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <skos:definition>The lifecycle status of the event (e.g. open or finished).</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#hasStatus">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <rdfs:label>ignoredContacts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <dcterms:title>Ignored Contacts</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <skos:definition>Collection of contacts ignored by an ActivityPub actor</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ignoredContacts">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <rdfs:label>maxAttendees</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <dcterms:title>Maximum Number of Attendees</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Integer"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <skos:definition>The maximum number of actors that are allowed to participate in an event.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#maxAttendees">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForClass">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForClass">
+    <rdfs:label>preferredForClass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForClass">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForTypes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForTypes">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForTypes">
+    <rdfs:label>preferredForTypes</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#preferredForTypes">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <rdfs:label>registeredClass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <dcterms:title>Registered Class</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <skos:definition>Class registered by an app to whose resources it has certain access rights.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredClass">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <rdfs:label>registeredContainer</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <dcterms:title>Type Registration Container</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <skos:definition>The container that contains a registered type's resources from a type registration.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#registeredContainer">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <rdfs:label>rejectedContacts</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <dcterms:title>Rejected Contact Requests</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <skos:definition>Collection of contact requests rejected by an ActivityPub actor</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#rejectedContacts">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <rdfs:label>sortField</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <dcterms:title>Sort Field for Ordering Collection</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <rdfs:seeAlso rdf:resource="https://docs.activitypods.org/architecture/resources-management/#create-custom-collection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <skos:definition>The RDF property to order the collection by</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortField">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <rdfs:label>sortOrder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <dcterms:title>Collection Sort Order</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#SortOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <rdfs:seeAlso rdf:resource="https://docs.activitypods.org/architecture/resources-management/#create-custom-collection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <skos:definition>The sort order of a collection</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#sortOrder">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ActivityGrant">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ActivityGrant">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ActivityGrant">
+    <rdfs:label>ActivityGrant</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ActivityGrant">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Authorization">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Authorization">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Authorization">
+    <rdfs:label>Authorization</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Authorization">
+    <skos:exactMatch rdf:resource="http://www.w3.org/ns/auth/acl#Authorization"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Authorization">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid34">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid34">
+    <owl:allValuesFrom rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid34">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</owl:minCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid35">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Restriction"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid36">
+    <owl:onProperty rdf:resource="https://activitypods.org/ns/core#label"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdfs:label>EventFormat</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdfs:subClassOf rdf:nodeID="genid34"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdfs:subClassOf rdf:nodeID="genid35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <rdfs:subClassOf rdf:nodeID="genid36"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventFormat">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Activity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Activity">
+    <rdf:type rdf:resource="https://w3id.org/linkml/ClassDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Activity">
+    <rdfs:label>Activity</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Activity">
+    <skos:exactMatch rdf:resource="https://www.w3.org/ns/activitystreams#Activity"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Activity">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AscOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AscOrder">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#SortOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AscOrder">
+    <rdfs:label>AscOrder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AscOrder">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#SortOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Closed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Closed">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Closed">
+    <rdfs:label>Closed</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Closed">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Coming">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Coming">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Coming">
+    <rdfs:label>Coming</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Coming">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateCollection">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateCollection">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateCollection">
+    <rdfs:label>CreateCollection</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateCollection">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateWacGroup">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateWacGroup">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateWacGroup">
+    <rdfs:label>CreateWacGroup</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#CreateWacGroup">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#DescOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#DescOrder">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#SortOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#DescOrder">
+    <rdfs:label>DescOrder</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#DescOrder">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#SortOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Finished">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Finished">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Finished">
+    <rdfs:label>Finished</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Finished">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Open">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Open">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Open">
+    <rdfs:label>Open</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#Open">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#EventStatus"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PostOutbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PostOutbox">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PostOutbox">
+    <rdfs:label>PostOutbox</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#PostOutbox">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#QuerySparqlEndpoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#QuerySparqlEndpoint">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#QuerySparqlEndpoint">
+    <rdfs:label>QuerySparqlEndpoint</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#QuerySparqlEndpoint">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadInbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadInbox">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadInbox">
+    <rdfs:label>ReadInbox</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadInbox">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadOutbox">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadOutbox">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadOutbox">
+    <rdfs:label>ReadOutbox</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#ReadOutbox">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#UpdateWebId">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#UpdateWebId">
+    <rdf:type rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#UpdateWebId">
+    <rdfs:label>UpdateWebId</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#UpdateWebId">
+    <rdfs:subClassOf rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <rdfs:label>acceptedAccessNeeds</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <dcterms:title>Accepted Access Needs</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <skos:definition>The access needs accepted in an app registration.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedAccessNeeds">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <rdfs:label>acceptedSpecialRights</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <dcterms:title>Accepted Special Access Needs</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <rdfs:range rdf:resource="https://activitypods.org/ns/core#AccessNeed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <skos:definition>The special access needs accepted in an app registration.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#acceptedSpecialRights">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <rdfs:label>locales</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <dcterms:title>Locales</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <skos:definition>A set of supported locale language tags of a Pod Provider.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#locales">
+    <skos:note>As of ActivityPods version 2, only language tags are supported and no regional codes, as for example defined in BCP 47.</skos:note>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <rdfs:label>area</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <dcterms:title>Location description</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <skos:definition>A human-readable location string of a Pod Provider.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#area">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <rdfs:label>baseUrl</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <dcterms:title>Base URL</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <skos:definition>The base URL of a Pod Provider.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#baseUrl">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <rdfs:label>describedBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <dcterms:title>App of ClassDescription</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <skos:definition>The app registering a given ClassDescription.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedBy">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <rdfs:label>describedClass</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <dcterms:title>Described Class</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <skos:definition>The class described by a ClassDescription</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#describedClass">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <rdfs:label>icon</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <dcterms:title>Type Icon</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <skos:definition>The icon to show for a resource's class.</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#icon">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#label">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#label">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#label">
+    <rdfs:label>label</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#label">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#label">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <rdfs:label>labelPredicate</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <dcterms:title>Label Predicate of Resource</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <skos:definition>The predicate used as a human-readable label for resources of a given class</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#labelPredicate">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#openEndpoint">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#openEndpoint">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#openEndpoint">
+    <rdfs:label>openEndpoint</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#openEndpoint">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uri"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#openEndpoint">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#prefLabel">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#prefLabel">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#prefLabel">
+    <rdfs:label>prefLabel</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#prefLabel">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/Uriorcurie"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#prefLabel">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <rdf:type rdf:resource="https://w3id.org/linkml/SlotDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <rdfs:label>providedBy</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <dcterms:title>Pod Provider Name</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <rdfs:range rdf:resource="https://w3id.org/linkml/String"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <skos:definition>The instance name of the Pod Provider</skos:definition>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#providedBy">
+    <skos:inScheme rdf:resource="http://activitypods.org/ns/core#"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid37">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#DescOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid37">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid38">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#AscOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid38">
+    <rdf:rest rdf:nodeID="genid37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#SortOrder">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#SortOrder">
+    <rdf:type rdf:resource="https://w3id.org/linkml/EnumDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#SortOrder">
+    <owl:unionOf rdf:nodeID="genid38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#SortOrder">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#AscOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#SortOrder">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#DescOrder"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid39">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#Finished"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid39">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid40">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#Closed"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid40">
+    <rdf:rest rdf:nodeID="genid39"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid41">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#Coming"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid41">
+    <rdf:rest rdf:nodeID="genid40"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid42">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#Open"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid42">
+    <rdf:rest rdf:nodeID="genid41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <rdf:type rdf:resource="https://w3id.org/linkml/EnumDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <owl:unionOf rdf:nodeID="genid42"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#Closed"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#Coming"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#Finished"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#EventStatus">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#Open"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid43">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#UpdateWebId"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid43">
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid44">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#QuerySparqlEndpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid44">
+    <rdf:rest rdf:nodeID="genid43"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid45">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#CreateCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid45">
+    <rdf:rest rdf:nodeID="genid44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid46">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#CreateWacGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid46">
+    <rdf:rest rdf:nodeID="genid45"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid47">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#PostOutbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid47">
+    <rdf:rest rdf:nodeID="genid46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid48">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#ReadOutbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid48">
+    <rdf:rest rdf:nodeID="genid47"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid49">
+    <rdf:first rdf:resource="https://activitypods.org/ns/core#ReadInbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="genid49">
+    <rdf:rest rdf:nodeID="genid48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <rdf:type rdf:resource="https://w3id.org/linkml/EnumDefinition"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <owl:unionOf rdf:nodeID="genid49"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#CreateCollection"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#CreateWacGroup"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#PostOutbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#QuerySparqlEndpoint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#ReadInbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#ReadOutbox"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://activitypods.org/ns/core#AccessNeed">
+    <linkml:permissible_values rdf:resource="https://activitypods.org/ns/core#UpdateWebId"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <rdfs:label>activitypods-ontology</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <dcterms:license>Apache Software License 2.0</dcterms:license>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <dcterms:title>ActivityPods Ontology</dcterms:title>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <rdfs:seeAlso rdf:resource="https://github.com/activitypods/activitypods-ontology"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://activitypods.org/ns/core#">
+    <skos:definition>LinkML ontology for ActivityPods</skos:definition>
+  </rdf:Description>
+</rdf:RDF>
