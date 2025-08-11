@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dc="http://purl.org/dc/terms/"
+         xmlns:ns0="https://codemeta.github.io/terms/"
+         xmlns:ns1="https://schema.org/">
+
+  <rdf:Description rdf:about="https://doi.org/10.17605/OSF.IO/ZMH5N">
+    <dc:contributor>Leon Paul Hilbert</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-4366-9332"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1016/j.joep.2021.102459"/>
+    <dc:language>R</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-zha-j8yv"/>
+    <dc:title>The prospective associations between financial scarcity and financial avoidance</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1016/j.joep.2021.102459"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-4366-9332"/>
+    <ns1:funding>LISS Grant 2019</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://figshare.com/articles/software/Replication_syntax_article_Strategies_of_Informal_Caregivers_to_Adapt_Paid_Work/22101665">
+    <dc:contributor>Klara Raiber</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1080/14616696.2023.2207108"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-xyf-v7vu"/>
+    <dc:title>Strategies of informal caregivers to adapt paid work</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1080/14616696.2023.2207108"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <ns1:funding>LISS Grant 2019</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/ChristianZimpelmann/replication-work-hours-covid/tree/main">
+    <dc:contributor>Hans-Martin von Gaudecker</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0001-8519-9781"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1016/j.labeco.2021.102055"/>
+    <dc:language>Python</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-zva-nzcq"/>
+    <dc:title>Hours and income dynamics during the Covid-19 pandemic: The case of the Netherlands</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1016/j.labeco.2021.102055"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0001-8519-9781"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/social-scientist/Are-the-Gender-Gaps-in-Informal-Caregiving-Intensity-and-Burden-Closing-due-to-the-COVID-19-Pandemic">
+    <dc:contributor>Klara Raiber</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1111/gwao.12725"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-xyf-v7vu"/>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-z6w-rd24"/>
+    <dc:title>Are the gender gaps in informal caregiving intensity and burden closing due to the COVID-19 pandemic? Evidence from the Netherlands</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1111/gwao.12725"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <ns1:funding>LISS Grant 2019</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/social-scientist/Replication-package-Raiber-Visser-and-Verbakel-2022-Advances-in-life-course-research">
+    <dc:contributor>Klara Raiber</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1016/j.alcr.2022.100490"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-xyf-v7vu"/>
+    <dc:title>The wage penalty for informal caregivers from a life course perspective</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1016/j.alcr.2022.100490"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <ns1:funding>LISS Grant 2019</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://github.com/social-scientist/replication-files-Testing-the-informal-care-model-Raiber-Verbakel-and-de-Boer-2022-">
+    <dc:contributor>Klara Raiber</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1007/s10433-022-00713-2"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-xyf-v7vu"/>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-z6w-rd24"/>
+    <dc:title>Testing the informal care model: intrapersonal change in care provision intensity during the first lockdown of the COVID-19 pandemic</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1007/s10433-022-00713-2"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-9326-8246"/>
+    <ns1:funding>LISS Grant 2019</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://osf.io/euhbk/">
+    <dc:contributor>Thijs van den Broek</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-0716-6009"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1007/s10433-024-00826-w"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.57990/mtve-qc91"/>
+    <dc:requires rdf:resource="https://doi.org/10.57990/qn3k-as78."/>
+    <dc:title>Do middle-aged and older people underreport loneliness? experimental evidence from the Netherlands</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1007/s10433-024-00826-w"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-0716-6009"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://osf.io/jmsu3/">
+    <dc:contributor>Peter Luca Versteegen</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-8562-5442"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1111/1475-6765.12593"/>
+    <dc:language>R</dc:language>
+    <dc:title>Those were the what? Contents of nostalgia, relative deprivation and radical right support</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1111/1475-6765.12593"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-8562-5442"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://osf.io/s364g/">
+    <dc:contributor>Thijs Lindner</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0003-4377-5968"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1080/14616696.2023.2272263"/>
+    <dc:language>Stata; R</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-x6s-z3ma"/>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-z2r-n69z"/>
+    <dc:requires rdf:resource="https://doi.org/10.57990/08zj-b857"/>
+    <dc:requires rdf:resource="https://doi.org/10.57990/qn3k-as78"/>
+    <dc:title>Does informing citizens about the non-meritocratic nature of inequality bolster support for a universal basic income? Evidence from a population-based survey experiment</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1080/14616696.2023.2272263"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0003-4377-5968"/>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://researchbox.org/177">
+    <dc:contributor>Karlijn Hoyer</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0003-4029-9847"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1007/s12144-021-02467-z"/>
+    <dc:language>R</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-2xb-7f3j"/>
+    <dc:title>Further tests of the scarcity and luxury hypotheses in dispositional greed: Evidence from two large-scale Dutch and American samples</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1007/s12144-021-02467-z"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0003-4029-9847"/>
+    <ns1:funding>LISS Grant 2018</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://researchbox.org/572">
+    <dc:contributor>Karlijn Hoyer</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0003-4029-9847"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1177/01461672221140355"/>
+    <dc:language>R</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.17026/dans-2xb-7f3j"/>
+    <dc:title>Greed:What Is It Good for?</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1177/01461672221140355"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0003-4029-9847"/>
+    <ns1:funding>LISS Grant 2018</ns1:funding>
+  </rdf:Description>
+
+  <rdf:Description rdf:about="https://surfdrive.surf.nl/files/index.php/s/TpyBJStqk1rBh24">
+    <dc:contributor>Elske van den Hoogen</dc:contributor>
+    <dc:creator rdf:resource="https://orcid.org/0000-0002-4177-3670"/>
+    <dc:isReferencedBy rdf:resource="https://doi.org/10.1080/14616696.2023.2275593"/>
+    <dc:language>Stata</dc:language>
+    <dc:requires rdf:resource="https://doi.org/10.57990/08zj-b857"/>
+    <dc:requires rdf:resource="https://www.dataarchive.lissdata.nl/study-units/view/1418"/>
+    <dc:title>Does the prospect of further sovereignty loss fuel Euroscepticism? A population-based survey experiment</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Software"/>
+    <rdf:type rdf:resource="https://schema.org/SoftwareSourceCode"/>
+    <ns0:referencePublication rdf:resource="https://doi.org/10.1080/14616696.2023.2275593"/>
+    <ns1:author rdf:resource="https://orcid.org/0000-0002-4177-3670"/>
+  </rdf:Description>
+
+</rdf:RDF>
